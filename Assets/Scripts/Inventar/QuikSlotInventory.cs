@@ -109,6 +109,7 @@ public class QuickSlotInventory : MonoBehaviour, IInventory
         int index = id < 0 ? _currentSlotIndex : id;
         if (_currentSlotIndex >= 0 && _currentSlotIndex < _items.Count && _items[_currentSlotIndex] != null)
         {
+            Destroy(_items[_currentSlotIndex].gameObject);
             _items[_currentSlotIndex] = null;
             OnInventoryUpdated?.Invoke();
             return true;

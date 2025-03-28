@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class InventoryInput : MonoBehaviour
@@ -20,11 +18,6 @@ public class InventoryInput : MonoBehaviour
         if (Input.GetButtonDown("DropItem"))
         {
             _inventoryManager.DropItem();
-        }
-
-        if (Input.GetButtonDown("ToggleInventory"))
-        {
-            _inventoryManager.ToggleInventory();
         }
 
         float scroll = Input.GetAxis("Mouse ScrollWheel");

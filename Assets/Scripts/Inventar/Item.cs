@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class Item : MonoBehaviour
@@ -44,10 +42,8 @@ public abstract class Item : MonoBehaviour
         _collider.enabled = false;
 
         transform.parent = parent == null ? transform.parent : parent;
-        transform.localScale = Vector3.one;
         transform.localPosition = Vector3.zero;
         transform.localRotation = Quaternion.identity;
 
     }
-
 }

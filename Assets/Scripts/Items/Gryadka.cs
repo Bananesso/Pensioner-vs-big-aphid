@@ -6,6 +6,6 @@ public class Gryadka : MonoBehaviour, IInteractable
     public void Interact(GameObject CurrentFlower)
     {
         _flower = CurrentFlower.GetComponent<Flower>();
-        Instantiate(_flower);
+        Instantiate(CurrentFlower, transform.Find("FlowerPosition"));
     }
 }
