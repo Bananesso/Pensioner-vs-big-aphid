@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
         _characterController = GetComponent<CharacterController>();
         _movementController.Initialize(_characterController);
         _crouchController.Initialize(_characterController);
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void Update()
