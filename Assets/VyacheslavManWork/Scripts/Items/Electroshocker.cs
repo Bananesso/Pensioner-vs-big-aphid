@@ -3,29 +3,17 @@ using UnityEngine;
 public class Electroshocker : Item
 {
     private InteractionController controller;
-    private QuickSlotInventory inventorySlot;
-    void Start()
-    {
-        
-    }
 
+    private void Start()
+    {
+        controller = FindAnyObjectByType<InteractionController>();
+    }
     public override void Use(GameObject user, IInventory inventory)
     {
-        if (gameObject.GetComponent<EnemyAI>())
+       IInteractable inter =  controller.GetInteractable();
+        if (inter is ObjectElectrolyzed obj)
         {
-            
-        }
-        else if (gameObject.GetComponent<Flower>())
-        {
-
-        }
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-
+            obj.Interact(user);
         }
     }
 }

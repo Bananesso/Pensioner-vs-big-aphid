@@ -15,8 +15,22 @@ public class Flower : MonoBehaviour
     {
         StartCoroutine(Shoot());
     }
+
+    public void Reload()
+    {
+        _electrolyzed = true;
+        StartCoroutine(Shoot());
+
+    }
+
+    private IEnumerator LooseEnergy()
+    {
+        yield return new WaitForSeconds(5);
+        _electrolyzed = false;
+    }
     private IEnumerator Shoot()
     {
+        StartCoroutine(LooseEnergy());
         while (_electrolyzed)
         {
             GameObject BulletInstance = Instantiate(_bullet, _firePoint.position, Quaternion.identity);
