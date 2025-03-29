@@ -146,6 +146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9052554443480967623}
   - component: {fileID: 7139261216732331372}
+  - component: {fileID: 6619753783085976719}
   m_Layer: 0
   m_Name: Flower
   m_TagString: Untagged
@@ -184,7 +185,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _electrolyzed: 1
   _damage: 10
-  _attackSpeed: 10
+  _attackSpeed: 1
   _bulletSpeed: 100
   _bullet: {fileID: 7702488397759274337, guid: bbea031a633e5e94a85ca4642f0fe75e, type: 3}
   _firePoint: {fileID: 1851219504494888420}
+--- !u!114 &6619753783085976719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623179894603588108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 100
+  _currentHealth: 0
