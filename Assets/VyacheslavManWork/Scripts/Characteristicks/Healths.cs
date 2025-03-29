@@ -6,6 +6,8 @@ public class Health : MonoBehaviour
     [SerializeField] private float _maxHealth = 100f;
     [SerializeField] private float _currentHealth;
 
+    private ListikiPodschet _listikiPodschet;
+
     public float CurrentHealth => _currentHealth;
     public bool IsAlive => _currentHealth > 0;
 
@@ -13,6 +15,7 @@ public class Health : MonoBehaviour
     public event Action OnDie;
     private void Start()
     {
+        _listikiPodschet = FindObjectOfType<ListikiPodschet>();
         _currentHealth = _maxHealth;
     }
 
@@ -39,6 +42,10 @@ public class Health : MonoBehaviour
     {
         OnDie?.Invoke();
         Destroy(gameObject);
+        if (this.GetComponent<EnemyAI>() != null)
+        {
+            _listikiPodschet.KolichestvoListikov += 10;
+        }
     }
 
     public float GetHealthInParts()
