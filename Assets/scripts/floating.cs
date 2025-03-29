@@ -43,4 +43,3 @@ public class SmoothWobble : MonoBehaviour
         // Комбинируем вращения
         transform.rotation = startRotation * tiltRotation * swayRotation;
     }
-}
