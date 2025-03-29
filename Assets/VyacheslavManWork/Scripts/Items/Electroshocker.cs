@@ -6,6 +6,7 @@ public class Electroshocker : Item
     private AudioSource _shootSound;
     private ParticleSystem _electro;
     private bool _isReloading;
+    [SerializeField] private float _atackSpeed;
     private InteractionController controller;
 
     private void Start()
@@ -30,7 +31,7 @@ public class Electroshocker : Item
     private IEnumerator Reload()
     {
         _isReloading = true;
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(_atackSpeed);
         _isReloading = false;
     }
 }

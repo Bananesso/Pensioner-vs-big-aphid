@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5153933755752077362}
   - component: {fileID: 695267050625802197}
   - component: {fileID: 1481341468528644217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5132923502422779512}
   - component: {fileID: 8489745041249467883}
   - component: {fileID: 6163809087846383752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 0.34
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6163809087846383752
 MonoBehaviour:
