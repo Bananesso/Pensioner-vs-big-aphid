@@ -2,10 +2,14 @@ using UnityEngine;
 
 public class Gryadka : MonoBehaviour, IInteractable
 {
-    private Flower _flower;
+    [SerializeField] private GameObject _flower;
     public void Interact(GameObject CurrentFlower)
     {
-        _flower = CurrentFlower.GetComponent<Flower>();
-        Instantiate(CurrentFlower, transform.Find("FlowerPosition"));
+        if (_flower != null)
+        {
+            Destroy(_flower);
+        }
+        GameObject flower = Instantiate(CurrentFlower, transform.Find("FlowerPosition"));
+        _flower = flower;
     }
 }

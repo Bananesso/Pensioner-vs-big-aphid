@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Seeds : Item
 {
-    private InteractionController controller ;
+    private InteractionController controller;
     private QuickSlotInventory inventorySlot;
     public GameObject FlowerPrefab;
     private void Start()

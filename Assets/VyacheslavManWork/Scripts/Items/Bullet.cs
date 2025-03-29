@@ -6,9 +6,9 @@ public class Bullet : MonoBehaviour
     {
         Destroy(gameObject, 7);
     }
+
     private void OnTriggerEnter(Collider other)
     {
-        
         Destroy(gameObject);
     }
 }

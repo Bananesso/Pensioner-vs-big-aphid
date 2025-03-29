@@ -8,39 +8,62 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private int _damage = 10;
     [SerializeField] private float _range = 1f;
     [SerializeField] private int _fireRate;
+    [SerializeField] private float _moveSpeed;
+    [SerializeField] private float _tempSpeed;
+    [SerializeField] private Transform _vision;
+    [SerializeField] private float _sphereRadius;
     private Health _health;
     public bool IsMoving;
     public event Action OnAtack;
-
-    private void Awake()
+    private Rigidbody _rigidbody;
+    Flower flower;
+    Coroutine coroutine;
+    private void Start()
     {
-        
+        _rigidbody = GetComponent<Rigidbody>();
+        StartCoroutine(Check());
     }
-    public void ShootAtEnemy()
+    private void Update()
     {
-        StartCoroutine(AttackRoutine());
+        _rigidbody.velocity = transform.forward* _tempSpeed;
+
     }
 
-    private IEnumerator AttackRoutine()
+    private IEnumerator Check()
     {
-        yield return new WaitForSeconds(_fireRate);
-    }
-
-    private void PerformRaycast(Vector3 position, Vector3 direction)
-    {
-        Ray ray = new Ray(position, direction);
-        RaycastHit hit;
-        Vector3 endPoint = position + direction * _range;
-
-        if (Physics.Raycast(ray, out hit, _range))
+        while (true)
         {
-            HitBox targetHitBox = hit.collider.GetComponent<HitBox>();
-            if (targetHitBox != null)
+            flower = Physics.OverlapSphere(_vision.position, _sphereRadius)[0].GetComponent<Flower>();
+            if (flower != null && coroutine == null)
             {
-                targetHitBox.OnRaycastHit(_damage);
+                _tempSpeed = 0;
+                coroutine = StartCoroutine(Atack());
             }
-
-            endPoint = hit.point;
+            else
+            {
+                if (coroutine != null)
+                {
+                    StopCoroutine(coroutine);
+                }
+                coroutine = null;
+                flower = null;
+                _tempSpeed = _moveSpeed;
+            }
+            yield return new WaitForSeconds(0.5f);
         }
+    }
+
+    private IEnumerator Atack()
+    {
+        while (flower != null)
+        {
+            flower.GetComponent<Health>().TakeDamage(_damage);
+            yield return new WaitForSeconds(_fireRate);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawSphere(_vision.position, _sphereRadius);
     }
 }
