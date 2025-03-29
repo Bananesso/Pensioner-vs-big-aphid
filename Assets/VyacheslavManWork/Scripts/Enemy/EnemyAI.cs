@@ -1,0 +1,69 @@
+using UnityEngine;
+using System.Collections;
+using System;
+using UnityEngine.Events;
+
+public class EnemyAI : MonoBehaviour
+{
+    [SerializeField] private int _damage = 10;
+    [SerializeField] private float _range = 1f;
+    [SerializeField] private int _fireRate;
+    [SerializeField] private float _moveSpeed;
+    [SerializeField] private float _tempSpeed;
+    [SerializeField] private Transform _vision;
+    [SerializeField] private float _sphereRadius;
+    private Health _health;
+    public bool IsMoving;
+    public event Action OnAtack;
+    private Rigidbody _rigidbody;
+    Flower flower;
+    Coroutine coroutine;
+    private void Start()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+        StartCoroutine(Check());
+    }
+    private void Update()
+    {
+        _rigidbody.velocity = transform.forward* _tempSpeed;
+
+    }
+
+    private IEnumerator Check()
+    {
+        while (true)
+        {
+            flower = Physics.OverlapSphere(_vision.position, _sphereRadius)[0].GetComponent<Flower>();
+            if (flower != null && coroutine == null)
+            {
+                _tempSpeed = 0;
+                coroutine = StartCoroutine(Atack());
+            }
+            else
+            {
+                if (coroutine != null)
+                {
+                    StopCoroutine(coroutine);
+                }
+                coroutine = null;
+                flower = null;
+                _tempSpeed = _moveSpeed;
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+
+    private IEnumerator Atack()
+    {
+        while (flower != null)
+        {
+            flower.GetComponent<Health>().TakeDamage(_damage);
+            yield return new WaitForSeconds(_fireRate);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawSphere(_vision.position, _sphereRadius);
+    }
+}
