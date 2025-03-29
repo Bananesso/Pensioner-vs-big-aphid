@@ -35,12 +35,12 @@ public class QuickSlotInventory : MonoBehaviour, IInventory
         index = ((index % _maxSlots) + _maxSlots) % _maxSlots;
 
         if (_items[_currentSlotIndex] != null)
-            _items[_currentSlotIndex].gameObject.SetActive(false);
+            _items[_currentSlotIndex].GetComponentInChildren<MeshRenderer>().enabled = false;
 
         _currentSlotIndex = index;
 
         if (_items[_currentSlotIndex] != null)
-            _items[_currentSlotIndex].gameObject.SetActive(true);
+            _items[_currentSlotIndex].GetComponentInChildren<MeshRenderer>().enabled = true;
 
         OnInventoryUpdated?.Invoke();
     }
@@ -57,7 +57,7 @@ public class QuickSlotInventory : MonoBehaviour, IInventory
 
         if (oldItem != null)
         {
-            oldItem.gameObject.SetActive(false);
+            oldItem.GetComponentInChildren<MeshRenderer>().enabled = false;
         }
 
         SetActiveSlot(_currentSlotIndex);
@@ -97,7 +97,7 @@ public class QuickSlotInventory : MonoBehaviour, IInventory
 
         if (Items[indexB] == null)
         {
-            Items[indexA].gameObject.SetActive(false);
+            Items[indexA].GetComponentInChildren<MeshRenderer>().enabled = false;
         }
 
         SetActiveSlot(_currentSlotIndex);

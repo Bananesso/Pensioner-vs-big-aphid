@@ -28,10 +28,17 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
             flower.Reload();
         }
 
-        if (obj.GetComponent<PlayerController>() == null)
+        if (obj.GetComponent<PlayerController>() != null)
         {
             StartCoroutine(Electrolyze(obj));
         }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Color color = Color.blue;
+        color.a = 0.4f;
+        Gizmos.color = color;
+        Gizmos.DrawSphere(transform.position, _radius);
     }
 
     IEnumerator Electrolyze(GameObject obj)

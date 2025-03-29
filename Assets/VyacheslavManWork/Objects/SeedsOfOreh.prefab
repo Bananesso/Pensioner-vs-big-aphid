@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3309361116147913703
+--- !u!1 &1254164602199628134
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5365077796078085222}
-  - component: {fileID: 5155403816468610249}
-  - component: {fileID: 934795309094500428}
-  - component: {fileID: 1888569810612359175}
-  - component: {fileID: 6040742736169762989}
-  - component: {fileID: 6776147091616011662}
+  - component: {fileID: 4316590830303226676}
+  - component: {fileID: 4946511423276960117}
+  - component: {fileID: 204537503636260259}
   m_Layer: 0
-  m_Name: SeedsOfOreh
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5365077796078085222
+--- !u!4 &4316590830303226676
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3309361116147913703}
+  m_GameObject: {fileID: 1254164602199628134}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.21, y: 0.84, z: -20.11}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 5365077796078085222}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5155403816468610249
+--- !u!33 &4946511423276960117
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3309361116147913703}
+  m_GameObject: {fileID: 1254164602199628134}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &934795309094500428
+--- !u!23 &204537503636260259
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3309361116147913703}
+  m_GameObject: {fileID: 1254164602199628134}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,6 +83,41 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3309361116147913703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5365077796078085222}
+  - component: {fileID: 1888569810612359175}
+  - component: {fileID: 6040742736169762989}
+  - component: {fileID: 6776147091616011662}
+  m_Layer: 0
+  m_Name: SeedsOfOreh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5365077796078085222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309361116147913703}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4316590830303226676}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1888569810612359175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,9 +131,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: SeedsOfOreh
-  ImageSprite: {fileID: 21300000, guid: 2969d90b86698124696637a6df64a112, type: 3}
+  ImageSprite: {fileID: 21300000, guid: 419268360fb121a41b2df3ddfc4caef7, type: 3}
   _isPicked: 0
-  FlowerPrefab: {fileID: 715063175112340349, guid: e7be3490ef16b8e488480e93369b8f0d,
+  FlowerPrefab: {fileID: 2253910800685193014, guid: e7be3490ef16b8e488480e93369b8f0d,
     type: 3}
 --- !u!135 &6040742736169762989
 SphereCollider:
