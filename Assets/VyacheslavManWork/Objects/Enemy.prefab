@@ -62,7 +62,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 3.076, y: 0.7, z: -5.517}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4037435458357392248}
@@ -90,9 +90,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 3.7168674
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1.4351482, z: -0}
 --- !u!114 &7169196693072760590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,9 +107,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 10
   _range: 2
-  _fireRate: 1
-  _moveSpeed: 1
-  _tempSpeed: 0
+  _fireRate: 3
+  _moveSpeed: 5
+  _tempSpeed: 5
   _vision: {fileID: 4037435458357392248}
   _sphereRadius: 0.5
   IsMoving: 0

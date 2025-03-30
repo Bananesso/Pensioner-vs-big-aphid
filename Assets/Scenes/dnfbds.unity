@@ -7025,7 +7025,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _enemyPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4440072050693861343, guid: 79e0c86cc47a4ac449c85480dab4efd9,
+        type: 3}
     - target: {fileID: 2969746563439180310, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
       propertyPath: _enemySpawnSpeed
@@ -7695,6 +7696,12 @@ PrefabInstance:
         type: 3}
       propertyPath: _enemyPrefab
       value: 
+      objectReference: {fileID: 4440072050693861343, guid: 79e0c86cc47a4ac449c85480dab4efd9,
+        type: 3}
+    - target: {fileID: 2969746563439180310, guid: 181794c3ac3767f47b6cfbc30dc75f15,
+        type: 3}
+      propertyPath: _enemySpawnSpeed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4254139919103926283, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
@@ -20997,17 +21004,17 @@ PrefabInstance:
     - target: {fileID: 134815232561529493, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 483.83
+      value: 484.14
       objectReference: {fileID: 0}
     - target: {fileID: 134815232561529493, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.183
+      value: 0.00009918213
       objectReference: {fileID: 0}
     - target: {fileID: 134815232561529493, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 506.03
+      value: 502.16
       objectReference: {fileID: 0}
     - target: {fileID: 134815232561529493, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
@@ -21044,25 +21051,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2969746563439180310, guid: 181794c3ac3767f47b6cfbc30dc75f15,
-        type: 3}
-      propertyPath: _enemyPrefab
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2969746563439180310, guid: 181794c3ac3767f47b6cfbc30dc75f15,
-        type: 3}
-      propertyPath: _enemySpawnSpeed
-      value: 40
-      objectReference: {fileID: 0}
     - target: {fileID: 4254139919103926283, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
       propertyPath: m_Name
       value: Spawner (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4254139919103926283, guid: 181794c3ac3767f47b6cfbc30dc75f15,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25675,6 +25667,12 @@ PrefabInstance:
         type: 3}
       propertyPath: _enemyPrefab
       value: 
+      objectReference: {fileID: 4440072050693861343, guid: 79e0c86cc47a4ac449c85480dab4efd9,
+        type: 3}
+    - target: {fileID: 2969746563439180310, guid: 181794c3ac3767f47b6cfbc30dc75f15,
+        type: 3}
+      propertyPath: _enemySpawnSpeed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4254139919103926283, guid: 181794c3ac3767f47b6cfbc30dc75f15,
         type: 3}
@@ -27820,9 +27818,9 @@ SceneRoots:
   - {fileID: 1687780688}
   - {fileID: 479079574}
   - {fileID: 2013833739}
-  - {fileID: 1817835447}
   - {fileID: 682890767}
   - {fileID: 631351048}
+  - {fileID: 1817835447}
   - {fileID: 1401300463}
   - {fileID: 1363089029}
   - {fileID: 749411521}
