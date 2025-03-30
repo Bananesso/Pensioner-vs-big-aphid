@@ -33,7 +33,12 @@ public class EnemyAI : MonoBehaviour
     {
         while (true)
         {
-            flower = Physics.OverlapSphere(_vision.position, _sphereRadius)[0].GetComponent<Flower>();
+            Collider[] flowers = Physics.OverlapSphere(_vision.position, _sphereRadius);
+            if (flowers.Length > 0)
+            {
+               flower = flowers[0].GetComponent<Flower>();
+            }
+          
             if (flower != null)
             {
                 if (coroutine == null)

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7346231590745987180}
   - component: {fileID: 678711888954626433}
   - component: {fileID: 2732539522157215814}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Oreh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,10 +142,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 595108234492336207, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
         type: 3}
       propertyPath: m_Name
       value: wall-nut (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9009578332980874407, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
         type: 3}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4037435458357392248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 6220782375211055688}
   - component: {fileID: 192593935843749326}
   - component: {fileID: 6207800586885295694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _winMenu: {fileID: 0}
   _fpCamera: {fileID: 0}
+  Player: {fileID: 0}
 --- !u!54 &192593935843749326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -193,7 +194,7 @@ GameObject:
   - component: {fileID: 4723945037055985409}
   - component: {fileID: 8281004222635604494}
   - component: {fileID: 8546250760659888404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5085,6 +5086,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3323532852403113814, guid: deb3a719a7526d845b0277261ad214b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -1171078653486259830, guid: deb3a719a7526d845b0277261ad214b5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5105,11 +5111,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Insects&beetles-pack8
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: deb3a719a7526d845b0277261ad214b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1734515705254381088, guid: deb3a719a7526d845b0277261ad214b5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2800544588924554dbc8c9754e29d2af, type: 2}
+    - target: {fileID: 4040751770489557375, guid: deb3a719a7526d845b0277261ad214b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6247373784528994411, guid: deb3a719a7526d845b0277261ad214b5, type: 3}
