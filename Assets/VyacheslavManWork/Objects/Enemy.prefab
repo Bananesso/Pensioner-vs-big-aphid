@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 6207800586885295694}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5089,6 +5089,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Insects&beetles-pack8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: deb3a719a7526d845b0277261ad214b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

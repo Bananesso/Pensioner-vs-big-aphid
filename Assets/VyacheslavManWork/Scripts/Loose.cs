@@ -6,17 +6,14 @@ public class Loose : MonoBehaviour
     [SerializeField] private GameObject _looseMenu;
     [SerializeField] private GameObject _fpCamera;
 
-    private void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        health = GetComponent<Health>();
-        health.OnDie += Loosee;
-    }
-
-    public void Loosee()
-    {
-        _fpCamera.SetActive(false);
-        _looseMenu.SetActive(true);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        if (other.tag == "Enemy")
+        {
+            _fpCamera.SetActive(false);
+            _looseMenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 }

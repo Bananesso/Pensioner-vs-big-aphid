@@ -8,6 +8,8 @@ public class Win : MonoBehaviour
 
     private void Start()
     {
+        _fpCamera = GameObject.Find("Virtual Camera");
+        _winMenu = GameObject.Find("WinMenu");
         health = GetComponent<Health>();
         health.OnDie += Winn;
     }
