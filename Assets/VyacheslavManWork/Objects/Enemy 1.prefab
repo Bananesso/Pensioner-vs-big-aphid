@@ -43,10 +43,11 @@ GameObject:
   - component: {fileID: 2134129409799448964}
   - component: {fileID: 7169196693072760590}
   - component: {fileID: 8499711182814502458}
+  - component: {fileID: 6220782375211055688}
   - component: {fileID: 192593935843749326}
   - component: {fileID: 6207800586885295694}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +62,7 @@ Transform:
   m_GameObject: {fileID: 4440072050693861343}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.7, z: -5.517}
+  m_LocalPosition: {x: 3.076, y: 0.7, z: -5.517}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -125,8 +126,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 50
+  _maxHealth: 100
   _currentHealth: 0
+--- !u!114 &6220782375211055688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440072050693861343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1304916e4eda6e140b86fe1b0ab9b873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _winMenu: {fileID: 0}
+  _fpCamera: {fileID: 0}
+  _playerController: {fileID: 0}
 --- !u!54 &192593935843749326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5090,6 +5106,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Insects&beetles-pack8
       objectReference: {fileID: 0}
+    - target: {fileID: 1734515705254381088, guid: deb3a719a7526d845b0277261ad214b5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2800544588924554dbc8c9754e29d2af, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6247373784528994411, guid: deb3a719a7526d845b0277261ad214b5, type: 3}

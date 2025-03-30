@@ -5,7 +5,6 @@ public class Win : MonoBehaviour
     Health health;
     [SerializeField] private GameObject _winMenu;
     [SerializeField] private GameObject _fpCamera;
-    [SerializeField] private GameObject _playerController;
 
     private void Start()
     {
@@ -15,7 +14,6 @@ public class Win : MonoBehaviour
 
     public void Winn()
     {
-        _playerController.SetActive(false);
         _fpCamera.SetActive(false);
         _winMenu.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
