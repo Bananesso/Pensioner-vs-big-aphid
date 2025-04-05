@@ -4777,7 +4777,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
+  - {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4875,7 +4875,7 @@ GameObject:
   - component: {fileID: 7225668095541679052}
   - component: {fileID: 1199839194004384011}
   m_Layer: 3
-  m_Name: Flower
+  m_Name: FrozenFlower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4912,10 +4912,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _electrolyzed: 0
-  _damage: 10
-  _attackSpeed: 2.7
+  _damage: 5
+  _attackSpeed: 3.5
   _bulletSpeed: 300
-  _bullet: {fileID: 7702488397759274337, guid: bbea031a633e5e94a85ca4642f0fe75e, type: 3}
+  _bullet: {fileID: 7702488397759274337, guid: d01d2e228bab00b4899a76fd9a8a6c52, type: 3}
   _firePoint: {fileID: 1851219504494888420}
 --- !u!114 &6619753783085976719
 MonoBehaviour:
@@ -5128,6 +5128,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -3428565085395786840, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
     - target: {fileID: -3386959215471273925, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
         type: 3}
       propertyPath: m_Layer
@@ -5143,6 +5148,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -859418826052640052, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
     - target: {fileID: -262295684186660960, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
         type: 3}
       propertyPath: m_Layer
@@ -5213,6 +5223,11 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.006
       objectReference: {fileID: 0}
+    - target: {fileID: 1669430625453268438, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
     - target: {fileID: 1979540326526626212, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
         type: 3}
       propertyPath: m_Layer
@@ -5273,6 +5288,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7161118547854029490, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
+    - target: {fileID: 7205140776170859923, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
     - target: {fileID: 8077092223203038488, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
         type: 3}
       propertyPath: m_Layer
@@ -5293,12 +5318,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8615723684215514465, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
+    - target: {fileID: 9108919164163917862, guid: cfca5bb67d7afa148b3aee8e6e2f4e23,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
+    - {fileID: -2121235833695218106, guid: cfca5bb67d7afa148b3aee8e6e2f4e23, type: 3}
+    - {fileID: 2682104301289532797, guid: cfca5bb67d7afa148b3aee8e6e2f4e23, type: 3}
     - {fileID: 4722092141013552580, guid: cfca5bb67d7afa148b3aee8e6e2f4e23, type: 3}
     - {fileID: -7419975150013450071, guid: cfca5bb67d7afa148b3aee8e6e2f4e23, type: 3}
-    - {fileID: 2682104301289532797, guid: cfca5bb67d7afa148b3aee8e6e2f4e23, type: 3}
-    - {fileID: -2121235833695218106, guid: cfca5bb67d7afa148b3aee8e6e2f4e23, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfca5bb67d7afa148b3aee8e6e2f4e23, type: 3}
