@@ -38,6 +38,7 @@ public class Health : MonoBehaviour
     private void Die()
     {
         OnDie?.Invoke();
+        Destroy(gameObject);
     }
 
     public float GetHealthInParts()

@@ -1,31 +1,37 @@
+using System.Collections;
 using UnityEngine;
 
 public class Electroshocker : Item
 {
+    private AudioSource _shootSound;
+    private ParticleSystem _electro;
+    private bool _isReloading;
+    [SerializeField] private float _atackSpeed;
     private InteractionController controller;
-    private QuickSlotInventory inventorySlot;
-    void Start()
-    {
-        
-    }
 
+    private void Start()
+    {
+        _electro = GetComponentInChildren<ParticleSystem>();
+        _shootSound = GetComponent<AudioSource>();
+        controller = FindAnyObjectByType<InteractionController>();
+    }
     public override void Use(GameObject user, IInventory inventory)
     {
-        if (gameObject.GetComponent<EnemyAI>())
+        if (_isReloading) return;
+        IInteractable inter =  controller.GetInteractable();
+        if (inter is ObjectElectrolyzed obj)
         {
-            
-        }
-        else if (gameObject.GetComponent<Flower>())
-        {
-
+            obj.Interact(user);
+            _electro.Play();
+            _shootSound.Play();
+            StartCoroutine(Reload());
         }
     }
 
-    void Update()
+    private IEnumerator Reload()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-
-        }
+        _isReloading = true;
+        yield return new WaitForSeconds(_atackSpeed);
+        _isReloading = false;
     }
 }
