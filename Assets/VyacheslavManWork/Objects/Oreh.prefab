@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7346231590745987180}
   - component: {fileID: 678711888954626433}
-  m_Layer: 0
+  - component: {fileID: 2732539522157215814}
+  m_Layer: 3
   m_Name: Oreh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,6 +48,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHealth: 100
   _currentHealth: 0
+--- !u!65 &2732539522157215814
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715063175112340349}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2771943, y: 2.542162, z: 1}
+  m_Center: {x: -0.014469777, y: 1.3512594, z: 0}
 --- !u!1001 &59664535318565425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73,17 +95,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.35
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.265
+      value: 1.24
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
         type: 3}
@@ -120,10 +142,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 595108234492336207, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
         type: 3}
       propertyPath: m_Name
       value: wall-nut (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009578332980874407, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009578332980874407, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009578332980874407, guid: 3bdd0465ac33cc84faa412bcdd67bdbe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
