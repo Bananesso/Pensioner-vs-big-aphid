@@ -2683,7 +2683,7 @@ MonoBehaviour:
     type: 3}
   _slotBackPrefab: {fileID: 8284736152610423366, guid: db6c8f660db4fa447b73527e7ea74d2a,
     type: 3}
-  _inventory: {fileID: 0}
+  _inventory: {fileID: 1241179799}
 --- !u!114 &210592971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15663,6 +15663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _looseMenu: {fileID: 193191312}
   _fpCamera: {fileID: 993283498}
+  Player: {fileID: 0}
 --- !u!114 &1102220126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19524,7 +19525,7 @@ MonoBehaviour:
   - {fileID: 1621968017}
   - {fileID: 1209807741}
   - {fileID: 2032256864}
-  _enableSpawnerTime: 40
+  _enableSpawnerTime: 10
 --- !u!4 &1401300463
 Transform:
   m_ObjectHideFlags: 0
@@ -24179,7 +24180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1750509085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27271,7 +27272,7 @@ GameObject:
   - component: {fileID: 1889528787}
   m_Layer: 5
   m_Name: WinMenu
-  m_TagString: Untagged
+  m_TagString: Win
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29531,7 +29532,7 @@ GameObject:
   - component: {fileID: 1980117023}
   - component: {fileID: 1980117022}
   - component: {fileID: 1980117021}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Playerw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30170,6 +30171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Electroshocker
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687002844088941086, guid: 05c3175cbbe42e54eab76d0a55b3841a,
+        type: 3}
+      propertyPath: _atackSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
