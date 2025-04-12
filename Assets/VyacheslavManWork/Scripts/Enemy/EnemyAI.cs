@@ -25,7 +25,7 @@ public class EnemyAI : MonoBehaviour
     }
     private void Update()
     {
-        _rigidbody.velocity = transform.forward* _tempSpeed;
+        _rigidbody.velocity = transform.forward * _tempSpeed;
 
     }
 
@@ -56,8 +56,8 @@ public class EnemyAI : MonoBehaviour
                     _tempSpeed = _moveSpeed;
                 }
             }
-                yield return new WaitForSeconds(0.5f);
-            
+            yield return new WaitForSeconds(0.5f);
+
         }
     }
 

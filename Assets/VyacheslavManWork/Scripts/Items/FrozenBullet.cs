@@ -6,7 +6,7 @@ public class FrozenBullet : MonoBehaviour
     public float Damage;
     private void Awake()
     {
-        Destroy(gameObject, 7);
+        Destroy(gameObject, 10);
     }
 
     private void OnTriggerEnter(Collider other)
