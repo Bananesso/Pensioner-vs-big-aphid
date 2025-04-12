@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class FrozenBullet : MonoBehaviour
 {
-    private InteractionController controller;
     public float Damage;
     private void Awake()
     {

@@ -33,26 +33,31 @@ public class EnemyAI : MonoBehaviour
     {
         while (true)
         {
-            flower = Physics.OverlapSphere(_vision.position, _sphereRadius)[0].GetComponent<Flower>();
-            if (flower != null)
+            Collider[] colliders = Physics.OverlapSphere(_vision.position, _sphereRadius);
+            if (colliders.Length > 0)
             {
-                if (coroutine == null)
+                flower = colliders[0].GetComponent<Flower>();
+                if (flower != null)
                 {
-                    _tempSpeed = 0;
-                    coroutine = StartCoroutine(Atack());
+                    if (coroutine == null)
+                    {
+                        _tempSpeed = 0;
+                        coroutine = StartCoroutine(Atack());
+                    }
+                }
+                else
+                {
+                    if (coroutine != null)
+                    {
+                        StopCoroutine(coroutine);
+                    }
+                    coroutine = null;
+                    flower = null;
+                    _tempSpeed = _moveSpeed;
                 }
             }
-            else
-            {
-                if (coroutine != null)
-                {
-                    StopCoroutine(coroutine);
-                }
-                coroutine = null;
-                flower = null;
-                _tempSpeed = _moveSpeed;
-            }
-            yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(0.5f);
+            
         }
     }
 
