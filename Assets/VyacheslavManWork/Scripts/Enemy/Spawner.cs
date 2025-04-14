@@ -14,8 +14,8 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            Instantiate(_enemyPrefab, transform.position, Quaternion.LookRotation(transform.forward));
             yield return new WaitForSeconds(20);
+            Instantiate(_enemyPrefab, transform.position, Quaternion.LookRotation(transform.forward));
         }
     }
 }

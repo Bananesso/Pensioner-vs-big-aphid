@@ -25,7 +25,7 @@ public class EnemyAI : MonoBehaviour
     }
     private void Update()
     {
-        _rigidbody.velocity = transform.forward* _tempSpeed;
+        _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed");
 
     }
 
@@ -33,31 +33,31 @@ public class EnemyAI : MonoBehaviour
     {
         while (true)
         {
-            Collider[] flowers = Physics.OverlapSphere(_vision.position, _sphereRadius);
-            if (flowers.Length > 0)
+            Collider[] colliders = Physics.OverlapSphere(_vision.position, _sphereRadius);
+            if (colliders.Length > 0)
             {
-               flower = flowers[0].GetComponent<Flower>();
-            }
-          
-            if (flower != null)
-            {
-                if (coroutine == null)
+                flower = colliders[0].GetComponent<Flower>();
+                if (flower != null)
                 {
-                    _tempSpeed = 0;
-                    coroutine = StartCoroutine(Atack());
+                    if (coroutine == null)
+                    {
+                        _tempSpeed = 0;
+                        coroutine = StartCoroutine(Atack());
+                    }
                 }
-            }
-            else
-            {
-                if (coroutine != null)
+                else
                 {
-                    StopCoroutine(coroutine);
+                    if (coroutine != null)
+                    {
+                        StopCoroutine(coroutine);
+                    }
+                    coroutine = null;
+                    flower = null;
+                    _tempSpeed = _moveSpeed;
                 }
-                coroutine = null;
-                flower = null;
-                _tempSpeed = _moveSpeed;
             }
             yield return new WaitForSeconds(0.5f);
+
         }
     }
 
@@ -65,8 +65,8 @@ public class EnemyAI : MonoBehaviour
     {
         while (flower != null)
         {
-            flower.GetComponent<Health>().TakeDamage(_damage);
-            yield return new WaitForSeconds(_fireRate);
+            flower.GetComponent<Health>().TakeDamage(_damage*PlayerPrefs.GetFloat("MultiplierAtkDamage"));
+            yield return new WaitForSeconds(_fireRate*PlayerPrefs.GetFloat("MultiplierAtkSpeed"));
         }
     }
 

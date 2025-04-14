@@ -34,7 +34,13 @@ public class Flower : MonoBehaviour
         while (_electrolyzed)
         {
             GameObject BulletInstance = Instantiate(_bullet, _firePoint.position, Quaternion.identity);
-            BulletInstance.GetComponent<Bullet>().Damage = _damage;
+            Bullet bullet = BulletInstance.GetComponent<Bullet>();
+            if(bullet!=null) bullet.Damage = _damage;
+
+            FrozenBullet frozentbullet = BulletInstance.GetComponent<FrozenBullet>();
+            if (frozentbullet != null)
+                frozentbullet.Damage = _damage;
+
             BulletInstance.GetComponent<Rigidbody>().AddForce(transform.forward * _bulletSpeed);
             yield return new WaitForSeconds(_attackSpeed);
         }
