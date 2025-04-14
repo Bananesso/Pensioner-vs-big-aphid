@@ -1,40 +1,77 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 using UnityEngine.SceneManagement;
+using TMPro;
 using System.Collections;
+using System.Collections.Generic;
 
 public class LoadingScreen : MonoBehaviour
 {
-    [Header("Основные настройки")]
-    public float loadingTime = 5f; // Время загрузки в секундах
-    public string sceneToLoad = "MainScene"; // Название сцены для загрузки
+    [Header("Настройки загрузки")]
+    [SerializeField] private float minLoadTime = 2f;
+    [SerializeField] private float maxLoadTime = 5f;
+    [SerializeField] private string sceneToLoad = "GameScene";
 
-    [Header("Аудио")]
-    public AudioClip loadingMusic; // Музыка во время загрузки
-    [Range(0f, 1f)] public float musicVolume = 0.5f;
+    [Header("UI Элементы")]
+    [SerializeField] private Image progressFill; // Изменено с Slider на Image
+    [SerializeField] private TMP_Text progressText;
+    [SerializeField] private TMP_Text tipText;
+    [SerializeField] private GameObject continueButton;
+    [SerializeField] private Animator buttonAnimator;
+    [SerializeField] private Animator backgroundAnimator;
 
-    [Header("UI элементы")]
-    public TMP_Text loadingText; // Текст загрузки (TMP)
-    public TMP_Text progressText; // Текст прогресса (TMP)
-    public Image progressBar; // Полоса загрузки
-    public Image animatedImage; // Гиф-изображение (можно использовать AnimatedImage)
-    public Button continueButton; // Кнопка продолжения
-    public AudioClip buttonClickSound; // Звук кнопки
+    [Header("Звуки")]
+    [SerializeField] private AudioClip loadingMusic;
+    [SerializeField] private AudioClip buttonAppearSound;
+    [SerializeField] private AudioClip buttonClickSound;
+
+    [Header("Советы")]
+    [SerializeField]
+    private List<string> tips = new List<string>()
+    {
+        "Используйте укрытия для защиты от вражеского огня.",
+        "Не забывайте пополнять запасы здоровья.",
+        "Исследуйте каждый уголок уровня, чтобы найти секреты.",
+        "Комбинируйте способности для более эффективных атак.",
+        "Следите за индикатором запасов боеприпасов."
+    };
 
     private AudioSource audioSource;
-    private bool isLoadingComplete = false;
-    private float currentLoadTime = 0f;
+    private float loadProgress = 0f;
+    private bool isLoading = false;
+    private bool loadComplete = false;
+    private float loadDuration;
 
-    void Start()
+    private void Awake()
     {
-        // Настройка AudioSource
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.volume = musicVolume;
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
 
-        // Начальная настройка UI
-        continueButton.gameObject.SetActive(false);
-        progressBar.fillAmount = 0f;
+        continueButton.SetActive(false);
+
+        // Инициализация Fill изображения
+        if (progressFill != null)
+        {
+            progressFill.type = Image.Type.Filled;
+            progressFill.fillMethod = Image.FillMethod.Horizontal; // Или другой метод заполнения
+            progressFill.fillAmount = 0f;
+        }
+    }
+
+    private void Start()
+    {
+        StartCoroutine(LoadSceneAsync());
+    }
+
+    private IEnumerator LoadSceneAsync()
+    {
+        isLoading = true;
+        loadComplete = false;
+        loadDuration = Random.Range(minLoadTime, maxLoadTime);
+        float elapsedTime = 0f;
 
         // Запуск музыки
         if (loadingMusic != null)
@@ -44,64 +81,92 @@ public class LoadingScreen : MonoBehaviour
             audioSource.Play();
         }
 
-        // Настройка кнопки
-        continueButton.onClick.AddListener(OnContinueButtonClick);
+        // Показываем случайный совет
+        ShowRandomTip();
 
-        // Запуск процесса загрузки
-        StartCoroutine(LoadSceneAsync());
-    }
-
-    IEnumerator LoadSceneAsync()
-    {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneToLoad);
-        asyncLoad.allowSceneActivation = false;
-
-        // Имитация загрузки
-        while (currentLoadTime < loadingTime || asyncLoad.progress < 0.9f)
+        // Запуск анимации фона
+        if (backgroundAnimator != null)
         {
-            currentLoadTime += Time.deltaTime;
-            float progress = Mathf.Clamp01(currentLoadTime / loadingTime);
+            backgroundAnimator.SetTrigger("StartLoading");
+        }
 
-            // Обновление UI
-            progressBar.fillAmount = progress;
-            progressText.text = $"{(int)(progress * 100)}%";
+        while (elapsedTime < loadDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            loadProgress = Mathf.Clamp01(elapsedTime / loadDuration);
 
-            // Анимация текста (точки)
-            string dots = new string('.', (int)(Time.time % 4));
-            loadingText.text = $"Загрузка{dots}";
+            // Обновляем UI
+            UpdateProgressUI(loadProgress);
 
             yield return null;
         }
 
-        // Загрузка завершена
-        isLoadingComplete = true;
-        loadingText.text = "Загрузка завершена!";
-        progressText.text = "100%";
-        progressBar.fillAmount = 1f;
+        loadProgress = 1f;
+        UpdateProgressUI(loadProgress);
 
-        // Активируем кнопку продолжения
-        continueButton.gameObject.SetActive(true);
+        // Загрузка завершена
+        OnLoadComplete();
     }
 
-    void OnContinueButtonClick()
+    private void UpdateProgressUI(float progress)
     {
-        // Воспроизводим звук кнопки
+        if (progressFill != null)
+        {
+            progressFill.fillAmount = progress; // Обновляем fillAmount вместо value
+        }
+
+        if (progressText != null)
+        {
+            progressText.text = $"{(progress * 100):0}%";
+        }
+    }
+
+    private void ShowRandomTip()
+    {
+        if (tips.Count > 0 && tipText != null)
+        {
+            int randomIndex = Random.Range(0, tips.Count);
+            tipText.text = $"{tips[randomIndex]}";
+        }
+    }
+
+    private void OnLoadComplete()
+    {
+        isLoading = false;
+        loadComplete = true;
+
+        // Показываем кнопку продолжения с анимацией и звуком
+        if (continueButton != null)
+        {
+            continueButton.SetActive(true);
+
+            if (buttonAnimator != null)
+            {
+                buttonAnimator.SetTrigger("Appear");
+            }
+
+            if (buttonAppearSound != null)
+            {
+                audioSource.PlayOneShot(buttonAppearSound);
+            }
+        }
+        else
+        {
+            // Если кнопки нет, сразу загружаем сцену
+            SceneManager.LoadScene(sceneToLoad);
+        }
+    }
+
+    public void OnContinueButtonClicked()
+    {
+        if (!loadComplete) return;
+
         if (buttonClickSound != null)
         {
-            AudioSource.PlayClipAtPoint(buttonClickSound, Camera.main.transform.position);
+            audioSource.PlayOneShot(buttonClickSound);
         }
 
-        // Переходим к загруженной сцене
+        // Загружаем целевую сцену
         SceneManager.LoadScene(sceneToLoad);
-    }
-
-    void Update()
-    {
-        // Анимация гифки (если не используется AnimatedImage)
-        if (animatedImage != null)
-        {
-            // Простейшая анимация - вращение
-            animatedImage.transform.Rotate(0f, 0f, 30f * Time.deltaTime);
-        }
     }
 }
