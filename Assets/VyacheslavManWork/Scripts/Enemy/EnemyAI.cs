@@ -25,7 +25,7 @@ public class EnemyAI : MonoBehaviour
     }
     private void Update()
     {
-        _rigidbody.velocity = transform.forward * _tempSpeed;
+        _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed");
 
     }
 
@@ -65,8 +65,8 @@ public class EnemyAI : MonoBehaviour
     {
         while (flower != null)
         {
-            flower.GetComponent<Health>().TakeDamage(_damage);
-            yield return new WaitForSeconds(_fireRate);
+            flower.GetComponent<Health>().TakeDamage(_damage*PlayerPrefs.GetFloat("MultiplierAtkDamage"));
+            yield return new WaitForSeconds(_fireRate*PlayerPrefs.GetFloat("MultiplierAtkSpeed"));
         }
     }
 
