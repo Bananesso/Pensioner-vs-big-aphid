@@ -11,6 +11,7 @@ public class Loose : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
+            Time.timeScale = 0;
             _fpCamera.SetActive(false);
 
             Player = GameObject.Find("Playerw");
