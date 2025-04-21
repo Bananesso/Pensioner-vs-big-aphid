@@ -40,8 +40,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9052554443480967623}
-  - component: {fileID: 7139261216732331372}
   - component: {fileID: 6619753783085976719}
+  - component: {fileID: 7139261216732331372}
   - component: {fileID: 7225668095541679052}
   - component: {fileID: 1199839194004384011}
   m_Layer: 3
@@ -69,6 +69,20 @@ Transform:
   - {fileID: 2837424330895168910}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6619753783085976719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623179894603588108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 40
+  _currentHealth: 0
 --- !u!114 &7139261216732331372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,25 +96,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _electrolyzed: 0
-  _damage: 5
+  _damage: 4
   _attackSpeed: 0.6
   _bulletSpeed: 750
   _bullet: {fileID: 7702488397759274337, guid: e76a23a4c6b720e42a1481f4e0763c48, type: 3}
   _firePoint: {fileID: 1851219504494888420}
---- !u!114 &6619753783085976719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8623179894603588108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHealth: 100
-  _currentHealth: 0
 --- !u!114 &7225668095541679052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _radius: 6
+  _radius: 4
 --- !u!65 &1199839194004384011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -133,8 +133,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4070468, y: 0.4266131, z: 1}
-  m_Center: {x: -0.105814695, y: 0.86149347, z: 0}
+  m_Size: {x: 0.70431066, y: 0.4266131, z: 0.9610177}
+  m_Center: {x: 0.042817235, y: 0.86149347, z: 0.06803602}
 --- !u!1001 &49888254172583148
 PrefabInstance:
   m_ObjectHideFlags: 0

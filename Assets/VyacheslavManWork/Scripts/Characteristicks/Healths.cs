@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    [SerializeField] private int _listiki;
+    [SerializeField] private int _materials;
+
     [SerializeField] private float _maxHealth = 100f;
     [SerializeField] private float _currentHealth;
 
@@ -44,7 +47,8 @@ public class Health : MonoBehaviour
         Destroy(gameObject);
         if (this.GetComponent<EnemyAI>() != null)
         {
-            _listikiPodschet.KolichestvoListikov += 10;
+            _listikiPodschet.KolichestvoListikov += _listiki;
+            _listikiPodschet.KolichestvoMaterialov += _materials;
         }
     }
 
