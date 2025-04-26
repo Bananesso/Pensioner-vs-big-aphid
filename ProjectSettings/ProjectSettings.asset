@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: HardWork
   productName: pencioner
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -44,11 +44,9 @@ PlayerSettings:
     duration: 2
   - logo: {fileID: 21300000, guid: 641f4417919234d02962526573410eec, type: 3}
     duration: 2
+  - logo: {fileID: 21300000, guid: 3dfbeea1b83b94d7b962a0caa32f0170, type: 3}
+    duration: 2
   - logo: {fileID: 21300000, guid: a89f9ecc798a54c3c99b866cec2ad9a0, type: 3}
-    duration: 2
-  - logo: {fileID: 21300000, guid: d7977c465d3071a45b20da278df8c7e5, type: 3}
-    duration: 2
-  - logo: {fileID: 21300000, guid: 34ef8cb7cf475954f82f22bf4cfae5d8, type: 3}
     duration: 2
   - logo: {fileID: 21300000, guid: 055c28ed846ab4ffa8afe12d2598d422, type: 3}
     duration: 2
@@ -152,7 +150,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.1.0
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -300,7 +298,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 12ffc654b920941c0991b5ecfb8ca063, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
