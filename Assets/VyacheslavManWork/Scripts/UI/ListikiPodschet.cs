@@ -14,4 +14,10 @@ public class ListikiPodschet : MonoBehaviour
         Materials.text = KolichestvoMaterialov.ToString();
         Listiki.text = KolichestvoListikov.ToString();
     }
+
+    private void OnValidate()
+    {
+        Materials.text = KolichestvoMaterialov.ToString();
+        Listiki.text = KolichestvoListikov.ToString();
+    }
 }

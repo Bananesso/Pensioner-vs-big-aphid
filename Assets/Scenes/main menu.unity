@@ -10166,6 +10166,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6accce3c3b8897943aac8c9a46c0e36d, type: 3}
+--- !u!1 &865449178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865449180}
+  - component: {fileID: 865449179}
+  m_Layer: 0
+  m_Name: HardLevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &865449179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865449178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf5d223e6b370e45ac590a76ab1a02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &865449180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865449178}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870270180
 GameObject:
   m_ObjectHideFlags: 0
@@ -13525,7 +13569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc7726ab6865474c81497e0c0be6f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://www.donationalerts.com/r/boomblasta
 --- !u!114 &1131579342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16659,7 +16702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc7726ab6865474c81497e0c0be6f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://zesty-profiterole-2d86cd.netlify.app/
 --- !u!114 &1407345203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21440,7 +21482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc7726ab6865474c81497e0c0be6f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://t.me/+HuzaN0tUNvA3Zjk6
 --- !u!114 &1847629166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24731,3 +24772,4 @@ SceneRoots:
   - {fileID: 154637144}
   - {fileID: 965918423}
   - {fileID: 1560918753}
+  - {fileID: 865449180}
