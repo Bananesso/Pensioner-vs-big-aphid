@@ -15,11 +15,11 @@ public class RandomErrorLoadScene : MonoBehaviour
         _randomValue = Random.Range(_minRandomValue, _maxRandomValue);
         if (_randomValue == _needValue)
         {
-            LoadErrorSceneByName(_errorSceneName);
+            
         }
         else
         {
-            LoadErrorSceneByName(_normalSceneName);
+            
         }
     }
 
