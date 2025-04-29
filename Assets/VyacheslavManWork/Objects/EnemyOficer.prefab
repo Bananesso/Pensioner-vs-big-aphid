@@ -42,8 +42,8 @@ GameObject:
   - component: {fileID: 8668511931770732273}
   - component: {fileID: 2134129409799448964}
   - component: {fileID: 7169196693072760590}
+  - component: {fileID: 4494166704345453753}
   - component: {fileID: 8499711182814502458}
-  - component: {fileID: 6220782375211055688}
   - component: {fileID: 192593935843749326}
   - component: {fileID: 6207800586885295694}
   m_Layer: 6
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08d700b6f48ff1408e2cc4ff6c550c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 10
+  _damage: 20
   _range: 2
   _fireRate: 3
   _moveSpeed: 5
@@ -114,21 +114,7 @@ MonoBehaviour:
   _vision: {fileID: 4037435458357392248}
   _sphereRadius: 0.5
   IsMoving: 0
---- !u!114 &8499711182814502458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4440072050693861343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHealth: 100
-  _currentHealth: 0
---- !u!114 &6220782375211055688
+--- !u!114 &4494166704345453753
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,6 +129,22 @@ MonoBehaviour:
   _winMenu: {fileID: 0}
   _fpCamera: {fileID: 0}
   Player: {fileID: 0}
+--- !u!114 &8499711182814502458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440072050693861343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _listiki: 25
+  _materials: 10
+  _maxHealth: 200
+  _currentHealth: 0
 --- !u!54 &192593935843749326
 Rigidbody:
   m_ObjectHideFlags: 0

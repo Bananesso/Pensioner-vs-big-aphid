@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Win : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Win : MonoBehaviour
     {
         _fpCamera = GameObject.Find("Virtual Camera");
         _winMenu = GameObject.FindGameObjectWithTag("Win");
+        _winMenu.SetActive(false);
         Player = GameObject.Find("Playerw");
         health = GetComponent<Health>();
         health.OnDie += Winn;
@@ -20,6 +22,7 @@ public class Win : MonoBehaviour
 
     public void Winn()
     {
+        Time.timeScale = 0;
         _fpCamera.SetActive(false);
         _winMenu.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
