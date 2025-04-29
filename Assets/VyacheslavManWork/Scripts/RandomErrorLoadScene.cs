@@ -6,13 +6,13 @@ public class RandomErrorLoadScene : MonoBehaviour
     [SerializeField] private string _errorSceneName;
     [SerializeField] private string _normalSceneName;
 
-    [SerializeField] private float _minRandomValue;
-    [SerializeField] private float _maxRandomValue;
-    [SerializeField] private float _needValue;
+    [SerializeField] private int _minRandomValue;
+    [SerializeField] private int _maxRandomValue;
+    [SerializeField] private int _needValue;
     private float _randomValue;
     private void Start()
     {
-        _randomValue = Random.Range(-10.0f, 10.0f);
+        _randomValue = Random.Range(_minRandomValue, _maxRandomValue);
         if (_randomValue == _needValue)
         {
             LoadErrorSceneByName(_errorSceneName);
