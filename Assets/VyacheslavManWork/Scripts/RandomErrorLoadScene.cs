@@ -10,6 +10,7 @@ public class RandomErrorLoadScene : MonoBehaviour
     [SerializeField] private int _maxRandomValue;
     [SerializeField] private int _needValue;
     private float _randomValue;
+
     private void Start()
     {
         _randomValue = Random.Range(_minRandomValue, _maxRandomValue);
