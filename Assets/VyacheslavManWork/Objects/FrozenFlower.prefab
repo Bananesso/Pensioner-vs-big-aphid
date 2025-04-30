@@ -81,6 +81,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _listiki: 0
+  _materials: 0
   _maxHealth: 25
   _currentHealth: 0
 --- !u!114 &7139261216732331372
@@ -113,7 +115,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _radius: 5
+  _radius: 6
+  _timeBeforeElectrolyzeNear: 1.87
+  _freezeTime: 0
+  _particlePlayTime: 3
 --- !u!65 &1199839194004384011
 BoxCollider:
   m_ObjectHideFlags: 0

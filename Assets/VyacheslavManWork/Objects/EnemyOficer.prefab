@@ -44,8 +44,8 @@ GameObject:
   - component: {fileID: 7169196693072760590}
   - component: {fileID: 4494166704345453753}
   - component: {fileID: 8499711182814502458}
-  - component: {fileID: 192593935843749326}
   - component: {fileID: 6207800586885295694}
+  - component: {fileID: 192593935843749326}
   m_Layer: 6
   m_Name: EnemyOficer
   m_TagString: Enemy
@@ -145,6 +145,22 @@ MonoBehaviour:
   _materials: 10
   _maxHealth: 200
   _currentHealth: 0
+--- !u!114 &6207800586885295694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440072050693861343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radius: 6
+  _timeBeforeElectrolyzeNear: 2.5
+  _freezeTime: 2
+  _particlePlayTime: 3
 --- !u!54 &192593935843749326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -172,19 +188,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 114
   m_CollisionDetection: 1
---- !u!114 &6207800586885295694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4440072050693861343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _radius: 6
 --- !u!1001 &2991534878065519394
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -45,11 +45,8 @@ public class Health : MonoBehaviour
     {
         OnDie?.Invoke();
         Destroy(gameObject);
-        if (this.GetComponent<EnemyAI>() != null)
-        {
-            _listikiPodschet.KolichestvoListikov += _listiki;
-            _listikiPodschet.KolichestvoMaterialov += _materials;
-        }
+        _listikiPodschet.KolichestvoListikov += _listiki;
+        _listikiPodschet.KolichestvoMaterialov += _materials;
     }
 
     public float GetHealthInParts()

@@ -8,6 +8,11 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
 {
     private ParticleSystem _particleSystem;
     [SerializeField] private float _radius;
+
+    [SerializeField] private float _timeBeforeElectrolyzeNear = 2;
+    [SerializeField] private float _freezeTime = 3;
+    [SerializeField] private float _particlePlayTime = 3;
+
     private void Start()
     {
         _particleSystem = GetComponentInChildren<ParticleSystem>();
@@ -43,7 +48,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
 
     IEnumerator Electrolyze(GameObject obj)
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(_timeBeforeElectrolyzeNear);
         Collider[] colliders = Physics.OverlapSphere(transform.position, _radius);
 
         foreach (Collider collider in colliders)
@@ -59,14 +64,14 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
     IEnumerator ParticlePlay()
     {
         _particleSystem.Play();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(_particlePlayTime);
         _particleSystem.Stop();
     }
 
     IEnumerator EnemyFreeze(EnemyAI enemy)
     {
         enemy.enabled = false;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(_freezeTime);
         enemy.enabled = true;
     }
 }
