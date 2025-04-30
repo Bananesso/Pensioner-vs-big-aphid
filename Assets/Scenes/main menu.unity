@@ -11954,7 +11954,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 972304394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 972304398}
+        m_TargetAssemblyTypeName: RandomErrorLoadScene, Assembly-CSharp
+        m_MethodName: LoadErrorSceneByName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &972304394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12023,15 +12035,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 972304391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3461406cd8dc45e7be14e2ae6809108, type: 3}
+  m_Script: {fileID: 11500000, guid: a52eb9aea597d6b4681c80e80c1c8437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadButton: {fileID: 972304393}
-  sceneProbabilities:
-  - sceneName: dnfbds
-    probability: 95
-  - sceneName: error
-    probability: 5
+  _errorSceneName: error
+  _normalSceneName: dnfbds
+  _precentToLoadErr: 5
 --- !u!1 &982914641
 GameObject:
   m_ObjectHideFlags: 0
