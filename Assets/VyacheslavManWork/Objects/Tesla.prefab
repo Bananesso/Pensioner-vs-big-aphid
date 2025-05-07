@@ -47,6 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _radius: 8
+  _timeBeforeElectrolyzeNear: 1
+  _freezeTime: 0
+  _particlePlayTime: 3
 --- !u!114 &2063320893284474999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,6 +62,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _listiki: 0
+  _materials: 1
   _maxHealth: 45
   _currentHealth: 0
 --- !u!1001 &859379765394402306
