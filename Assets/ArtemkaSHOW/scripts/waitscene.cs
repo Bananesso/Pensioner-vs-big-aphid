@@ -1,19 +1,26 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadSceneByIndex : MonoBehaviour
+public class SceneChanger : MonoBehaviour
 {
-    public float delayTime = 3f;  // Через сколько секунд переключить сцену
-    public int sceneIndex = 1;    // Индекс сцены в Build Settings (0, 1, 2...)
+    [Tooltip("Индекс сцены, на которую нужно перейти")]
+    public int targetSceneIndex = 0;
+    
+    [Tooltip("Время в секундах перед переходом на другую сцену")]
+    public float delayTime = 5f;
 
-    void Start()
+    private void Start()
     {
-        StartCoroutine(LoadSceneAfterDelay());
+        // Запускаем корутину для задержки перед переходом
+        StartCoroutine(ChangeSceneAfterDelay());
     }
 
-    System.Collections.IEnumerator LoadSceneAfterDelay()
+    private System.Collections.IEnumerator ChangeSceneAfterDelay()
     {
+        // Ждем указанное количество секунд
         yield return new WaitForSeconds(delayTime);
-        SceneManager.LoadScene(sceneIndex);  // Загрузка по индексу
+        
+        // Переключаем сцену
+        SceneManager.LoadScene(targetSceneIndex);
     }
 }
