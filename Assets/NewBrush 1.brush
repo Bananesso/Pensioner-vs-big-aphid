@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 12146, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: NewBrush 1
   m_EditorClassIdentifier: 
-  m_Mask: {fileID: 2800000, guid: c92f09413a15a4c4496588903c8b6f44, type: 3}
+  m_Mask: {fileID: 2800000, guid: 3087b6db9d3690a4d84203f99aa99d7b, type: 3}
   m_Falloff:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.08666611
-      value: 0.7257385
+      time: 0
+      value: 0
       inSlope: 0
-      outSlope: 0
+      outSlope: 1
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
       time: 1
       value: 1
       inSlope: 1
-      outSlope: 1
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -37,7 +37,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_RadiusScale: 1.46
+  m_RadiusScale: 1.4849247
   m_BlackWhiteRemapMin: 0
-  m_BlackWhiteRemapMax: 0.28196502
+  m_BlackWhiteRemapMax: 1
   m_InvertRemapRange: 0
