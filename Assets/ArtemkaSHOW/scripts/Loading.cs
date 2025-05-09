@@ -13,7 +13,7 @@ public class LoadingScreen : MonoBehaviour
     [SerializeField] private string sceneToLoad = "GameScene";
 
     [Header("UI Элементы")]
-    [SerializeField] private Image progressFill; // Изменено с Slider на Image
+    [SerializeField] private Image progressFill; 
     [SerializeField] private TMP_Text progressText;
     [SerializeField] private TMP_Text tipText;
     [SerializeField] private GameObject continueButton;
@@ -52,11 +52,11 @@ public class LoadingScreen : MonoBehaviour
 
         continueButton.SetActive(false);
 
-        // Инициализация Fill изображения
+        
         if (progressFill != null)
         {
             progressFill.type = Image.Type.Filled;
-            progressFill.fillMethod = Image.FillMethod.Horizontal; // Или другой метод заполнения
+            progressFill.fillMethod = Image.FillMethod.Horizontal; 
             progressFill.fillAmount = 0f;
         }
     }
@@ -73,7 +73,7 @@ public class LoadingScreen : MonoBehaviour
         loadDuration = Random.Range(minLoadTime, maxLoadTime);
         float elapsedTime = 0f;
 
-        // Запуск музыки
+        
         if (loadingMusic != null)
         {
             audioSource.clip = loadingMusic;
@@ -81,10 +81,10 @@ public class LoadingScreen : MonoBehaviour
             audioSource.Play();
         }
 
-        // Показываем случайный совет
+     
         ShowRandomTip();
 
-        // Запуск анимации фона
+        
         if (backgroundAnimator != null)
         {
             backgroundAnimator.SetTrigger("StartLoading");
@@ -95,7 +95,7 @@ public class LoadingScreen : MonoBehaviour
             elapsedTime += Time.deltaTime;
             loadProgress = Mathf.Clamp01(elapsedTime / loadDuration);
 
-            // Обновляем UI
+            
             UpdateProgressUI(loadProgress);
 
             yield return null;
@@ -104,7 +104,7 @@ public class LoadingScreen : MonoBehaviour
         loadProgress = 1f;
         UpdateProgressUI(loadProgress);
 
-        // Загрузка завершена
+        
         OnLoadComplete();
     }
 
@@ -112,7 +112,7 @@ public class LoadingScreen : MonoBehaviour
     {
         if (progressFill != null)
         {
-            progressFill.fillAmount = progress; // Обновляем fillAmount вместо value
+            progressFill.fillAmount = progress; 
         }
 
         if (progressText != null)
@@ -135,7 +135,7 @@ public class LoadingScreen : MonoBehaviour
         isLoading = false;
         loadComplete = true;
 
-        // Показываем кнопку продолжения с анимацией и звуком
+        
         if (continueButton != null)
         {
             continueButton.SetActive(true);
@@ -152,7 +152,7 @@ public class LoadingScreen : MonoBehaviour
         }
         else
         {
-            // Если кнопки нет, сразу загружаем сцену
+           
             SceneManager.LoadScene(sceneToLoad);
         }
     }
@@ -166,7 +166,7 @@ public class LoadingScreen : MonoBehaviour
             audioSource.PlayOneShot(buttonClickSound);
         }
 
-        // Загружаем целевую сцену
+        
         SceneManager.LoadScene(sceneToLoad);
     }
 }
