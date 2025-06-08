@@ -16,7 +16,7 @@ public class EnemyAI : MonoBehaviour
     public bool IsMoving;
     public event Action OnAtack;
     private Rigidbody _rigidbody;
-    Flower flower;
+    Health flower;
     Coroutine coroutine;
     private void Start()
     {
@@ -26,7 +26,6 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed");
-
     }
 
     private IEnumerator Check()
@@ -36,7 +35,7 @@ public class EnemyAI : MonoBehaviour
             Collider[] colliders = Physics.OverlapSphere(_vision.position, _sphereRadius);
             if (colliders.Length > 0)
             {
-                flower = colliders[0].GetComponent<Flower>();
+                flower = colliders[0].GetComponent<Health>();
                 if (flower != null)
                 {
                     if (coroutine == null)
