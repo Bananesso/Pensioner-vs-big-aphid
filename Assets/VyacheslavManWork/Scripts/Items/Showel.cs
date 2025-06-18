@@ -18,7 +18,7 @@ public class Showel : Item
         IInteractable inter = controller.GetInteractable();
         if (inter is Flower obj)
         {
-            Destroy(obj);
+            Destroy(this);
             _dirtParticle.Play();
             _useSound.Play();
         }
