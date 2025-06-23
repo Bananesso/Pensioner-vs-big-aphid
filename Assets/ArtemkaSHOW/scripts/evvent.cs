@@ -160,7 +160,7 @@ public class EventGameSystem : MonoBehaviour
 
         if (!string.IsNullOrEmpty(e.startMessage))
         {
-            Debug.Log("Ивент начался: " + e.startMessage);
+            Debug.Log("Ivent Start: " + e.startMessage);
             OnEventStart?.Invoke(e.startMessage);
         }
     }
@@ -175,7 +175,7 @@ public class EventGameSystem : MonoBehaviour
         }
 
         OnEventEnd?.Invoke(e.eventName);
-        Debug.Log("Ивент завершен: " + e.eventName);
+        Debug.Log("Ivent End: " + e.eventName);
     }
 
     #region Публичные методы для внешнего доступа
@@ -234,4 +234,4 @@ public class EventGameSystem : MonoBehaviour
         events = new List<GameEvent>(newEvents);
     }
     #endregion
-}
+} //если кто то читает это, знайте как я ЗАЕБАЛСЯ читать этот код!!!! спасибо гайдам и другим открытым источникам. ВЫ лучшие!
