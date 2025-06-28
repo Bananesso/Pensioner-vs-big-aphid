@@ -1,7 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using NUnit.Framework.Constraints;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObjectElectrolyzed : MonoBehaviour, IInteractable

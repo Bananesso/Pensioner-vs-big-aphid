@@ -44,6 +44,5 @@ public abstract class Item : MonoBehaviour
         transform.parent = parent == null ? transform.parent : parent;
         transform.localPosition = Vector3.zero;
         transform.localRotation = Quaternion.identity;
-
     }
 }
