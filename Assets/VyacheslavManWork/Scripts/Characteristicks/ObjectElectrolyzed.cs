@@ -6,7 +6,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
     private ParticleSystem _particleSystem;
     [SerializeField] private float _radius;
 
-    [SerializeField] private float _timeBeforeElectrolyzeNear = 2;
+    [SerializeField] private float _timeUntillElectrolyzeNear = 2;
     [SerializeField] private float _freezeTime = 3;
     [SerializeField] private float _particlePlayTime = 3;
 
@@ -14,7 +14,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
     {
         _particleSystem = GetComponentInChildren<ParticleSystem>();
     }
-    public void Interact(GameObject obj)
+    public void Interact(GameObject obj) //событие электризации для всех
     {
         StartCoroutine(ParticlePlay());
 
@@ -43,9 +43,9 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
         Gizmos.DrawSphere(transform.position, _radius);
     }
 
-    IEnumerator Electrolyze(GameObject obj)
+    IEnumerator Electrolyze(GameObject obj) //электризация
     {
-        yield return new WaitForSeconds(_timeBeforeElectrolyzeNear);
+        yield return new WaitForSeconds(_timeUntillElectrolyzeNear);
         Collider[] colliders = Physics.OverlapSphere(transform.position, _radius);
 
         foreach (Collider collider in colliders)
@@ -58,14 +58,14 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
         }
     }
 
-    IEnumerator ParticlePlay()
+    IEnumerator ParticlePlay() //партиклы
     {
         _particleSystem.Play();
         yield return new WaitForSeconds(_particlePlayTime);
         _particleSystem.Stop();
     }
 
-    IEnumerator EnemyFreeze(EnemyAI enemy)
+    IEnumerator EnemyFreeze(EnemyAI enemy) //электризация врага
     {
         enemy.enabled = false;
         yield return new WaitForSeconds(_freezeTime);

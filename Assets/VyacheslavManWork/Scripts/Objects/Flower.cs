@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Flower : MonoBehaviour
@@ -10,38 +9,46 @@ public class Flower : MonoBehaviour
     [SerializeField] private float _bulletSpeed;
     [SerializeField] private GameObject _bullet;
     [SerializeField] private Transform _firePoint;
+    [SerializeField] private float _timeElectrolyzed;
+    private Coroutine shootingCoroutine;
 
     private void Start()
     {
         StartCoroutine(Shoot());
     }
 
-    public void Reload()
+    public void Reload() //вызов электризации из кода электрошокера
     {
         _electrolyzed = true;
-        StartCoroutine(Shoot());
-
+        if (shootingCoroutine != null)
+        {
+            StopCoroutine(shootingCoroutine);
+        }
+        shootingCoroutine = StartCoroutine(LooseEnergy());
     }
 
-    private IEnumerator LooseEnergy()
+    private IEnumerator LooseEnergy() //спад электризации
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(_timeElectrolyzed);
         _electrolyzed = false;
     }
-    private IEnumerator Shoot()
+
+    private IEnumerator Shoot() //стрельба
     {
-        StartCoroutine(LooseEnergy());
-        while (_electrolyzed)
+        while (true)
         {
-            GameObject BulletInstance = Instantiate(_bullet, _firePoint.position, Quaternion.identity);
-            Bullet bullet = BulletInstance.GetComponent<Bullet>();
-            if(bullet!=null) bullet.Damage = _damage;
+            if (_electrolyzed)
+            {
+                GameObject BulletInstance = Instantiate(_bullet, _firePoint.position, Quaternion.identity);
+                Bullet bullet = BulletInstance.GetComponent<Bullet>();
+                if (bullet != null) bullet.Damage = _damage;
 
-            FrozenBullet frozentbullet = BulletInstance.GetComponent<FrozenBullet>();
-            if (frozentbullet != null)
-                frozentbullet.Damage = _damage;
+                FrozenBullet frozentbullet = BulletInstance.GetComponent<FrozenBullet>();
+                if (frozentbullet != null)
+                    frozentbullet.Damage = _damage;
 
-            BulletInstance.GetComponent<Rigidbody>().AddForce(transform.forward * _bulletSpeed);
+                BulletInstance.GetComponent<Rigidbody>().AddForce(transform.forward * _bulletSpeed);
+            }
             yield return new WaitForSeconds(_attackSpeed);
         }
     }

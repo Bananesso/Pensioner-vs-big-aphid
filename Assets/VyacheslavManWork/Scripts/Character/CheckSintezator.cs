@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CheckSintezator : MonoBehaviour
 {
-    [SerializeField] private float _raycastDistance;
+    [SerializeField] private float _raycastDistance = 5;
     private Transform _playerCamera;
 
     private void Start()
@@ -30,7 +30,5 @@ public class CheckSintezator : MonoBehaviour
             if (SintezatorScript != null)
                 SintezatorScript.OpenMenu();
         }
-
-        Debug.DrawRay(ray.origin, ray.direction * _raycastDistance, Color.red, Mathf.Infinity);
     }
 }
