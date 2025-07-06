@@ -4,7 +4,6 @@ using UnityEngine;
 public class Flower : MonoBehaviour
 {
     [SerializeField] private bool _electrolyzed;
-    [SerializeField] private int _damage;
     [SerializeField] private float _attackSpeed;
     [SerializeField] private float _bulletSpeed;
     [SerializeField] private GameObject _bullet;
@@ -40,13 +39,6 @@ public class Flower : MonoBehaviour
             if (_electrolyzed)
             {
                 GameObject BulletInstance = Instantiate(_bullet, _firePoint.position, Quaternion.identity);
-                Bullet bullet = BulletInstance.GetComponent<Bullet>();
-                if (bullet != null) bullet.Damage = _damage;
-
-                FrozenBullet frozentbullet = BulletInstance.GetComponent<FrozenBullet>();
-                if (frozentbullet != null)
-                    frozentbullet.Damage = _damage;
-
                 BulletInstance.GetComponent<Rigidbody>().AddForce(transform.forward * _bulletSpeed);
             }
             yield return new WaitForSeconds(_attackSpeed);

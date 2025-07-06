@@ -1,8 +1,18 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    public bool Enemy;
+
+    private Coroutine _fired;
+    [SerializeField] private ParticleSystem _fireParticles;
+    [SerializeField] private float _fireDamage;
+    [SerializeField] private int _fireTimes;
+    [SerializeField] private int _fireTimesLast;
+    [SerializeField] private float _fireSpeed;
+
     [SerializeField] private int _listiki;
     [SerializeField] private int _materials;
 
@@ -52,5 +62,28 @@ public class Health : MonoBehaviour
     public float GetHealthInParts()
     {
         return _currentHealth / _maxHealth;
+    }
+
+    public void Fired()
+    {
+        if (_fired == null)
+        {
+            _fired = StartCoroutine(Fire());
+        }
+        else
+        {
+            _fireTimesLast = _fireTimes;
+        }
+    }
+    private IEnumerator Fire()
+    {
+        _fireParticles.Play();
+        while (_fireTimes != 0)
+        {
+            _currentHealth -= _fireDamage;
+            _fireTimesLast--;
+            yield return new WaitForSeconds(_fireSpeed);
+        }
+        _fireParticles.Stop();
     }
 }

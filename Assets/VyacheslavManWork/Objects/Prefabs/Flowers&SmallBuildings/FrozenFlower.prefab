@@ -98,11 +98,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _electrolyzed: 0
-  _damage: 7
   _attackSpeed: 3.5
   _bulletSpeed: 300
   _bullet: {fileID: 7702488397759274337, guid: d01d2e228bab00b4899a76fd9a8a6c52, type: 3}
   _firePoint: {fileID: 1851219504494888420}
+  _timeElectrolyzed: 6
 --- !u!114 &7225668095541679052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _radius: 6
-  _timeBeforeElectrolyzeNear: 1.87
+  _timeUntillElectrolyzeNear: 2
   _freezeTime: 0
   _particlePlayTime: 3
 --- !u!65 &1199839194004384011

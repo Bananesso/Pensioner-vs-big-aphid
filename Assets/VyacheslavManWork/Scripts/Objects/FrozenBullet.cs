@@ -3,10 +3,12 @@ using UnityEngine;
 
 public class FrozenBullet : MonoBehaviour
 {
-    public float Damage;
+    [SerializeField] private float _damage;
+    [SerializeField] private float _bulletLifeTime = 10;
+    [SerializeField] private float _freezeTime = 2;
     private void Awake()
     {
-        Destroy(gameObject, 10);
+        Destroy(gameObject, _bulletLifeTime);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -14,14 +16,14 @@ public class FrozenBullet : MonoBehaviour
         Health health = other.GetComponent<Health>();
         if (health != null)
         {
-            health.TakeDamage(Damage);
+            health.TakeDamage(_damage);
             StartCoroutine(EnemyFreeze(other.GetComponent<EnemyAI>()));
         }
     }
     IEnumerator EnemyFreeze(EnemyAI enemy)
     {
         enemy.enabled = false;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(_freezeTime);
         enemy.enabled = true;
     }
 }

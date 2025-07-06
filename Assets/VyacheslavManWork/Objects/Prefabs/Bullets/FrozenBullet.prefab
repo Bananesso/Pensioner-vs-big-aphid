@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 5132923502422779512}
   - component: {fileID: 8489745041249467883}
   - component: {fileID: 7219414324312490742}
+  - component: {fileID: 8662668336104760499}
   m_Layer: 7
   m_Name: FrozenBullet
   m_TagString: Untagged
@@ -178,4 +179,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 082563fe66ddfe947812325e034b8f63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 5
+  _damage: 0
+  _bulletLifeTime: 10
+  _freezeTime: 2
+--- !u!114 &8662668336104760499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7702488397759274337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353985a1f00901046bf0cb183a811542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shootParticles: {fileID: 0}
+  _shootSound: {fileID: 0}
+  _bulletLifeTime: 10
+  _damage: 6
+  _freezeTime: 2
+  _freeze: 1

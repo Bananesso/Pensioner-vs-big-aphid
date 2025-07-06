@@ -36,7 +36,7 @@ public class EnemyAI : MonoBehaviour
             if (colliders.Length > 0)
             {
                 flower = colliders[0].GetComponent<Health>();
-                if (flower != null)
+                if (flower != null && !flower.Enemy)
                 {
                     if (coroutine == null)
                     {

@@ -43,7 +43,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
         Gizmos.DrawSphere(transform.position, _radius);
     }
 
-    IEnumerator Electrolyze(GameObject obj) //электризация
+    public IEnumerator Electrolyze(GameObject obj) //электризация
     {
         yield return new WaitForSeconds(_timeUntillElectrolyzeNear);
         Collider[] colliders = Physics.OverlapSphere(transform.position, _radius);
