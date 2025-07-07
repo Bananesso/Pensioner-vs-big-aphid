@@ -27,8 +27,6 @@ public class RotateButton : MonoBehaviour, IInteractWithObj
 
         if (angle > 180f)
             angle -= 360f;
-        else if (angle < -180f)
-            angle += 360f;
 
         return angle;
     }

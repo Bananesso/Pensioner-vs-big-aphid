@@ -1,4 +1,4 @@
-public interface IInteract
+public interface IInteractWithObj
 {
     void Interact();
 }

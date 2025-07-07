@@ -12,7 +12,7 @@ public class CheckInteractable : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButton("PickupItem"))
+        if (Input.GetButtonDown("PickupItem"))
         {
             ShootRay();
         }
