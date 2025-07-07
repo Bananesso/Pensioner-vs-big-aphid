@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Sintezator : MonoBehaviour
+public class Sintezator : MonoBehaviour, IInteractWithObj
 {
     [SerializeField] private GameObject _magaz;
     [SerializeField] private GameObject _fpCamera;
-    public void OpenMenu()
+    public void Interact()
     {
         _magaz.SetActive(true);
 

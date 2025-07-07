@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CheckSintezator : MonoBehaviour
+public class CheckInteractable : MonoBehaviour
 {
     [SerializeField] private float _raycastDistance = 5;
     private Transform _playerCamera;
@@ -25,10 +25,10 @@ public class CheckSintezator : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, _raycastDistance))
         {
-            Sintezator SintezatorScript = hit.collider.gameObject.GetComponent<Sintezator>();
+            Interaction interactScript = hit.collider.gameObject.GetComponent<Interaction>();
 
-            if (SintezatorScript != null)
-                SintezatorScript.OpenMenu();
+            if (interactScript != null)
+                interactScript.Interact();
         }
     }
 }
