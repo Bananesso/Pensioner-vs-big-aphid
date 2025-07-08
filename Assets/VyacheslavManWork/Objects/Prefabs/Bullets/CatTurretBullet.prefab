@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4370528465766523071}
   - component: {fileID: 7308315569116546451}
   - component: {fileID: 3625313287737097909}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: CatTurretBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,8 +78,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.023004532, y: 0.021826029, z: 0.038419724}
-  m_Center: {x: -0.0007004738, y: -0.00027239323, z: -0.0021734238}
+  m_Size: {x: 0.048423443, y: 0.047708288, z: 0.07556328}
+  m_Center: {x: -0.00014276989, y: 0.00014156383, z: -0.004854843}
 --- !u!54 &3625313287737097909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f296e07dfd5ce4429009f4066e1c6b3,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
