@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private float _enemySpawnSpeed;
+    [SerializeField] private float _enemySpawnSpeed = 20;
     [SerializeField] private GameObject _enemyPrefab;
 
     private void Start()
@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(20);
+            yield return new WaitForSeconds(_enemySpawnSpeed);
             Instantiate(_enemyPrefab, transform.position, Quaternion.LookRotation(transform.forward));
         }
     }

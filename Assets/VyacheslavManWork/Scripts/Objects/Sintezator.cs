@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Sintezator : MonoBehaviour
+public class Sintezator : MonoBehaviour, IInteractWithObj
 {
     [SerializeField] private GameObject _magaz;
     [SerializeField] private GameObject _fpCamera;
-    private void OnTriggerEnter(Collider other)
+    public void Interact()
     {
         _magaz.SetActive(true);
 
@@ -14,7 +14,7 @@ public class Sintezator : MonoBehaviour
         _fpCamera.SetActive(false);
     }
 
-    private void OnTriggerExit(Collider other)
+    public void CloseMenu()
     {
         _magaz.SetActive(false);
 
