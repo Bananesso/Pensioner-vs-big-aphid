@@ -44,16 +44,16 @@ public class EnemyAI : MonoBehaviour
                         coroutine = StartCoroutine(Atack());
                     }
                 }
-                else
+            }
+            else
+            {
+                if (coroutine != null)
                 {
-                    if (coroutine != null)
-                    {
-                        StopCoroutine(coroutine);
-                    }
-                    coroutine = null;
-                    flower = null;
-                    _tempSpeed = _moveSpeed;
+                    StopCoroutine(coroutine);
                 }
+                coroutine = null;
+                flower = null;
+                _tempSpeed = _moveSpeed;
             }
             yield return new WaitForSeconds(0.5f);
 

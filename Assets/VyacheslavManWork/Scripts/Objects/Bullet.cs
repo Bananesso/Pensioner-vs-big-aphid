@@ -27,7 +27,8 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        _shootSound.Play();
+        if (_shootSound != null)
+            _shootSound.Play();
         StartCoroutine(ParticlePlay(_shootParticles, _particlesPlayTime));
         Health health = other.GetComponent<Health>();
 
@@ -38,11 +39,11 @@ public class Bullet : MonoBehaviour
                 StartCoroutine(EnemyFreeze(other.GetComponent<EnemyAI>()));
             if (IsFired)
                 health.Fired();
-        }
 
-        BulletPenetration--;
-        if (BulletPenetration == 0)
-            Destroy(gameObject);
+            BulletPenetration--;
+            if (BulletPenetration == 0)
+                Destroy(gameObject);
+        }
     }
 
     IEnumerator EnemyFreeze(EnemyAI enemy) //заморозка врага

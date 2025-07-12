@@ -16,9 +16,10 @@ public class Showel : Item
     public override void Use(GameObject user, IInventory inventory)
     {
         IInteractable inter = controller.GetInteractable();
-        if (inter is Flower obj)
+        if (inter is Health obj)
         {
-            Destroy(this);
+            if (!obj.Enemy)
+                Destroy(obj);
             _dirtParticle.Play();
             _useSound.Play();
         }
