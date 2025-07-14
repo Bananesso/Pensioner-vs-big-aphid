@@ -18,7 +18,7 @@ public class Electroshocker : Item
     public override void Use(GameObject user, IInventory inventory)
     {
         if (_isReloading) return;
-        IInteractable inter =  controller.GetInteractable();
+        IInteractable inter = controller.GetInteractable();
         if (inter is ObjectElectrolyzed obj)
         {
             obj.Interact(user);

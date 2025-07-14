@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6612416070776552378}
-  - component: {fileID: 7718856290720325125}
   m_Layer: 3
   m_Name: FireTreeFlower
   m_TagString: Untagged
@@ -34,18 +33,6 @@ Transform:
   - {fileID: 2992689837587646660}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7718856290720325125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2906332920850891868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a698a0e84aee185449d3b221e96deb05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7924903553998906947
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,7 +44,7 @@ GameObject:
   - component: {fileID: 2992689837587646660}
   - component: {fileID: 1973620542506474249}
   - component: {fileID: 1397646693781097276}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +195,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 87967ffbf65ac2d48a5e3b5a0d666cc4,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2873180758697054664}
+      addedObject: {fileID: 2815433609582288719}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 87967ffbf65ac2d48a5e3b5a0d666cc4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5617749757862121995}
   m_SourcePrefab: {fileID: 100100000, guid: 87967ffbf65ac2d48a5e3b5a0d666cc4, type: 3}
 --- !u!1 &4650271522892651225 stripped
 GameObject:
@@ -216,8 +207,30 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5496780364110931848}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &2873180758697054664
-MeshCollider:
+--- !u!114 &2815433609582288719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650271522892651225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: 0
+  _fireParticles: {fileID: 0}
+  _fireDamage: 0
+  _fireTimes: 0
+  _fireTimesLast: 0
+  _fireSpeed: 0
+  _listiki: 0
+  _materials: 0
+  _maxHealth: 30
+  _currentHealth: 0
+--- !u!65 &5617749757862121995
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -234,10 +247,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1710425572717105975, guid: 87967ffbf65ac2d48a5e3b5a0d666cc4, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.026816584, y: 0.026940817, z: 0.026388139}
+  m_Center: {x: 0.00010369156, y: -0.00033240407, z: -0.0024026209}
 --- !u!4 &5459143278376108131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 87967ffbf65ac2d48a5e3b5a0d666cc4,
