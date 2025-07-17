@@ -29,6 +29,8 @@ public class Flower : MonoBehaviour
     private IEnumerator LooseEnergy() //спад электризации
     {
         yield return new WaitForSeconds(_timeElectrolyzed);
+        ObjectElectrolyzed objElectr = GetComponent<ObjectElectrolyzed>();
+        objElectr.StopParticles();
         _electrolyzed = false;
     }
 

@@ -3,12 +3,11 @@ using UnityEngine;
 
 public class ObjectElectrolyzed : MonoBehaviour, IInteractable
 {
-    private ParticleSystem _particleSystem;
+    public ParticleSystem _particleSystem;
     [SerializeField] private float _radius;
 
     [SerializeField] private float _timeUntillElectrolyzeNear = 2;
     [SerializeField] private float _freezeTime = 3;
-    [SerializeField] private float _particlePlayTime = 3;
 
     private void Start()
     {
@@ -16,7 +15,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
     }
     public void Interact(GameObject obj) //событие электризации для всех
     {
-        StartCoroutine(ParticlePlay());
+        _particleSystem.Play();
 
         EnemyAI enemy = GetComponent<EnemyAI>();
         if (enemy != null)
@@ -58,10 +57,8 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
         }
     }
 
-    IEnumerator ParticlePlay() //партиклы
+    public void StopParticles()
     {
-        _particleSystem.Play();
-        yield return new WaitForSeconds(_particlePlayTime);
         _particleSystem.Stop();
     }
 
