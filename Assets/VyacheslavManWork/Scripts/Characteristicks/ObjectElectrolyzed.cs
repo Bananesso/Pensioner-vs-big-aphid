@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class ObjectElectrolyzed : MonoBehaviour, IInteractable
 {
-    public ParticleSystem _particleSystem;
+    private ParticleSystem _particleSystem;
+    [SerializeField] private float _particlePlayTime = 3;
+
     [SerializeField] private float _radius;
 
     [SerializeField] private float _timeUntillElectrolyzeNear = 2;
@@ -15,7 +17,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
     }
     public void Interact(GameObject obj) //событие электризации для всех
     {
-        _particleSystem.Play();
+        StartCoroutine(ParticlePlay());
 
         EnemyAI enemy = GetComponent<EnemyAI>();
         if (enemy != null)
@@ -50,22 +52,25 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
         foreach (Collider collider in colliders)
         {
             IInteractable inter = collider.GetComponent<IInteractable>();
-            if(inter is ObjectElectrolyzed objectt)
+            if (inter is ObjectElectrolyzed objectt)
             {
                 objectt.Interact(gameObject);
             }
         }
     }
 
-    public void StopParticles()
-    {
-        _particleSystem.Stop();
-    }
 
     IEnumerator EnemyFreeze(EnemyAI enemy) //электризация врага
     {
         enemy.enabled = false;
         yield return new WaitForSeconds(_freezeTime);
         enemy.enabled = true;
+    }
+
+    IEnumerator ParticlePlay()
+    {
+        _particleSystem.Play();
+        yield return new WaitForSeconds(_particlePlayTime);
+        _particleSystem.Stop();
     }
 }
