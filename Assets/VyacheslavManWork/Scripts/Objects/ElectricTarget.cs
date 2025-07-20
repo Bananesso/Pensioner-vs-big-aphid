@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ElectricTarget : MonoBehaviour, IInteractable
 {
+    public GameObject WireEnd;
     private Generator connectedGenerator;
     private bool isConnected;
 
@@ -36,5 +37,10 @@ public class ElectricTarget : MonoBehaviour, IInteractable
             connectedGenerator.RemoveTarget(this);
             isConnected = false;
         }
+    }
+
+    private void OnDestroy()
+    {
+        DisconnectFromGenerator();
     }
 }

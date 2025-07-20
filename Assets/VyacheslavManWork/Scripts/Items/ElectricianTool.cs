@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ElectricianTool : Item
 {
-    [Header("Режет провода (true) или делает (false)")]
+    [Header("Режет провода (true) или создаёт (false)")]
     public bool Scissors;
     
     private AudioSource audioSource;

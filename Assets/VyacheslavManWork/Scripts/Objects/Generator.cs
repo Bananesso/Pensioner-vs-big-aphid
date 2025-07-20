@@ -9,7 +9,8 @@ public class Generator : MonoBehaviour
     [SerializeField] private float electrolyzeInterval = 1f;
 
     [Header("Префаб линии")]
-    [SerializeField] private GameObject linePrefab;
+    [SerializeField] private GameObject _linePrefab;
+    [SerializeField] private GameObject _wireStart;
 
     [Header("Техническое")]
     public List<ElectricTarget> connectedTargets = new List<ElectricTarget>();
@@ -71,13 +72,13 @@ public class Generator : MonoBehaviour
 
     private void CreateLineToTarget(ElectricTarget target)
     {
-        if (linePrefab == null)
+        if (_linePrefab == null)
         {
             Debug.LogError("Не назначен префаб линии!");
             return;
         }
 
-        GameObject lineObj = Instantiate(linePrefab, this.transform);
+        GameObject lineObj = Instantiate(_linePrefab, this.transform);
         lineObj.name = "LineTo_" + target.name;
 
         LineRenderer lineRenderer = lineObj.GetComponent<LineRenderer>();
@@ -89,6 +90,13 @@ public class Generator : MonoBehaviour
         }
 
         lineRenderer.positionCount = 2;
+
+        if (_wireStart != null && target.WireEnd != null)
+        {
+            lineRenderer.SetPosition(0, _wireStart.transform.position);
+            lineRenderer.SetPosition(1, target.WireEnd.transform.position);
+        }
+
         targetLines[target] = lineRenderer;
     }
 
