@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private MovementController _movementController;
     [SerializeField] private JumpController _jumpController;
     [SerializeField] private CrouchController _crouchController;
+    [SerializeField] private Esc _esc;
+    [SerializeField] private CheckInteractable _checkInteractable;
 
     private CharacterController _characterController;
     private Vector3 _velocity;
@@ -28,6 +30,8 @@ public class PlayerController : MonoBehaviour
         _jumpController.HandleJump(ref _velocity, _isGrounded);
         _crouchController.HandleCrouch();
         ApplyGravity();
+        _esc.EscMenu();
+        _checkInteractable.Check();
     }
 
     private void ApplyGravity()

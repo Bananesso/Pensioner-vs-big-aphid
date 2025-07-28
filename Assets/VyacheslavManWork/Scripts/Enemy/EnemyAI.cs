@@ -1,12 +1,9 @@
 using UnityEngine;
 using System.Collections;
-using System;
-using UnityEngine.Events;
 
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private int _damage = 10;
-    [SerializeField] private float _range = 1f;
     [SerializeField] private int _fireRate;
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _tempSpeed;
@@ -14,7 +11,6 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float _sphereRadius;
     private Health _health;
     public bool IsMoving;
-    public event Action OnAtack;
     private Rigidbody _rigidbody;
     Health flower;
     Coroutine coroutine;

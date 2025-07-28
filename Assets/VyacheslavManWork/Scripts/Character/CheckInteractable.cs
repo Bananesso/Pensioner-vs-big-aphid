@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class CheckInteractable : MonoBehaviour
+[System.Serializable]
+public class CheckInteractable
 {
     [SerializeField] private float _raycastDistance = 5;
     private Transform _playerCamera;
@@ -10,7 +11,7 @@ public class CheckInteractable : MonoBehaviour
         _playerCamera = Camera.main.transform;
     }
 
-    void Update()
+    public void Check()
     {
         if (Input.GetButtonDown("PickupItem"))
         {
@@ -18,7 +19,7 @@ public class CheckInteractable : MonoBehaviour
         }
     }
 
-    void ShootRay()
+    private void ShootRay()
     {
         Ray ray = new Ray(_playerCamera.transform.position, _playerCamera.transform.forward);
         RaycastHit hit;

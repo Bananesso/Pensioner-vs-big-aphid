@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class Esc : MonoBehaviour
+[System.Serializable]
+public class Esc
 {
     [SerializeField] private GameObject _fpCamera;
-    [SerializeField] private GameObject _playerController;
     [SerializeField] private GameObject Menu;
 
-    void Update()
+    public void EscMenu()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
