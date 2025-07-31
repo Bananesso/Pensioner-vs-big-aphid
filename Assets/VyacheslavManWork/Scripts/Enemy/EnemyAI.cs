@@ -9,13 +9,16 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float _tempSpeed;
     [SerializeField] private Transform _vision;
     [SerializeField] private float _sphereRadius;
-    private Health _health;
     public bool IsMoving;
     private Rigidbody _rigidbody;
     Health flower;
     Coroutine coroutine;
+
+    private AnimationLogic _shootAnimation;
+
     private void Start()
     {
+        _shootAnimation = GetComponent<AnimationLogic>();
         _rigidbody = GetComponent<Rigidbody>();
         StartCoroutine(Check());
     }
@@ -60,6 +63,8 @@ public class EnemyAI : MonoBehaviour
     {
         while (flower != null)
         {
+            if (_shootAnimation != null)
+                _shootAnimation.PlayAttackAnimation();
             flower.GetComponent<Health>().TakeDamage(_damage*PlayerPrefs.GetFloat("MultiplierAtkDamage"));
             yield return new WaitForSeconds(_fireRate*PlayerPrefs.GetFloat("MultiplierAtkSpeed"));
         }

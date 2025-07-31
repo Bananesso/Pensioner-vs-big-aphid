@@ -6,10 +6,11 @@ public class CheckInteractable
     [SerializeField] private float _raycastDistance = 5;
     private Transform _playerCamera;
 
-    private void Start()
+    public void Initialize(Transform playerCamera)
     {
-        _playerCamera = Camera.main.transform;
+        _playerCamera = playerCamera;
     }
+
 
     public void Check()
     {

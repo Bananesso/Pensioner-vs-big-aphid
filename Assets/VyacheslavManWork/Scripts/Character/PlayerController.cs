@@ -18,6 +18,11 @@ public class PlayerController : MonoBehaviour
         _characterController = GetComponent<CharacterController>();
         _movementController.Initialize(_characterController);
         _crouchController.Initialize(_characterController);
+        _checkInteractable.Initialize(Camera.main.transform);
+
+        //_checkInteractable = new CheckInteractable(Camera.main.transform);
+        //[System.Serializable] в том коде есть, поэтому new уже был вызван. В целом, можно вызвать ещё раз, но не надо (чтобы не создавать лишний объект)
+        //и именно поэтому не нужно вызывать тут Esc скрипт
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

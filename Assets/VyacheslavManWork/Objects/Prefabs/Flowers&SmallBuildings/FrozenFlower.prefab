@@ -81,6 +81,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: 0
+  _fireParticles: {fileID: 0}
+  _fireDamage: 0
+  _fireTimes: 0
+  _fireTimesLast: 0
+  _fireSpeed: 0
   _listiki: 0
   _materials: 0
   _maxHealth: 25
@@ -97,12 +103,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264d66758edc3a947ada0b2d8f8658c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _electrolyzed: 0
-  _attackSpeed: 3.5
+  _timeUntillShot: 0
+  _timeAfterShot: 3.5
   _bulletSpeed: 300
   _bullet: {fileID: 7702488397759274337, guid: d01d2e228bab00b4899a76fd9a8a6c52, type: 3}
   _firePoint: {fileID: 1851219504494888420}
   _timeElectrolyzed: 6
+  _electrolyzed: 0
 --- !u!114 &7225668095541679052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,10 +122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particlePlayTime: 3
   _radius: 6
   _timeUntillElectrolyzeNear: 2
   _freezeTime: 0
-  _particlePlayTime: 3
 --- !u!65 &1199839194004384011
 BoxCollider:
   m_ObjectHideFlags: 0

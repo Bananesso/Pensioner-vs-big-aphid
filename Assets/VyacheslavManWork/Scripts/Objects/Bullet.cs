@@ -27,13 +27,14 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (_shootSound != null)
-            _shootSound.Play();
-        StartCoroutine(ParticlePlay(_shootParticles, _particlesPlayTime));
         Health health = other.GetComponent<Health>();
 
         if (health != null && health.Enemy)
         {
+            if (_shootSound != null)
+                _shootSound.Play();
+            StartCoroutine(ParticlePlay(_shootParticles, _particlesPlayTime));
+
             health.TakeDamage(_damage);
             if (_freeze)
                 StartCoroutine(EnemyFreeze(other.GetComponent<EnemyAI>()));
