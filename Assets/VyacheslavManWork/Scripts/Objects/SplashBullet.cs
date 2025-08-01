@@ -3,22 +3,18 @@ using UnityEngine;
 
 public class SplashBullet : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem _shootParticles;
+    [Header("Партиклы")]
     [SerializeField] private ParticleSystem _explosionParticlesPrefab;
-    [SerializeField] private AudioSource _shootSound;
+    [SerializeField] private float _explosionParticlePlayTime = 3;
+
+    [Header("Звук")]
     [SerializeField] private AudioSource _explosionSound;
 
+    [Header("Пуля")]
     [SerializeField] private float _bulletLifeTime = 6;
-
-    [SerializeField] private float _explosionParticlePlayTime = 3;
-    [SerializeField] private float _shootParticlePlayTime = 1;
     [SerializeField] private float _radius;
-    [SerializeField] private float _timeUntillExplosion;
     [SerializeField] private float _damageCurrentEnemy;
     [SerializeField] private float _damageNearEnemy;
-
-    [SerializeField] private float _freezeTime = 0.5f;
-    [SerializeField] private bool _freeze = false;
 
     private void Awake()
     {
@@ -31,56 +27,48 @@ public class SplashBullet : MonoBehaviour
 
         if (health != null && health.Enemy)
         {
-            StartCoroutine(ParticlePlay(_shootParticles, _shootParticlePlayTime));
-            _shootSound.Play();
+            _explosionSound.transform.SetParent(null);
             health.TakeDamage(_damageCurrentEnemy);
-            StartCoroutine(Explode());
-            Destroy(gameObject);
+            Explode();
         }
     }
 
-    public IEnumerator Explode() //взрыв и нанесение урона ближестоящим врагам (включая того, в которого попала пуля)
+    private void Explode() //взрыв и нанесение урона ближестоящим врагам (включая того, в которого попала пуля)
     {
-        yield return new WaitForSeconds(_timeUntillExplosion);
         Collider[] colliders = Physics.OverlapSphere(transform.position, _radius);
 
-        _explosionSound.Play();
-        StartCoroutine(ParticlePlay(_explosionParticlesPrefab, _explosionParticlePlayTime));
+        SoundsPlay(_explosionSound);
+        ParticlePlay(_explosionParticlesPrefab, _explosionParticlePlayTime);
 
         foreach (Collider collider in colliders)
         {
             Health hp = collider.GetComponent<Health>();
 
-            if (hp.Enemy)
+            if (hp != null && hp.Enemy)
             {
-                if (_freeze)
-                    StartCoroutine(EnemyFreeze(collider.GetComponent<EnemyAI>()));
                 hp.TakeDamage(_damageNearEnemy);
             }
         }
+        Destroy(gameObject);
     }
 
-    private IEnumerator ParticlePlay(ParticleSystem particlePrefab, float particlePlayTime) //партиклы
+    private void ParticlePlay(ParticleSystem particlePrefab, float particlePlayTime) //партиклы
     {
         ParticleSystem particleInstance = Instantiate(particlePrefab, transform.position, Quaternion.identity);
         particleInstance.Play();
-        yield return new WaitForSeconds(particleInstance.main.duration);
-        //yield return new WaitForSeconds(particlePlayTime);
-        Destroy(particleInstance.gameObject);
-    }
-
-    IEnumerator EnemyFreeze(EnemyAI enemy)
-    {
-        enemy.enabled = false;
-        yield return new WaitForSeconds(_freezeTime);
-        enemy.enabled = true;
+        Destroy(particleInstance.gameObject, particlePlayTime);
     }
 
     private IEnumerator DestroyBullet()
     {
         yield return new WaitForSeconds(_bulletLifeTime);
-        StartCoroutine(Explode());
-        Destroy(gameObject);
+        Explode();
+    }
+
+    private void SoundsPlay(AudioSource sound)
+    {
+        sound.Play();
+        Destroy(sound.gameObject, 5);
     }
 
     private void OnDrawGizmosSelected()

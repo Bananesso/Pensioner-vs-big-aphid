@@ -7,6 +7,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private int _fireRate;
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _tempSpeed;
+    [SerializeField] private float _freezeSpeedDebuff = 1.5f;
     [SerializeField] private Transform _vision;
     [SerializeField] private float _sphereRadius;
     public bool IsMoving;
@@ -68,6 +69,11 @@ public class EnemyAI : MonoBehaviour
             flower.GetComponent<Health>().TakeDamage(_damage*PlayerPrefs.GetFloat("MultiplierAtkDamage"));
             yield return new WaitForSeconds(_fireRate*PlayerPrefs.GetFloat("MultiplierAtkSpeed"));
         }
+    }
+
+    public void Freeze()
+    {
+       //решай
     }
 
     private void OnDrawGizmosSelected()

@@ -37,7 +37,11 @@ public class Bullet : MonoBehaviour
 
             health.TakeDamage(_damage);
             if (_freeze)
-                StartCoroutine(EnemyFreeze(other.GetComponent<EnemyAI>()));
+            {
+                EnemyAI enemy = other.GetComponent<EnemyAI>();
+                if (enemy != null)
+                    enemy.Freeze();
+            }
             if (IsFired)
                 health.Fired();
 
@@ -45,13 +49,6 @@ public class Bullet : MonoBehaviour
             if (BulletPenetration == 0)
                 Destroy(gameObject);
         }
-    }
-
-    IEnumerator EnemyFreeze(EnemyAI enemy) //заморозка врага
-    {
-        enemy.enabled = false;
-        yield return new WaitForSeconds(_freezeTime);
-        enemy.enabled = true;
     }
 
     private IEnumerator ParticlePlay(ParticleSystem particles, float particlePlayTime) //партиклы
