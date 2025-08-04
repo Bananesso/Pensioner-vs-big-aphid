@@ -3,17 +3,28 @@ using System.Collections;
 
 public class EnemyAI : MonoBehaviour
 {
+    [Header("Атака")]
     [SerializeField] private int _damage = 10;
     [SerializeField] private int _fireRate;
-    [SerializeField] private float _moveSpeed;
-    [SerializeField] private float _tempSpeed;
-    [SerializeField] private float _freezeSpeedDebuff = 1.5f;
+
+    [Header("Зрение/область атаки")]
     [SerializeField] private Transform _vision;
     [SerializeField] private float _sphereRadius;
+
+    [Header("Передвижение")]
+    [SerializeField] private float _moveSpeed;
+    [SerializeField] private float _tempSpeed;
+
+    [Header("Заморозка")]
+    [SerializeField] private float _freezeSpeedDebuff = 1.5f;
+    [SerializeField] private int _freezeTime = 5;
+
+    private float _freezeTimeLast;
     public bool IsMoving;
     private Rigidbody _rigidbody;
     Health flower;
     Coroutine coroutine;
+    Coroutine freezeCoroutine;
 
     private AnimationLogic _shootAnimation;
 
@@ -25,7 +36,7 @@ public class EnemyAI : MonoBehaviour
     }
     private void Update()
     {
-        _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed");
+        _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed", 1);
     }
 
     private IEnumerator Check()
@@ -66,14 +77,27 @@ public class EnemyAI : MonoBehaviour
         {
             if (_shootAnimation != null)
                 _shootAnimation.PlayAttackAnimation();
-            flower.GetComponent<Health>().TakeDamage(_damage*PlayerPrefs.GetFloat("MultiplierAtkDamage"));
-            yield return new WaitForSeconds(_fireRate*PlayerPrefs.GetFloat("MultiplierAtkSpeed"));
+            flower.GetComponent<Health>().TakeDamage(_damage + PlayerPrefs.GetFloat("MultiplierAtkDamage", 1));
+            yield return new WaitForSeconds(_fireRate + PlayerPrefs.GetFloat("MultiplierAtkSpeed", 1));
         }
     }
 
     public void Freeze()
     {
-       //решай
+        _freezeTimeLast = _freezeTime;
+        if (freezeCoroutine == null)
+            freezeCoroutine = StartCoroutine(FreezeCoroutine());
+    }
+
+    private IEnumerator FreezeCoroutine()
+    {
+        _moveSpeed -= _freezeSpeedDebuff;
+        while (_freezeTimeLast > 0)
+        {
+            yield return new WaitForSeconds(1);
+            _freezeTimeLast--;
+        }
+        _moveSpeed += _freezeSpeedDebuff;
     }
 
     private void OnDrawGizmosSelected()

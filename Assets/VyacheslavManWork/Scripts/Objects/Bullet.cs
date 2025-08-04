@@ -3,21 +3,25 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public bool CanBeFired = true;
-    public bool IsFired;
-
-    public int BulletPenetration = 1;
-
-    [SerializeField] private ParticleSystem _fire;
-    [SerializeField] private ParticleSystem _shootParticles;
-    [SerializeField] private float _particlesPlayTime = 1;
-    [SerializeField] private AudioSource _shootSound;
-
+    [Header("Пуля")]
     [SerializeField] private float _bulletLifeTime = 7;
     [SerializeField] private float _damage;
+
+    [Header("Пробивная способность")]
+    public int BulletPenetration = 1;
+
+    [Header("Эффекты")]
+    [SerializeField] private ParticleSystem _fire;
+    [SerializeField] private ParticleSystem _shootParticles;
+    [SerializeField] private float _shootParticlesPlayTime = 1;
+    [SerializeField] private AudioSource _shootSound;
+
+    [Header("Огонь")]
+    public bool CanBeFired = true;
+    public bool IsFired;
     [SerializeField] private float _addDamageWhenFired;
 
-    [SerializeField] private float _freezeTime = 2f;
+    [Header("Заморозка/оглушение")]
     [SerializeField] private bool _freeze = false;
 
     private void Awake()
@@ -33,7 +37,7 @@ public class Bullet : MonoBehaviour
         {
             if (_shootSound != null)
                 _shootSound.Play();
-            StartCoroutine(ParticlePlay(_shootParticles, _particlesPlayTime));
+            StartCoroutine(ParticlePlay(_shootParticles, _shootParticlesPlayTime));
 
             health.TakeDamage(_damage);
             if (_freeze)
@@ -46,7 +50,7 @@ public class Bullet : MonoBehaviour
                 health.Fired();
 
             BulletPenetration--;
-            if (BulletPenetration == 0)
+            if (BulletPenetration <= 0)
                 Destroy(gameObject);
         }
     }
