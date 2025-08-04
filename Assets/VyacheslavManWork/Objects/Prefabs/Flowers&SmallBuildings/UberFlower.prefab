@@ -44,6 +44,8 @@ GameObject:
   - component: {fileID: 7139261216732331372}
   - component: {fileID: 7225668095541679052}
   - component: {fileID: 1199839194004384011}
+  - component: {fileID: 4869498885191944562}
+  - component: {fileID: 4089772581931546650}
   m_Layer: 3
   m_Name: UberFlower
   m_TagString: Untagged
@@ -81,6 +83,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: 0
+  _fireParticles: {fileID: 0}
+  _fireDamage: 0
+  _fireTimes: 0
+  _fireTimesLast: 0
+  _fireSpeed: 0
   _listiki: 0
   _materials: 0
   _maxHealth: 50
@@ -97,12 +105,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264d66758edc3a947ada0b2d8f8658c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _electrolyzed: 0
-  _attackSpeed: 4
+  _timeUntillShot: 2
+  _timeAfterShot: 2
   _bulletSpeed: 600
   _bullet: {fileID: 7702488397759274337, guid: a1ddc9bd90cdb7646b15b4b2e73399d9, type: 3}
   _firePoint: {fileID: 1851219504494888420}
   _timeElectrolyzed: 4
+  _electrolyzed: 0
 --- !u!114 &7225668095541679052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,10 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particlePlayTime: 3
   _radius: 4
   _timeUntillElectrolyzeNear: 2
   _freezeTime: 3
-  _particlePlayTime: 3
 --- !u!65 &1199839194004384011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -140,6 +149,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7092558, y: 0.4266131, z: 1.0084834}
   m_Center: {x: 0.045289814, y: 0.86149347, z: 0.117981225}
+--- !u!114 &4869498885191944562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623179894603588108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74314cd396843bf40bf85534c3297865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _idleAnimation: {fileID: 7400000, guid: abb9063f9febce84da9f98a49a7b2227, type: 2}
+  _attackAnimation: {fileID: 7400000, guid: af0b61ed00d74d847aaa7dd50e7ec529, type: 2}
+--- !u!111 &4089772581931546650
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623179894603588108}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: af0b61ed00d74d847aaa7dd50e7ec529, type: 2}
+  - {fileID: 7400000, guid: abb9063f9febce84da9f98a49a7b2227, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &2371768730900492901
 PrefabInstance:
   m_ObjectHideFlags: 0

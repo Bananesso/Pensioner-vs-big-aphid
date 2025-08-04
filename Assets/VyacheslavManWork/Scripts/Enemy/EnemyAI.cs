@@ -1,31 +1,42 @@
 using UnityEngine;
 using System.Collections;
-using System;
-using UnityEngine.Events;
 
 public class EnemyAI : MonoBehaviour
 {
+    [Header("Атака")]
     [SerializeField] private int _damage = 10;
-    [SerializeField] private float _range = 1f;
     [SerializeField] private int _fireRate;
-    [SerializeField] private float _moveSpeed;
-    [SerializeField] private float _tempSpeed;
+
+    [Header("Зрение/область атаки")]
     [SerializeField] private Transform _vision;
     [SerializeField] private float _sphereRadius;
-    private Health _health;
+
+    [Header("Передвижение")]
+    [SerializeField] private float _moveSpeed;
+    [SerializeField] private float _tempSpeed;
+
+    [Header("Заморозка")]
+    [SerializeField] private float _freezeSpeedDebuff = 1.5f;
+    [SerializeField] private int _freezeTime = 5;
+
+    private float _freezeTimeLast;
     public bool IsMoving;
-    public event Action OnAtack;
     private Rigidbody _rigidbody;
     Health flower;
     Coroutine coroutine;
+    Coroutine freezeCoroutine;
+
+    private AnimationLogic _shootAnimation;
+
     private void Start()
     {
+        _shootAnimation = GetComponent<AnimationLogic>();
         _rigidbody = GetComponent<Rigidbody>();
         StartCoroutine(Check());
     }
     private void Update()
     {
-        _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed");
+        _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed", 1);
     }
 
     private IEnumerator Check()
@@ -64,9 +75,29 @@ public class EnemyAI : MonoBehaviour
     {
         while (flower != null)
         {
-            flower.GetComponent<Health>().TakeDamage(_damage*PlayerPrefs.GetFloat("MultiplierAtkDamage"));
-            yield return new WaitForSeconds(_fireRate*PlayerPrefs.GetFloat("MultiplierAtkSpeed"));
+            if (_shootAnimation != null)
+                _shootAnimation.PlayAttackAnimation();
+            flower.GetComponent<Health>().TakeDamage(_damage + PlayerPrefs.GetFloat("MultiplierAtkDamage", 1));
+            yield return new WaitForSeconds(_fireRate + PlayerPrefs.GetFloat("MultiplierAtkSpeed", 1));
         }
+    }
+
+    public void Freeze()
+    {
+        _freezeTimeLast = _freezeTime;
+        if (freezeCoroutine == null)
+            freezeCoroutine = StartCoroutine(FreezeCoroutine());
+    }
+
+    private IEnumerator FreezeCoroutine()
+    {
+        _moveSpeed -= _freezeSpeedDebuff;
+        while (_freezeTimeLast > 0)
+        {
+            yield return new WaitForSeconds(1);
+            _freezeTimeLast--;
+        }
+        _moveSpeed += _freezeSpeedDebuff;
     }
 
     private void OnDrawGizmosSelected()

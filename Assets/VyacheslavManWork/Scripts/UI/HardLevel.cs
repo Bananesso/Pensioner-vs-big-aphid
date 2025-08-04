@@ -2,13 +2,16 @@ using UnityEngine;
 
 public class HardLevel : MonoBehaviour
 {
-    [SerializeField] private float MultiplierAtkDamage = 1;
-    [SerializeField] private float MultiplierAtkSpeed = 1;
-    [SerializeField] private float MultiplierMooveSpeed = 1;
+    [SerializeField] private float _multiplierAtkDamage = 1;
+    [SerializeField] private float _multiplierAtkSpeed = 1;
+    [SerializeField] private float _multiplierMooveSpeed = 1;
+
     void ChangeHardLevel()
     {
-        PlayerPrefs.SetFloat("MultiplierAtkDamage", MultiplierAtkDamage);
-        PlayerPrefs.SetFloat("MultiplierAtkSpeed", MultiplierAtkSpeed);
-        PlayerPrefs.SetFloat("MultiplierMooveSpeed", MultiplierMooveSpeed);
+        PlayerPrefs.SetFloat("MultiplierAtkDamage", _multiplierAtkDamage);
+        PlayerPrefs.SetFloat("MultiplierAtkSpeed", _multiplierAtkSpeed);
+        PlayerPrefs.SetFloat("MultiplierMooveSpeed", _multiplierMooveSpeed);
+
+        PlayerPrefs.Save();
     }
 }
