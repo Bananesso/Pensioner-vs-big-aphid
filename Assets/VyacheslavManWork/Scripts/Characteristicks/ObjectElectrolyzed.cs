@@ -9,6 +9,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
     [SerializeField] private float _radius;
 
     [SerializeField] private float _timeUntillElectrolyzeNear = 2;
+    [SerializeField] private float _freezeTime = 3;
 
     private void Start()
     {
@@ -21,7 +22,7 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
         EnemyAI enemy = GetComponent<EnemyAI>();
         if (enemy != null)
         {
-            enemy.Stun();
+            StartCoroutine(EnemyFreeze(enemy));
         }
 
         Flower flower = GetComponent<Flower>();
@@ -35,7 +36,6 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
             StartCoroutine(Electrolyze(obj));
         }
     }
-
     private void OnDrawGizmosSelected()
     {
         Color color = Color.blue;
@@ -57,6 +57,14 @@ public class ObjectElectrolyzed : MonoBehaviour, IInteractable
                 objectt.Interact(gameObject);
             }
         }
+    }
+
+
+    IEnumerator EnemyFreeze(EnemyAI enemy) //электризация врага
+    {
+        enemy.enabled = false;
+        yield return new WaitForSeconds(_freezeTime);
+        enemy.enabled = true;
     }
 
     IEnumerator ParticlePlay()

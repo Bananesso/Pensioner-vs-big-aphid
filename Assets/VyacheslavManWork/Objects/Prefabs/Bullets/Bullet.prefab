@@ -178,14 +178,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 353985a1f00901046bf0cb183a811542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletLifeTime: 6
-  _damage: 10
+  CanBeFired: 1
+  IsFired: 0
   BulletPenetration: 1
   _fire: {fileID: 0}
   _shootParticles: {fileID: 0}
-  _shootParticlesPlayTime: 1
+  _particlesPlayTime: 1
   _shootSound: {fileID: 0}
-  CanBeFired: 1
-  IsFired: 0
+  _bulletLifeTime: 6
+  _damage: 0
   _addDamageWhenFired: 0
+  _freezeTime: 2
   _freeze: 0

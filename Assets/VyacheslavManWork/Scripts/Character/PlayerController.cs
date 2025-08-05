@@ -49,9 +49,4 @@ public class PlayerController : MonoBehaviour
         _velocity.y += _jumpController.Gravity * Time.deltaTime;
         _characterController.Move(_velocity * Time.deltaTime);
     }
-
-    public void ClearVelocity()
-    {
-        _velocity = Vector3.zero;
-    }
 }
