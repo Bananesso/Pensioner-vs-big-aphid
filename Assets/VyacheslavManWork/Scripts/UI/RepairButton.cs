@@ -19,7 +19,7 @@ public class RepairButton : MonoBehaviour
         _listikiPodschet = FindObjectOfType<ListikiPodschet>();
     }
 
-    void Repair()
+    public void Repair()
     {
         if (_listikiPodschet.KolichestvoListikov >= _priceListiki && _listikiPodschet.KolichestvoMaterialov >= _priceMaterials)
         {

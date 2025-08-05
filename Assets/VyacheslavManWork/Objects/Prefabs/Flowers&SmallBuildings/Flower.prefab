@@ -44,6 +44,8 @@ GameObject:
   - component: {fileID: 7139261216732331372}
   - component: {fileID: 7225668095541679052}
   - component: {fileID: 1199839194004384011}
+  - component: {fileID: 6270528742316186014}
+  - component: {fileID: 2859703621531664564}
   m_Layer: 3
   m_Name: Flower
   m_TagString: Untagged
@@ -81,6 +83,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: 0
+  _fireParticles: {fileID: 0}
+  _fireDamage: 0
+  _fireTimes: 0
+  _fireTimesLast: 0
+  _fireSpeed: 0
   _listiki: 0
   _materials: 0
   _maxHealth: 30
@@ -97,12 +105,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264d66758edc3a947ada0b2d8f8658c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _electrolyzed: 0
-  _attackSpeed: 2.7
+  _timeUntillShot: 0
+  _timeAfterShot: 2.7
   _bulletSpeed: 300
   _bullet: {fileID: 7702488397759274337, guid: bbea031a633e5e94a85ca4642f0fe75e, type: 3}
   _firePoint: {fileID: 1851219504494888420}
   _timeElectrolyzed: 5
+  _electrolyzed: 0
 --- !u!114 &7225668095541679052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,10 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particlePlayTime: 3
   _radius: 5
   _timeUntillElectrolyzeNear: 2
   _freezeTime: 3
-  _particlePlayTime: 3
 --- !u!65 &1199839194004384011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -140,6 +149,35 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.70108044, y: 0.4266131, z: 0.9600157}
   m_Center: {x: 0.041202128, y: 0.86149347, z: 0.07508376}
+--- !u!111 &6270528742316186014
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623179894603588108}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &2859703621531664564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623179894603588108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74314cd396843bf40bf85534c3297865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleAnimation: {fileID: 0}
+  attackAnimation: {fileID: 0}
 --- !u!1001 &1852890973486950235
 PrefabInstance:
   m_ObjectHideFlags: 0

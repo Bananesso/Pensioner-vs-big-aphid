@@ -6,7 +6,7 @@ public class Electroshocker : Item
     private AudioSource _shootSound;
     private ParticleSystem _electro;
     private bool _isReloading;
-    [SerializeField] private float _atackSpeed;
+    [SerializeField] private float _atackSpeed = 3;
     private InteractionController controller;
 
     private void Start()
