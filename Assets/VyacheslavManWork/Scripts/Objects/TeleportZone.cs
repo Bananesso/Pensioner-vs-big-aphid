@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class TeleportZone : MonoBehaviour
 {
-    [SerializeField] private GameObject _teleportPoint;
+    [SerializeField] private Transform _teleportPoint;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.TryGetComponent<CharacterController>(out var characterController) && other.TryGetComponent<PlayerController>(out var playerController))
         {
-            other.transform.position = _teleportPoint.transform.position;
+            playerController.ClearVelocity();
+            characterController.Move(_teleportPoint.position - other.transform.position);
         }
     }
 }

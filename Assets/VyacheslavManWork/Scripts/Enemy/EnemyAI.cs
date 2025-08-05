@@ -17,19 +17,26 @@ public class EnemyAI : MonoBehaviour
 
     [Header("Заморозка")]
     [SerializeField] private float _freezeSpeedDebuff = 1.5f;
-    [SerializeField] private int _freezeTime = 5;
+    [SerializeField] private float _freezeTime = 5;
 
+    [Header("Стан от электризации")]
+    [SerializeField] private float _stunTime = 3;
+
+    private float _stunSpeedDebuff;
+    private float _stunTimeLast;
     private float _freezeTimeLast;
     public bool IsMoving;
     private Rigidbody _rigidbody;
     Health flower;
     Coroutine coroutine;
     Coroutine freezeCoroutine;
+    Coroutine stunCoroutine;
 
     private AnimationLogic _shootAnimation;
 
     private void Start()
     {
+        _stunSpeedDebuff = _moveSpeed;
         _shootAnimation = GetComponent<AnimationLogic>();
         _rigidbody = GetComponent<Rigidbody>();
         StartCoroutine(Check());
@@ -82,6 +89,25 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    public void Stun()
+    {
+        _stunTimeLast = _stunTime;
+        if (stunCoroutine == null)
+            stunCoroutine = StartCoroutine(StunCoroutine());
+    }
+
+    private IEnumerator StunCoroutine()
+    {
+        _moveSpeed -= _freezeSpeedDebuff;
+        while (_stunTimeLast > 0)
+        {
+            yield return new WaitForSeconds(1);
+            _stunTimeLast--;
+        }
+        _moveSpeed += _freezeSpeedDebuff;
+        stunCoroutine = null;
+    }
+
     public void Freeze()
     {
         _freezeTimeLast = _freezeTime;
@@ -91,13 +117,14 @@ public class EnemyAI : MonoBehaviour
 
     private IEnumerator FreezeCoroutine()
     {
-        _moveSpeed -= _freezeSpeedDebuff;
+        _moveSpeed -= _stunSpeedDebuff;
         while (_freezeTimeLast > 0)
         {
             yield return new WaitForSeconds(1);
             _freezeTimeLast--;
         }
         _moveSpeed += _freezeSpeedDebuff;
+        freezeCoroutine = null;
     }
 
     private void OnDrawGizmosSelected()
