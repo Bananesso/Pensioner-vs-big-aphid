@@ -29,7 +29,7 @@ public class DelayedSoundPlayer : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("Не назначен звуковой клип в одном из элементов списка!");
+                Debug.LogWarning("A sound clip is not assigned in one of the list items.!");
             }
         }
     }
