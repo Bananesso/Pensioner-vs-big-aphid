@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 978157295688894418}
   - component: {fileID: 6810586434629806719}
   - component: {fileID: 7284642784896932516}
+  - component: {fileID: 4909480696373375890}
   m_Layer: 0
   m_Name: Sintezator
   m_TagString: Untagged
@@ -279,6 +280,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.22176647, y: 0.84824014, z: 0.4}
   m_Center: {x: 0.29527247, y: 0.44526052, z: 0}
+--- !u!114 &4909480696373375890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7952954688202013437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 483d0d4151461a8489450017979b6875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactionScript: {fileID: 6810586434629806719}
 --- !u!1 &8142657275362710250
 GameObject:
   m_ObjectHideFlags: 0
