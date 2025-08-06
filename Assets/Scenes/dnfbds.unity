@@ -30723,6 +30723,11 @@ MonoBehaviour:
     _crouchHeight: 1
     _standingHeight: 2
     _crouchTransitionSpeed: 5
+  _esc:
+    _fpCamera: {fileID: 0}
+    Menu: {fileID: 0}
+  _checkInteractable:
+    _raycastDistance: 5
 --- !u!143 &1980117023
 CharacterController:
   m_ObjectHideFlags: 0
