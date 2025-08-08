@@ -32,17 +32,17 @@ public class CrashGameAfterTime : MonoBehaviour
     void CrashTheGame()
     {
         // Сначала выводим "ошибку" в консоль
-        UnityEngine.Debug.LogError("The game was crash! crash err: Dont play this G̶̛̹̽a̷͇͓̿́͗̃͜m̶̫̙̹̯̆̅͑͟͠ẽ̶͍͆́͠͠");
+        UnityEngine.Debug.LogError("See you next time!");
 
         // Затем вызываем окно ошибки (в игре)
-        MessageBox(GetActiveWindow(), "The game was crash! crash err: Dont play this game!", "Game Crash", 0x00000010);
+        MessageBox(GetActiveWindow(), "See you next time!", "Thanks for playing!", 0x00000010);
 
         // Закрываем игру
         Application.Quit();
 
         // После закрытия игры вызываем реальное окно ошибки Windows
         // Для этого используем Process.Start с cmd командой
-        string command = $"/c msg * \"The game was crash! crash err: Dont play this G̶̛̹̽a̷͇͓̿́͗̃͜m̶̫̙̹̯̆̅͑͟͠ẽ̶͍͆́͠͠\" && pause";
+        string command = $"/c msg * \"See you next time!\" && pause";
         Process.Start("cmd.exe", command);
 
         // Альтернативный вариант - вызвать через MessageBox вне Unity
