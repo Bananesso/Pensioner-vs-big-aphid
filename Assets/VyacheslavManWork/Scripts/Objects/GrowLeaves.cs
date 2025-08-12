@@ -9,11 +9,16 @@ public class GrowLeaves : MonoBehaviour, IInteractWithObj
     [SerializeField] private int _materialsLoot;
     private bool _growed;
 
+    private ParticleSystem _lootParticles;
+    private AudioSource _lootSound;
+
     private ListikiPodschet _listikiPodschet;
     private AnimationLogic _growAnimation;
 
     void Start()
     {
+        _lootParticles = GetComponentInChildren<ParticleSystem>();
+        _lootSound = GetComponent<AudioSource>();
         _growAnimation = GetComponent<AnimationLogic>();
         _listikiPodschet = FindObjectOfType<ListikiPodschet>();
         StartCoroutine(Grow());
@@ -23,6 +28,8 @@ public class GrowLeaves : MonoBehaviour, IInteractWithObj
     {
         if (_growed)
         {
+            _lootParticles.Play();
+            _lootSound.Play();
             _listikiPodschet.KolichestvoListikov += _leavesLoot;
             _listikiPodschet.KolichestvoMaterialov += _materialsLoot;
             StartCoroutine(Grow());
