@@ -202,10 +202,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa593506f57154643b68e6334a0331b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rotateThis: {fileID: 563635854605243576}
   _rotateX: 0
   _rotateY: -15
   _rotateZ: 0
-  _rotateThis: {fileID: 563635854605243576}
 --- !u!1 &1421280163886143144
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,10 +319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa593506f57154643b68e6334a0331b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rotateThis: {fileID: 563635854605243576}
   _rotateX: 0
   _rotateY: 15
   _rotateZ: 0
-  _rotateThis: {fileID: 563635854605243576}
 --- !u!1 &2772232656798925462
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,10 +955,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45bfe2fa790a2942a045d8a7eb2398b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _particleSystem: {fileID: 0}
+  _particlePlayTime: 3
   _radius: 0
   _timeUntillElectrolyzeNear: 2
-  _freezeTime: 3
 --- !u!114 &1725608825681164751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -971,12 +970,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264d66758edc3a947ada0b2d8f8658c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _electrolyzed: 0
-  _attackSpeed: 0.5
+  _timeUntillShot: 0
+  _timeAfterShot: 0
   _bulletSpeed: 750
   _bullet: {fileID: 4829543889735456759, guid: 9d61482bdd5736740b25026b6a72a89a, type: 3}
   _firePoint: {fileID: 7060327804554918164}
   _timeElectrolyzed: 5
+  _electrolyzed: 0
 --- !u!136 &8717585079728186960
 CapsuleCollider:
   m_ObjectHideFlags: 0

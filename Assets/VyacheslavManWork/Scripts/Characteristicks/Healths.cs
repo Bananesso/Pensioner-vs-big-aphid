@@ -31,6 +31,7 @@ public class Health : MonoBehaviour
 
     public event Action OnHit;
     public event Action OnDie;
+
     private void Start()
     {
         _listikiPodschet = FindObjectOfType<ListikiPodschet>();
@@ -47,13 +48,6 @@ public class Health : MonoBehaviour
         {
             Die();
         }
-    }
-
-    public void Heal(float amount)
-    {
-        if (!IsAlive) return;
-
-        _currentHealth = Mathf.Min(_currentHealth + amount, _maxHealth);
     }
 
     private void Die()
@@ -80,10 +74,11 @@ public class Health : MonoBehaviour
             _fireTimesLast = _fireTimes;
         }
     }
+
     private IEnumerator Fire()
     {
         _fireParticles.Play();
-        while (_fireTimes != 0)
+        while (_fireTimesLast != 0)
         {
             _currentHealth -= _fireDamage;
             _fireTimesLast--;

@@ -61,6 +61,18 @@ public class DialogueManager : MonoBehaviour
     {
         if (_currentNode.nextNodes != null && _currentNode.nextNodes.Count > answerIndex)
         {
+            if (_currentNode.playerPrefsKeys != null &&
+                _currentNode.playerPrefsValues != null &&
+                _currentNode.playerPrefsKeys.Count > answerIndex &&
+                _currentNode.playerPrefsValues.Count > answerIndex)
+            {
+                //как бы, смысла в этом немного, но читается код легче, поэтому пусть будет так
+                string key = _currentNode.playerPrefsKeys[answerIndex];
+                int value = _currentNode.playerPrefsValues[answerIndex];
+                PlayerPrefs.SetInt(key, value);
+                PlayerPrefs.Save();
+            }
+
             DialogueNode nextNode = _currentNode.nextNodes[answerIndex];
 
             foreach (Button button in _answerButtons)
