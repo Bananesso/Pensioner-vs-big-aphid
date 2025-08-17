@@ -12,4 +12,7 @@ public class DialogueNode : ScriptableObject
     [Header("Для репутации")]
     public List<string> playerPrefsKeys;
     public List<int> playerPrefsValues;
+
+    [Header("Изображение говорящего")]
+    public Sprite SpeakerImage;
 }

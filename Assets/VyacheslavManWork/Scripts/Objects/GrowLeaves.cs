@@ -7,9 +7,9 @@ public class GrowLeaves : MonoBehaviour, IInteractWithObj
     [SerializeField] private float _growTime;
     [SerializeField] private int _leavesLoot;
     [SerializeField] private int _materialsLoot;
+
     private bool _growed;
 
-    private ParticleSystem _lootParticles;
     private AudioSource _lootSound;
 
     private ListikiPodschet _listikiPodschet;
@@ -17,7 +17,6 @@ public class GrowLeaves : MonoBehaviour, IInteractWithObj
 
     void Start()
     {
-        _lootParticles = GetComponentInChildren<ParticleSystem>();
         _lootSound = GetComponent<AudioSource>();
         _growAnimation = GetComponent<AnimationLogic>();
         _listikiPodschet = FindObjectOfType<ListikiPodschet>();
@@ -28,7 +27,7 @@ public class GrowLeaves : MonoBehaviour, IInteractWithObj
     {
         if (_growed)
         {
-            _lootParticles.Play();
+            _growed = false;
             _lootSound.Play();
             _listikiPodschet.KolichestvoListikov += _leavesLoot;
             _listikiPodschet.KolichestvoMaterialov += _materialsLoot;

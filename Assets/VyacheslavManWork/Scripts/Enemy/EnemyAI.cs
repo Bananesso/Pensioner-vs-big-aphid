@@ -25,22 +25,24 @@ public class EnemyAI : MonoBehaviour
     private float _stunSpeedDebuff;
     private float _stunTimeLast;
     private float _freezeTimeLast;
-    public bool IsMoving;
     private Rigidbody _rigidbody;
-    Health flower;
-    Coroutine coroutine;
-    Coroutine freezeCoroutine;
-    Coroutine stunCoroutine;
-
-    private AnimationLogic _shootAnimation;
+    private Health flower;
+    private Coroutine coroutine;
+    private Coroutine freezeCoroutine;
+    private Coroutine stunCoroutine;
+    private Animator _animator;
 
     private void Start()
     {
         _stunSpeedDebuff = _moveSpeed;
-        _shootAnimation = GetComponent<AnimationLogic>();
         _rigidbody = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
+
+        // Запуск анимации появления
+        _animator.SetTrigger("Appear");
         StartCoroutine(Check());
     }
+
     private void Update()
     {
         _rigidbody.velocity = transform.forward * _tempSpeed * PlayerPrefs.GetFloat("MultiplierMooveSpeed", 1);
@@ -59,6 +61,8 @@ public class EnemyAI : MonoBehaviour
                     if (coroutine == null)
                     {
                         _tempSpeed = 0;
+                        _animator.SetBool("IsAttacking", true);
+                        _animator.SetTrigger("Attack");
                         coroutine = StartCoroutine(Atack());
                     }
                 }
@@ -68,13 +72,13 @@ public class EnemyAI : MonoBehaviour
                 if (coroutine != null)
                 {
                     StopCoroutine(coroutine);
+                    _animator.SetBool("IsAttacking", false);
                 }
                 coroutine = null;
                 flower = null;
                 _tempSpeed = _moveSpeed;
             }
             yield return new WaitForSeconds(0.5f);
-
         }
     }
 
@@ -82,8 +86,6 @@ public class EnemyAI : MonoBehaviour
     {
         while (flower != null)
         {
-            if (_shootAnimation != null)
-                _shootAnimation.PlayAttackAnimation();
             flower.GetComponent<Health>().TakeDamage(_damage + PlayerPrefs.GetFloat("MultiplierAtkDamage", 1));
             yield return new WaitForSeconds(_fireRate + PlayerPrefs.GetFloat("MultiplierAtkSpeed", 1));
         }
@@ -123,7 +125,7 @@ public class EnemyAI : MonoBehaviour
             yield return new WaitForSeconds(1);
             _freezeTimeLast--;
         }
-        _moveSpeed += _freezeSpeedDebuff;
+        _moveSpeed += _stunSpeedDebuff;
         freezeCoroutine = null;
     }
 

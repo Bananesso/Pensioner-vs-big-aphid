@@ -18,10 +18,12 @@ public class Flower : MonoBehaviour
 
     private AnimationLogic _shootAnimation;
     private Coroutine _shootingCoroutine;
+    private Animator _animator;
 
     private void Start()
     {
-        _shootAnimation = GetComponent<AnimationLogic>();
+        _animator = GetComponent<Animator>();
+        _animator.SetTrigger("Appear");
         StartCoroutine(Shoot());
     }
 
@@ -47,8 +49,8 @@ public class Flower : MonoBehaviour
         {
             if (_electrolyzed)
             {
-                if (_shootAnimation != null)
-                    _shootAnimation.PlayAttackAnimation();
+                if (_animator != null)
+                    _animator.SetTrigger("Attack");
                 yield return new WaitForSeconds(_timeUntillShot);
                 GameObject BulletInstance = Instantiate(_bullet, _firePoint.position, Quaternion.identity);
                 BulletInstance.GetComponent<Rigidbody>().AddForce(_firePoint.transform.forward * _bulletSpeed);

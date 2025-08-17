@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 8499711182814502458}
   - component: {fileID: 192593935843749326}
   - component: {fileID: 6207800586885295694}
+  - component: {fileID: 3694625538798180728}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
@@ -114,7 +115,6 @@ MonoBehaviour:
   _freezeSpeedDebuff: 1.5
   _freezeTime: 5
   _stunTime: 3
-  IsMoving: 0
 --- !u!114 &8499711182814502458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,6 +179,27 @@ MonoBehaviour:
   _particlePlayTime: 3
   _radius: 6
   _timeUntillElectrolyzeNear: 2
+--- !u!95 &3694625538798180728
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440072050693861343}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &925265679844977892
 PrefabInstance:
   m_ObjectHideFlags: 0
