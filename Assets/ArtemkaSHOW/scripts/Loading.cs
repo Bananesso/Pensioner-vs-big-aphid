@@ -166,7 +166,7 @@ public class LoadingScreen : MonoBehaviour
             audioSource.PlayOneShot(buttonClickSound);
         }
 
-        
+
         SceneManager.LoadScene(sceneToLoad);
     }
 }
