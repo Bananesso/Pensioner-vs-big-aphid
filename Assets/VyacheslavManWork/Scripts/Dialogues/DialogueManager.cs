@@ -16,13 +16,14 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField] private PlayableDirector _cutscene;
 
-    private SpriteRenderer _speakerSprite;
+    [SerializeField] private Image _characterSprite;
+
+
     private byte _nextNode;
 
     private DialogueNode _currentNode;
     void Start()
     {
-        _speakerSprite = GetComponent<SpriteRenderer>();
         ShowNode(_dialogueTree.startNode);
     }
 
@@ -33,15 +34,11 @@ public class DialogueManager : MonoBehaviour
             _currentNode = _currentNode.nextNodes[_nextNode];
             ShowNode(_currentNode);
         }
-        else
-        {
-            _cutscene.time = _cutscene.duration-1;
-        }
     }
 
     public void ShowNode(DialogueNode node)
     {
-        _speakerSprite.sprite = _currentNode.SpeakerImage;
+        _characterSprite.sprite = node.SpeakerImage;
 
         _dialogueSpeaker.text = node.speakerName + ":";
 
@@ -85,8 +82,9 @@ public class DialogueManager : MonoBehaviour
             {
                 button.gameObject.SetActive(false);
             }
-            _cutscene.Resume();
+
             _nextNode = (byte)(answerIndex % byte.MaxValue);
         }
+        _cutscene.Resume();
     }
 }

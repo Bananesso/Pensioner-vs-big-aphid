@@ -373,6 +373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7351844071651074105}
   - component: {fileID: 5701002418501596847}
+  - component: {fileID: 31758905289872632}
   - component: {fileID: 4846151370832220039}
   - component: {fileID: 6937944039490577150}
   - component: {fileID: 5781769286355717506}
@@ -426,6 +427,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.6, y: 2.1196985, z: 1.6}
   m_Center: {x: 0, y: 1.0598493, z: 0}
+--- !u!114 &31758905289872632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7733628067976883623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44d140c55084a5499a3e99af7b5d412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: 0
+  _fireParticles: {fileID: 0}
+  _fireDamage: 0
+  _fireTimes: 0
+  _fireTimesLast: 0
+  _fireSpeed: 0
+  _listiki: 0
+  _materials: 0
+  _maxHealth: 30
+  _currentHealth: 0
 --- !u!114 &4846151370832220039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -472,6 +495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74314cd396843bf40bf85534c3297865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playOnAwake: 1
   _idleAnimation: {fileID: 7400000, guid: 836a7b21d25d3184eab2632b34ce757f, type: 2}
   _attackAnimation: {fileID: 7400000, guid: e016def8ac725fa4e9228d0032fc8d40, type: 2}
 --- !u!111 &2051125862485474778
