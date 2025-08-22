@@ -376,8 +376,7 @@ GameObject:
   - component: {fileID: 31758905289872632}
   - component: {fileID: 4846151370832220039}
   - component: {fileID: 6937944039490577150}
-  - component: {fileID: 5781769286355717506}
-  - component: {fileID: 2051125862485474778}
+  - component: {fileID: 5623402131612947971}
   m_Layer: 3
   m_Name: RocketLauncher
   m_TagString: Untagged
@@ -483,7 +482,7 @@ MonoBehaviour:
   _particlePlayTime: 3
   _radius: 0
   _timeUntillElectrolyzeNear: 2
---- !u!114 &5781769286355717506
+--- !u!114 &5623402131612947971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -492,29 +491,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7733628067976883623}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74314cd396843bf40bf85534c3297865, type: 3}
+  m_Script: {fileID: 11500000, guid: d1cdb2cf5bdd672419a3373ddd25c284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playOnAwake: 1
-  _idleAnimation: {fileID: 7400000, guid: 836a7b21d25d3184eab2632b34ce757f, type: 2}
-  _attackAnimation: {fileID: 7400000, guid: e016def8ac725fa4e9228d0032fc8d40, type: 2}
---- !u!111 &2051125862485474778
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7733628067976883623}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: e016def8ac725fa4e9228d0032fc8d40, type: 2}
-  - {fileID: 7400000, guid: 836a7b21d25d3184eab2632b34ce757f, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  WireEnd: {fileID: 5164410761400023262}
 --- !u!1001 &1492953001742093377
 PrefabInstance:
   m_ObjectHideFlags: 0

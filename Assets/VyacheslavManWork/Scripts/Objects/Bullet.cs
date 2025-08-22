@@ -36,8 +36,12 @@ public class Bullet : MonoBehaviour
         if (health != null && health.Enemy)
         {
             if (_shootSound != null)
-                _shootSound.Play();
-            StartCoroutine(ParticlePlay(_shootParticles, _shootParticlesPlayTime));
+            {
+                _shootSound.transform.SetParent(null);
+                SoundsPlay();
+            }
+
+            ShootParticlePlay();
 
             health.TakeDamage(_damage);
             if (_freeze)
@@ -55,11 +59,17 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    private IEnumerator ParticlePlay(ParticleSystem particles, float particlePlayTime) //партиклы
+    private void ShootParticlePlay() //партиклы
     {
-        particles.Play();
-        yield return new WaitForSeconds(particlePlayTime);
-        particles.Stop();
+        ParticleSystem particleInstance = Instantiate(_shootParticles, transform.position, Quaternion.identity);
+        particleInstance.Play();
+        Destroy(particleInstance.gameObject, 0.25f);
+    }
+
+    private void SoundsPlay()
+    {
+        _shootSound.Play();
+        Destroy(_shootSound.gameObject, 5);
     }
 
     public void Fired() //зажечь пулю (через другой код)
