@@ -4,15 +4,11 @@ public class ElectricianTool : Item
 {
     [Header("Режет провода (true) или создаёт (false)")]
     public bool Scissors;
-    
-    private AudioSource audioSource;
-    private ParticleSystem connectionEffect;
+
     private InteractionController controller;
 
     private void Start()
     {
-        connectionEffect = GetComponentInChildren<ParticleSystem>();
-        audioSource = GetComponent<AudioSource>();
         controller = FindObjectOfType<InteractionController>();
     }
 
@@ -25,11 +21,5 @@ public class ElectricianTool : Item
             if (target != null)
                 target.Interact(this.gameObject);
         }
-    }
-
-    private void PlayConnectionEffects()
-    {
-        connectionEffect?.Play();
-        audioSource?.Play();
     }
 }

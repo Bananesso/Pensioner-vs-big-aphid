@@ -2732,9 +2732,9 @@ PrefabInstance:
     - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
       propertyPath: m_text
-      value: '
-
-        Plant the resulting seeds in a garden bed (RMB)'
+      value: "\n\u041F\u043E\u0441\u0430\u0434\u0438\u0442\u0435 \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u043D\u044B\u0435
+        \u0441\u0435\u043C\u0435\u043D\u0430 \u0432 \u0433\u0440\u044F\u0434\u043A\u0443
+        (RMB)"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3019,10 +3019,31 @@ PrefabInstance:
     - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
       propertyPath: m_text
-      value: '
-
-        To complete the tutorial, interact with the gate (interact
-        button - F)'
+      value: "\r\u0427\u0442\u043E\u0431\u044B \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C
+        \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435, \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0439\u0442\u0435
+        \u0441 \u0432\u043E\u0440\u043E\u0442\u0430\u043C\u0438 (\u043A\u043D\u043E\u043F\u043A\u0430
+        \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        - F)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_margin.y
+      value: 1.1074092
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9015,15 +9036,31 @@ PrefabInstance:
     - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
       propertyPath: m_text
-      value: '
-
-        Try to buy seeds with the leaves you get (interaction button
-        - F)'
+      value: "\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u043A\u0443\u043F\u0438\u0442\u044C
+        \u0441\u0435\u043C\u0435\u043D\u0430 \u0437\u0430 \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u043D\u044B\u0435
+        \u043B\u0438\u0441\u0442\u044C\u044F (\u043A\u043D\u043E\u043F\u043A\u0430
+        \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        - F)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.985
       objectReference: {fileID: 0}
     - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
       propertyPath: m_margin.y
-      value: 1.1314952
+      value: 1.1020801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9145,10 +9182,20 @@ PrefabInstance:
     - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
       propertyPath: m_text
-      value: '
-
-        Electrification lasts its own time for each type of flower
-        or enemy!'
+      value: "\u042D\u043B\u0435\u043A\u0442\u0440\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u044F
+        \u0434\u043B\u0438\u0442\u0441\u044F \u0441\u0432\u043E\u0435 \u0432\u0440\u0435\u043C\u044F
+        \u0434\u043B\u044F \u043A\u0430\u0436\u0434\u043E\u0433\u043E \u0442\u0438\u043F\u0430
+        \u0446\u0432\u0435\u0442\u043A\u0430 \u0438\u043B\u0438 \u0432\u0440\u0430\u0433\u0430!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_margin.y
+      value: 1.1202786
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 7817953317337619844, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
@@ -11504,9 +11551,20 @@ PrefabInstance:
     - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
       propertyPath: m_text
-      value: '
-
-        Electrified enemies stop but continue to attack!'
+      value: "\u041F\u043E\u0440\u0430\u0436\u0451\u043D\u043D\u044B\u0435 \u044D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u043E\u043C
+        \u0432\u0440\u0430\u0433\u0438 \u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u044E\u0442\u0441\u044F,
+        \u043D\u043E \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u044E\u0442
+        \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 7657919980435846623, guid: 458bb8a93bc77964c947092fc3e7732d,
         type: 3}
@@ -12045,17 +12103,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Take the stun gun
-
-
-    To use, right-click on a plant, small structure
-    or enemy
-
-
-    To pick up an item or interact with an object, press F'
+  m_text: "\u0412\u043E\u0437\u044C\u043C\u0438\u0442\u0435 \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u0448\u043E\u043A\u0435\u0440.\r\n\r\n\u0427\u0442\u043E\u0431\u044B
+    \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C, \u0449\u0451\u043B\u043A\u043D\u0438\u0442\u0435
+    \u043F\u0440\u0430\u0432\u043E\u0439 \u043A\u043D\u043E\u043F\u043A\u043E\u0439
+    \u043C\u044B\u0448\u0438 \u043F\u043E \u0440\u0430\u0441\u0442\u0435\u043D\u0438\u044E,
+    \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438
+    \u0438\u043B\u0438 \u0432\u0440\u0430\u0433\u0443.\r\n\r\n\u0427\u0442\u043E\u0431\u044B
+    \u043F\u043E\u0434\u043E\u0431\u0440\u0430\u0442\u044C \u043F\u0440\u0435\u0434\u043C\u0435\u0442
+    \u0438\u043B\u0438 \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C
+    \u0441 \u043D\u0438\u043C, \u043D\u0430\u0436\u043C\u0438\u0442\u0435 F."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a34420dbe05df49c0a61ba9dae84d1a0, type: 2}
+  m_sharedMaterial: {fileID: 558739614544883912, guid: a34420dbe05df49c0a61ba9dae84d1a0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12079,8 +12139,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4.5
-  m_fontSizeBase: 4.5
+  m_fontSize: 3.7
+  m_fontSizeBase: 3.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12115,7 +12175,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 2.835401, y: 0, z: 10.16916, w: 0.25632167}
+  m_margin: {x: 2.835401, y: 0, z: 10.16916, w: 0.72981656}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -12144,7 +12204,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 558739614544883912, guid: a34420dbe05df49c0a61ba9dae84d1a0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

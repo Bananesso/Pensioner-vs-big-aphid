@@ -13,7 +13,6 @@ public class Bullet : MonoBehaviour
     [Header("Ёффекты")]
     [SerializeField] private ParticleSystem _fire;
     [SerializeField] private ParticleSystem _shootParticles;
-    [SerializeField] private float _shootParticlesPlayTime = 1;
     [SerializeField] private AudioSource _shootSound;
 
     [Header("ќгонь")]
