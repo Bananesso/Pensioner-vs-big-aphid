@@ -18,13 +18,17 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField] private Image _characterSprite;
 
+    [SerializeField] private bool _playOnAwake = true;
+
 
     private byte _nextNode;
 
     private DialogueNode _currentNode;
+
     void Start()
     {
-        ShowNode(_dialogueTree.startNode);
+        if (_playOnAwake)
+            ShowNode(_dialogueTree.startNode);
     }
 
     public void ShowNextNode()

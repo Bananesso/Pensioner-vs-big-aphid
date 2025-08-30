@@ -6,7 +6,7 @@ public class AnimationLogic : MonoBehaviour
 
     [SerializeField] private bool _playOnAwake = true;
 
-    [Header("Обязательно должна быть назначена анимация атаки!")]
+    [Header("Анимации")]
     [SerializeField] private AnimationClip _idleAnimation;
     [SerializeField] private AnimationClip _attackAnimation;
 

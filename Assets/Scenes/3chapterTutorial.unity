@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: eca8f96aa0cab474290baa7ba5480452
+  m_OcclusionCullingData: {fileID: 36300000, guid: 9695e2e43d831ea4fbcff7b77a36aba6,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -7677,6 +7678,7 @@ MonoBehaviour:
   - {fileID: 456752075}
   _cutscene: {fileID: 1451971586}
   _characterSprite: {fileID: 105980324}
+  _playOnAwake: 1
 --- !u!114 &1473397515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9397,6 +9399,7 @@ MonoBehaviour:
   - {fileID: 456752075}
   _cutscene: {fileID: 1451971586}
   _characterSprite: {fileID: 105980324}
+  _playOnAwake: 1
 --- !u!4 &1781714083
 Transform:
   m_ObjectHideFlags: 0

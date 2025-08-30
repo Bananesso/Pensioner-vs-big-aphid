@@ -3,21 +3,24 @@ using UnityEngine;
 
 public class ShipMovementController : MonoBehaviour
 {
-    [SerializeField] private float speed = 3f;
-    private Coroutine activeCoroutine;
+    [SerializeField] private float _speed = 3f;
+    [SerializeField] private CharacterController characterController;
+    private Coroutine _activeCoroutine;
 
     public void MoveToPosition(Vector3 targetPosition)
     {
-        if (activeCoroutine != null)
+        if (_activeCoroutine != null)
         {
-            StopCoroutine(activeCoroutine);
+            StopCoroutine(_activeCoroutine);
         }
 
-        activeCoroutine = StartCoroutine(MoveCoroutine(targetPosition));
+        _activeCoroutine = StartCoroutine(MoveCoroutine(targetPosition));
     }
 
     private IEnumerator MoveCoroutine(Vector3 targetPosition)
     {
+        characterController.enabled = false;
+
         Vector3 target = new Vector3(
             targetPosition.x,
             transform.position.y,
@@ -29,12 +32,13 @@ public class ShipMovementController : MonoBehaviour
             transform.position = Vector3.MoveTowards(
                 transform.position,
                 target,
-                speed * Time.deltaTime
+                _speed * Time.deltaTime
             );
 
             yield return null;
         }
 
-        activeCoroutine = null;
+        characterController.enabled = true;
+        _activeCoroutine = null;
     }
 }
