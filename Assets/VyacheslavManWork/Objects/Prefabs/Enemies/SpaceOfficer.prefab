@@ -528,6 +528,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7560790018f528e48824af2e70725b2e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4944249641855808295, guid: 7560790018f528e48824af2e70725b2e,
         type: 3}
       propertyPath: m_Layer
@@ -542,7 +547,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 98c58295db472c2409c1132975d4efa0, type: 2}
+      objectReference: {fileID: 2100000, guid: cf5b86ae4cbfa96429d05cac4464a811, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -624,7 +629,7 @@ MonoBehaviour:
   _fireSpeed: 1
   _listiki: 10
   _materials: 3
-  _maxHealth: 100
+  _maxHealth: 300
   _currentHealth: 0
 --- !u!114 &3988414606568570608
 MonoBehaviour:

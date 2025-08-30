@@ -4904,7 +4904,7 @@ MonoBehaviour:
     type: 3}
   _slotBackPrefab: {fileID: 8284736152610423366, guid: db6c8f660db4fa447b73527e7ea74d2a,
     type: 3}
-  _inventory: {fileID: 0}
+  _inventory: {fileID: 1564426706}
 --- !u!114 &801382519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5114,12 +5114,18 @@ Transform:
   m_GameObject: {fileID: 847533923}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.482, y: 0, z: 0.42}
+  m_LocalPosition: {x: 0.581, y: -0.233, z: 0.688}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 955546717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &853374544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4028685123018475492, guid: c13cbb9295fd74246a054a8803bc7802,
+    type: 3}
+  m_PrefabInstance: {fileID: 1349501877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &859588404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8571,6 +8577,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3279383144267339581, guid: c13cbb9295fd74246a054a8803bc7802,
+        type: 3}
+      propertyPath: _dragClone
+      value: 
+      objectReference: {fileID: 853374544}
+    - target: {fileID: 3279383144267339581, guid: c13cbb9295fd74246a054a8803bc7802,
+        type: 3}
+      propertyPath: _parentCanvas
+      value: 
+      objectReference: {fileID: 1205911782}
     - target: {fileID: 4028685123018475492, guid: c13cbb9295fd74246a054a8803bc7802,
         type: 3}
       propertyPath: m_Name
@@ -8703,6 +8719,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1388010172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6339467803252643903, guid: 08e26facd79415647b1d4423497c7a3c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1129371945}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1421407751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8814,7 +8836,7 @@ PlayableDirector:
   - key: {fileID: -1750549312013959105, guid: d46598d211a49c1468a4a8a238b85943, type: 2}
     value: {fileID: 955546718}
   - key: {fileID: -4885408031373678777, guid: d46598d211a49c1468a4a8a238b85943, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1388010172}
   - key: {fileID: 3958731218318441463, guid: d46598d211a49c1468a4a8a238b85943, type: 2}
     value: {fileID: 1133368510}
   - key: {fileID: -134170800824202234, guid: d46598d211a49c1468a4a8a238b85943, type: 2}
@@ -10053,6 +10075,7 @@ MonoBehaviour:
   - {fileID: 1129371947}
   _cutscene: {fileID: 1454209942}
   _characterSprite: {fileID: 1129371950}
+  _playOnAwake: 1
 --- !u!4 &1740920238
 Transform:
   m_ObjectHideFlags: 0

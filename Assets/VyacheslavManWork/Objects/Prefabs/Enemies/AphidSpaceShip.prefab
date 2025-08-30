@@ -528,6 +528,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7560790018f528e48824af2e70725b2e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4944249641855808295, guid: 7560790018f528e48824af2e70725b2e,
         type: 3}
       propertyPath: m_Layer
@@ -618,9 +623,9 @@ MonoBehaviour:
   _fireTimes: 4
   _fireTimesLast: 0
   _fireSpeed: 1
-  _listiki: 10
+  _listiki: 15
   _materials: 3
-  _maxHealth: 100
+  _maxHealth: 75
   _currentHealth: 0
 --- !u!114 &3988414606568570608
 MonoBehaviour:
