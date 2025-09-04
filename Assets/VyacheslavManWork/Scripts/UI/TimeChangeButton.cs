@@ -2,9 +2,8 @@ using UnityEngine;
 
 public class TimeChangeButton : MonoBehaviour
 {
-    [SerializeField] private float TimeChangeFloat;
-    public void TimeChange()
+    public void TimeChange(float timeSpeed = 1)
     {
-        Time.timeScale = TimeChangeFloat;
+        Time.timeScale = timeSpeed;
     }
 }

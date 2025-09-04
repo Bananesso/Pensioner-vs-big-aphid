@@ -44,11 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _priceListiki: 0
+  _priceListiki: 20
   _priceMaterials: 0
   _seedPrefab: {fileID: 847825368214537562, guid: e5f3cf1fc4387154c833498426f6eaa7,
     type: 3}
-  _transform: {fileID: 0}
+  _spawnSeedsTransform: {fileID: 1109893468262153257}
   _priceListikiShow: {fileID: 0}
   _priceMaterialsShow: {fileID: 0}
 --- !u!1 &1890056512957958807
@@ -95,11 +95,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _priceListiki: 0
+  _priceListiki: 25
   _priceMaterials: 0
   _seedPrefab: {fileID: 847825368214537562, guid: 91db3d7d77e662649ab73610b9526b26,
     type: 3}
-  _transform: {fileID: 0}
+  _spawnSeedsTransform: {fileID: 1109893468262153257}
   _priceListikiShow: {fileID: 0}
   _priceMaterialsShow: {fileID: 0}
 --- !u!1 &1986851622232180413
@@ -146,11 +146,113 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _priceListiki: 0
+  _priceListiki: 30
   _priceMaterials: 0
   _seedPrefab: {fileID: 3309361116147913703, guid: 321194e06b562974d831f4e4baa26023,
     type: 3}
-  _transform: {fileID: 1109893468262153257}
+  _spawnSeedsTransform: {fileID: 1109893468262153257}
+  _priceListikiShow: {fileID: 0}
+  _priceMaterialsShow: {fileID: 0}
+--- !u!1 &2933813557133723358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5947467034798828181}
+  - component: {fileID: 5607288060936298778}
+  m_Layer: 0
+  m_Name: BuyFireTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5947467034798828181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2933813557133723358}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 978157295688894418}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5607288060936298778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2933813557133723358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priceListiki: 50
+  _priceMaterials: 0
+  _seedPrefab: {fileID: 3309361116147913703, guid: 71c60a494759fb24f876f36e8698d8d4,
+    type: 3}
+  _spawnSeedsTransform: {fileID: 1109893468262153257}
+  _priceListikiShow: {fileID: 0}
+  _priceMaterialsShow: {fileID: 0}
+--- !u!1 &3918105200285800997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4663107976128917147}
+  - component: {fileID: 5466703101579538093}
+  m_Layer: 0
+  m_Name: BuyGrowTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4663107976128917147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3918105200285800997}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 978157295688894418}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5466703101579538093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3918105200285800997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priceListiki: 15
+  _priceMaterials: 0
+  _seedPrefab: {fileID: 3309361116147913703, guid: 8d1b81b282ba3b3428822e69ded54213,
+    type: 3}
+  _spawnSeedsTransform: {fileID: 1109893468262153257}
   _priceListikiShow: {fileID: 0}
   _priceMaterialsShow: {fileID: 0}
 --- !u!1 &5767769131564807293
@@ -197,11 +299,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _priceListiki: 0
+  _priceListiki: 15
   _priceMaterials: 0
   _seedPrefab: {fileID: 847825368214537562, guid: 9f3c91dbe9920114f8163887efa42ecd,
     type: 3}
-  _transform: {fileID: 1109893468262153257}
+  _spawnSeedsTransform: {fileID: 1109893468262153257}
   _priceListikiShow: {fileID: 0}
   _priceMaterialsShow: {fileID: 0}
 --- !u!1 &7952954688202013437
@@ -241,6 +343,8 @@ Transform:
   - {fileID: 4544132913260765407}
   - {fileID: 8044198150791428528}
   - {fileID: 6356659616713251104}
+  - {fileID: 5947467034798828181}
+  - {fileID: 4663107976128917147}
   - {fileID: 1109893468262153257}
   - {fileID: 3835544201603926954}
   m_Father: {fileID: 0}
@@ -337,11 +441,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _priceListiki: 0
+  _priceListiki: 30
   _priceMaterials: 0
   _seedPrefab: {fileID: 847825368214537562, guid: 8b00219205f53a94894dfcee12fefcdb,
     type: 3}
-  _transform: {fileID: 0}
+  _spawnSeedsTransform: {fileID: 1109893468262153257}
   _priceListikiShow: {fileID: 0}
   _priceMaterialsShow: {fileID: 0}
 --- !u!1 &8428451006912595454

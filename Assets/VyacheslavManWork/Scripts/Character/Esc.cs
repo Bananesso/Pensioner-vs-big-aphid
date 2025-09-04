@@ -10,6 +10,10 @@ public class Esc
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            Time.timeScale = 0;
             _fpCamera.SetActive(false);
             Menu.SetActive(true);
         }

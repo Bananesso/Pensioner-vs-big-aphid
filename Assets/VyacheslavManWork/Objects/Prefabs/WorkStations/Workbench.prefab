@@ -1,5 +1,56 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2141572799915791256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4673396187800880255}
+  - component: {fileID: 3046499874601042941}
+  m_Layer: 0
+  m_Name: BuyDrill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4673396187800880255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141572799915791256}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6228448850297620786}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3046499874601042941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141572799915791256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priceListiki: 0
+  _priceMaterials: 7
+  _seedPrefab: {fileID: 8905390183486737487, guid: 9e70dc1712515854aa7b152c899338d9,
+    type: 3}
+  _spawnSeedsTransform: {fileID: 7178331008935150272}
+  _priceListikiShow: {fileID: 0}
+  _priceMaterialsShow: {fileID: 0}
 --- !u!1 &2539765018661617574
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,6 +169,108 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &4424507577654532158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3566646098501904225}
+  - component: {fileID: 5282390721020734944}
+  m_Layer: 0
+  m_Name: BuyRocketLauncher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3566646098501904225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424507577654532158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6228448850297620786}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5282390721020734944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424507577654532158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priceListiki: 0
+  _priceMaterials: 6
+  _seedPrefab: {fileID: 8905390183486737487, guid: e58c8c2e031bee842af2b78612e695e8,
+    type: 3}
+  _spawnSeedsTransform: {fileID: 7178331008935150272}
+  _priceListikiShow: {fileID: 0}
+  _priceMaterialsShow: {fileID: 0}
+--- !u!1 &5403760573113607178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250699981202127456}
+  - component: {fileID: 5073274778828380858}
+  m_Layer: 0
+  m_Name: BuyAccelerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250699981202127456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403760573113607178}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6228448850297620786}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5073274778828380858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403760573113607178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priceListiki: 0
+  _priceMaterials: 4
+  _seedPrefab: {fileID: 8905390183486737487, guid: 829b0f8423cc1d24b95cb54ebb59e6c0,
+    type: 3}
+  _spawnSeedsTransform: {fileID: 7178331008935150272}
+  _priceListikiShow: {fileID: 0}
+  _priceMaterialsShow: {fileID: 0}
 --- !u!1 &6106446484920288421
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,6 +301,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1911979736663941397}
+  - {fileID: 3566646098501904225}
+  - {fileID: 4673396187800880255}
+  - {fileID: 250699981202127456}
+  - {fileID: 2618841216208734132}
   m_Father: {fileID: 1619077464536415993}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6373112383744492506
@@ -195,9 +352,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _priceListiki: 0
-  _priceMaterials: 0
-  _seedPrefab: {fileID: 0}
-  _transform: {fileID: 0}
+  _priceMaterials: 7
+  _seedPrefab: {fileID: 8905390183486737487, guid: 14b43a256b57ead46b40a03ef27c72ec,
+    type: 3}
+  _spawnSeedsTransform: {fileID: 7178331008935150272}
   _priceListikiShow: {fileID: 0}
   _priceMaterialsShow: {fileID: 0}
 --- !u!1 &6783825939511674680
@@ -231,6 +389,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1619077464536415993}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8026081974964658684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2618841216208734132}
+  - component: {fileID: 189605608063216674}
+  m_Layer: 0
+  m_Name: BuyGrowKolba
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2618841216208734132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026081974964658684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6228448850297620786}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &189605608063216674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026081974964658684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priceListiki: 0
+  _priceMaterials: 3
+  _seedPrefab: {fileID: 8905390183486737487, guid: 2c0c62186f6c82d47aa9a27335fee16e,
+    type: 3}
+  _spawnSeedsTransform: {fileID: 7178331008935150272}
+  _priceListikiShow: {fileID: 0}
+  _priceMaterialsShow: {fileID: 0}
 --- !u!1001 &1293279787333523730
 PrefabInstance:
   m_ObjectHideFlags: 0

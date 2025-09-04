@@ -7,12 +7,16 @@ public class CursorVisiblityTrue : MonoBehaviour
     void Start()
     {
         if (_playOnAwake)
-            ShowCursor();
+            ShowCursor(true);
     }
 
-    public void ShowCursor()
+    public void ShowCursor(bool _activate)
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        if (_activate)
+            Cursor.lockState = CursorLockMode.None;
+        else
+            Cursor.lockState = CursorLockMode.Locked;
+
+        Cursor.visible = _activate;
     }
 }
