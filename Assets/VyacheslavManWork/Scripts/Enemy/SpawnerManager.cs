@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class SpawnerManager : MonoBehaviour
 {
-    [SerializeField] private Spawner[] _spawners;
+    [SerializeField] private GameObject[] _spawners;
     [SerializeField] private int _enableSpawnerTime = 15;
 
     private void Start()
@@ -12,7 +12,7 @@ public class SpawnerManager : MonoBehaviour
     }
     private IEnumerator EnableSpawner()
     {
-        foreach (Spawner spawner in _spawners)
+        foreach (GameObject spawner in _spawners)
         {
             spawner.gameObject.SetActive(true);
             yield return new WaitForSeconds(_enableSpawnerTime);
