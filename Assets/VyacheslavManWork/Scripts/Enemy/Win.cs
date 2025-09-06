@@ -13,7 +13,7 @@ public class Win : MonoBehaviour
         //_winMenu = GameObject.FindGameObjectWithTag("Win");
         //_player = GameObject.FindGameObjectWithTag("Player");
         //_winMenu.SetActive(false);
-        //health = GetComponent<Health>();
+        health = GetComponent<Health>();
         health.OnDie += Winn;
     }
 
