@@ -457,7 +457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74314cd396843bf40bf85534c3297865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playOnAwake: 1
+  _playOnAwake: 0
   _idleAnimation: {fileID: 7400000, guid: 038249b7950679843a598c33ff22cf16, type: 2}
   _attackAnimation: {fileID: 7400000, guid: a68a42775f1c0404b9e0e9a78e690c18, type: 2}
 --- !u!111 &5539301881338554092
@@ -469,12 +469,12 @@ Animation:
   m_GameObject: {fileID: 8383211481324960604}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: a68a42775f1c0404b9e0e9a78e690c18, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: a68a42775f1c0404b9e0e9a78e690c18, type: 2}
   - {fileID: 7400000, guid: 038249b7950679843a598c33ff22cf16, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 0
+  m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!82 &7018241859743944046
