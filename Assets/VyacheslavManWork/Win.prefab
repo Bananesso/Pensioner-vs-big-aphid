@@ -356,6 +356,7 @@ GameObject:
   - component: {fileID: 1945137814339185050}
   - component: {fileID: 2932123169292970939}
   - component: {fileID: 3930647539656128861}
+  - component: {fileID: 4752258115364039021}
   m_Layer: 5
   m_Name: NextLevel
   m_TagString: Untagged
@@ -465,6 +466,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 4752258115364039021}
+        m_TargetAssemblyTypeName: TimeChangeButton, Assembly-CSharp
+        m_MethodName: TimeChange
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 3930647539656128861}
         m_TargetAssemblyTypeName: LoadNextScene, Assembly-CSharp
         m_MethodName: LoadNxtScene
@@ -487,6 +500,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 32157c0de2023114887a7ef9827e1957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4752258115364039021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3954152996375993006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688822f79f54a8f4da07d7b74f3f9420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6400958946695850289

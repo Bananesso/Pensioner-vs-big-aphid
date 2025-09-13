@@ -63,7 +63,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7351844071651074105}
-  m_LocalEulerAnglesHint: {x: -90.12912, y: -30.05851, z: 30.150581}
+  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 90}
 --- !u!33 &7340697987374895316
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7351844071651074105}
-  m_LocalEulerAnglesHint: {x: -90.90084, y: 141.59937, z: -142.8632}
+  m_LocalEulerAnglesHint: {x: -90, y: 90, z: -90}
 --- !u!33 &4992779488567994602
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -297,7 +297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8249435897436016066
 Transform:
   m_ObjectHideFlags: 0
@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 4846151370832220039}
   - component: {fileID: 6937944039490577150}
   - component: {fileID: 5623402131612947971}
+  - component: {fileID: 379937717637448604}
   m_Layer: 3
   m_Name: RocketLauncher
   m_TagString: Untagged
@@ -495,6 +496,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WireEnd: {fileID: 5164410761400023262}
+--- !u!95 &379937717637448604
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7733628067976883623}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 09ab164580f57384ab821bd9fa938c94, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1492953001742093377
 PrefabInstance:
   m_ObjectHideFlags: 0
