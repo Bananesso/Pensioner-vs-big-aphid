@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5141154547743417988}
   - component: {fileID: 3463728906032921023}
   - component: {fileID: 3308050857413531845}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GryadkaMan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4548575052631680693}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FlowerPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ Transform:
   m_GameObject: {fileID: 6039180379142228958}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.004, y: 0.049, z: 0.078}
+  m_LocalPosition: {x: 0, y: 0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108,6 +108,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5141154547743417988}
     m_Modifications:
+    - target: {fileID: -8905134256007573587, guid: b92190781d0da3649992c6f571ca592a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b92190781d0da3649992c6f571ca592a,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -173,6 +178,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8236076569268209247, guid: b92190781d0da3649992c6f571ca592a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -5770634479784780433, guid: b92190781d0da3649992c6f571ca592a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: -5436111346566423630, guid: b92190781d0da3649992c6f571ca592a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -192,6 +207,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gryadka
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b92190781d0da3649992c6f571ca592a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383353755243004527, guid: b92190781d0da3649992c6f571ca592a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7496195364316166997, guid: b92190781d0da3649992c6f571ca592a,
         type: 3}

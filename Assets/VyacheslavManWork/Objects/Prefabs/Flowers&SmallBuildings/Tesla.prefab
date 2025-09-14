@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2337930429404324973}
   - component: {fileID: 2063320893284474999}
   - component: {fileID: 7879435851552560478}
+  - component: {fileID: 1668529611998832068}
   m_Layer: 0
   m_Name: Tesla
   m_TagString: Untagged
@@ -34,6 +35,7 @@ Transform:
   m_Children:
   - {fileID: 3493429827710932219}
   - {fileID: 893850359724805097}
+  - {fileID: 772119324611776203}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2337930429404324973
@@ -94,6 +96,50 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 3.9135923, z: 1}
   m_Center: {x: 0, y: 1.836709, z: 0}
+--- !u!114 &1668529611998832068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318815909658631201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1cdb2cf5bdd672419a3373ddd25c284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WireEnd: {fileID: 7117245173819288729}
+--- !u!1 &7117245173819288729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772119324611776203}
+  m_Layer: 0
+  m_Name: WireEndPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &772119324611776203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117245173819288729}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6924783212106956751}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &859379765394402306
 PrefabInstance:
   m_ObjectHideFlags: 0

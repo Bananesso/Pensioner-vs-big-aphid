@@ -6,12 +6,8 @@ public class TrashBag : MonoBehaviour, IInteractWithObj
     [SerializeField] private int _materialsLoot;
     [SerializeField] private int _listikiLoot;
 
-    private ListikiPodschet _listikiPodschet;
+    [SerializeField] private ListikiPodschet _listikiPodschet;
 
-    private void Start()
-    {
-        _listikiPodschet = FindObjectOfType<ListikiPodschet>();
-    }
     public void Interact()
     {
         _listikiPodschet.KolichestvoMaterialov += _materialsLoot;

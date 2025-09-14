@@ -16,14 +16,12 @@ public class Flower : MonoBehaviour
     [Header("Техническое")]
     [SerializeField] private bool _electrolyzed;
 
-    private AnimationLogic _shootAnimation;
     private Coroutine _shootingCoroutine;
     private Animator _animator;
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        _animator.SetTrigger("Appear");
         StartCoroutine(Shoot());
     }
 

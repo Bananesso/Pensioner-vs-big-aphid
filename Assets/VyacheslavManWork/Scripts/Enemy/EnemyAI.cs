@@ -35,11 +35,9 @@ public class EnemyAI : MonoBehaviour
     private void Start()
     {
         _stunSpeedDebuff = _moveSpeed;
+        _tempSpeed = _moveSpeed;
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
-
-        // Запуск анимации появления
-        _animator.SetTrigger("Appear");
         StartCoroutine(Check());
     }
 
@@ -62,7 +60,6 @@ public class EnemyAI : MonoBehaviour
                     {
                         _tempSpeed = 0;
                         _animator.SetBool("IsAttacking", true);
-                        _animator.SetTrigger("Attack");
                         coroutine = StartCoroutine(Atack());
                     }
                 }

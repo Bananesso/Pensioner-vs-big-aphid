@@ -43,7 +43,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1704ccc52a196cb40894fa490f5b5602, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -88,7 +88,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.6
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
     type: 3}
   _explosionParticlePlayTime: 6
   _explosionSound: {fileID: 2171765500400324364}
-  _bulletLifeTime: 6
+  _bulletLifeTime: 20
   _radius: 3.8
   _damageCurrentEnemy: 5
   _damageNearEnemy: 12

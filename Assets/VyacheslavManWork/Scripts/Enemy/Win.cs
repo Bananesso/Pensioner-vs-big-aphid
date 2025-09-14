@@ -9,10 +9,10 @@ public class Win : MonoBehaviour
 
     private void Start()
     {
-        _fpCamera = GameObject.Find("Virtual Camera");
-        _winMenu = GameObject.FindGameObjectWithTag("Win");
-        _player = GameObject.Find("Playerw");
-        _winMenu.SetActive(false);
+        //_fpCamera = GameObject.FindGameObjectWithTag("Camera");
+        //_winMenu = GameObject.FindGameObjectWithTag("Win");
+        //_player = GameObject.FindGameObjectWithTag("Player");
+        //_winMenu.SetActive(false);
         health = GetComponent<Health>();
         health.OnDie += Winn;
     }

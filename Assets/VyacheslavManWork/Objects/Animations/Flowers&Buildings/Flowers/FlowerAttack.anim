@@ -1,0 +1,5331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlowerAttack
+  serializedVersion: 7
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 89.098, y: -84.394, z: -90}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 83.227, y: -87.919, z: -109.574}
+        inSlope: {x: -21.02914, y: -12.627438, z: 0}
+        outSlope: {x: -21.02914, y: -12.627438, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 76.831, y: -91.76, z: -87.431}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 89.098, y: -84.394, z: -90}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -87.609, y: 62.113, z: -64.248}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -87.608, y: 62.113, z: -72.082}
+        inSlope: {x: 0, y: 0, z: -15.114994}
+        outSlope: {x: 0, y: 0, z: -15.114994}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.8
+        value: {x: -87.608, y: 62.113, z: -76.34}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -87.609, y: 62.113, z: -64.248}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 81.755, y: -77.418, z: -77.136}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 65.865, y: -89.334, z: -109.335}
+        inSlope: {x: 0, y: -4.100569, z: 0}
+        outSlope: {x: 0, y: -4.100569, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 72.777, y: -89.932, z: -78.964}
+        inSlope: {x: 8.827778, y: 0, z: 4.0622125}
+        outSlope: {x: 8.827778, y: 0, z: 4.0622125}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 81.755, y: -77.418, z: -77.136}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 33.151, y: 1.278, z: 16.529}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 6.387, y: -5.53, z: -1.345}
+        inSlope: {x: 0, y: -26.694859, z: 0}
+        outSlope: {x: 0, y: -26.694859, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 28.032, y: -14.294, z: 18.5}
+        inSlope: {x: 11.375561, y: 0, z: 0}
+        outSlope: {x: 11.375561, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 33.151, y: 1.278, z: 16.529}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 33.994, y: 7.322, z: 16.34}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: -4.703, y: 16.377, z: -20.699}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 28.857, y: 3.88, z: 28.875}
+        inSlope: {x: 11.41555, y: 0, z: 0}
+        outSlope: {x: 11.41555, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 33.994, y: 7.322, z: 16.34}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -8.387, y: 0.126, z: 8.444}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: -21.5, y: 2.824, z: -23.729}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -18.661, y: -1.911, z: 14.039}
+        inSlope: {x: 18.415138, y: 0, z: 0}
+        outSlope: {x: 18.415138, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.9
+        value: {x: -3.343, y: 1.873, z: 13.31}
+        inSlope: {x: 0, y: 0, z: -1.9439977}
+        outSlope: {x: 0, y: 0, z: -1.9439977}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -8.387, y: 0.126, z: 8.444}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 27.103, y: 18.585, z: 68.341}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 27.103, y: 18.585, z: 68.841}
+        inSlope: {x: 0, y: 0, z: 3.4285712}
+        outSlope: {x: 0, y: 0, z: 3.4285712}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 27.103, y: 18.585, z: 84.181}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.9
+        value: {x: 27.103, y: 18.585, z: 53.706}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 27.103, y: 18.585, z: 68.341}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u043F\u0435\u0440\u0435\u0434 1 \u043F\u0430\u043B\u044C\u0446\u0435\u043C"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -16.496, y: -0.78, z: 3.244}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -45.242, y: -2.999, z: 4.419}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.9
+        value: {x: -24.217, y: -1.258, z: 3.41}
+        inSlope: {x: 19.164, y: 1.2746669, z: -0.44266704}
+        outSlope: {x: 19.164, y: 1.2746669, z: -0.44266704}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -16.496, y: -0.78, z: 3.244}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -1.929, y: 4.091, z: -24.538}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -24.283, y: 15.089, z: -27.087}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.9
+        value: {x: 0.815, y: 2.84, z: -24.526}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -1.929, y: 4.091, z: -24.538}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043F\u0440\u0430\u0432\u0430"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 15.71, y: -9.611, z: -25.542}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 2.376, y: -3.322, z: -24.546}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 15.71, y: -9.611, z: -25.542}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446/\u041A\u043E\u0441\u0442\u044C.042"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.118, y: 0.008, z: 7.514}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 2.622, y: 7.958, z: 15.036}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 0.118, y: 0.008, z: 7.514}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.151, y: 0.013, z: -9.652}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: -1.757, y: 0.286, z: -18.33}
+        inSlope: {x: -5.7514286, y: 0.97885716, z: 0}
+        outSlope: {x: -5.7514286, y: 0.97885716, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -3.506, y: 0.584, z: 4.899}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -0.151, y: 0.013, z: -9.652}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.129, y: -10.334, z: 60.969}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 0.472, y: -51.646, z: 34.772}
+        inSlope: {x: 2.153143, y: -147.98058, z: -152.83202}
+        outSlope: {x: 2.153143, y: -147.98058, z: -152.83202}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 1.127, y: -96.656, z: -28.183}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -0.129, y: -10.334, z: 60.969}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006/\u041A\u043E\u0441\u0442\u044C.007"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.191, y: -48.162, z: 47.849}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: -44.193, y: -66.031, z: 50.081}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 34.722, y: 21.49, z: 21.086}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 0.191, y: -48.162, z: 47.849}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -10.131, y: -0.401, z: 2.356}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: -49.439, y: -46.99, z: 4.091}
+        inSlope: {x: 0, y: -106.764, z: 0}
+        outSlope: {x: 0, y: -106.764, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 55.791, y: -62.68, z: -19.176}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -10.131, y: -0.401, z: 2.356}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.138, y: 0.011, z: 8.807}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: -5.473, y: -22.849, z: -21.727}
+        inSlope: {x: 0, y: -11.903985, z: 0}
+        outSlope: {x: 0, y: -11.903985, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: -2.19, y: -24.585, z: 22.35}
+        inSlope: {x: 3.1172223, y: 0, z: 0}
+        outSlope: {x: 3.1172223, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 0.138, y: 0.011, z: 8.807}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 49.036, y: -24.781, z: -14.392}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.9
+        value: {x: 47.407, y: -24.165, z: -13.931}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 49.036, y: -24.781, z: -14.392}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.011, y: 0, z: 0.698}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 0.011, y: 0, z: -5.423}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.5833333
+        value: {x: 0.011, y: 0, z: 7.344}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 0.011, y: 0, z: 0.698}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -36.755, y: 11.163, z: -15.864}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.8
+        value: {x: -35.602, y: 15.767, z: -27.283}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -36.755, y: 11.163, z: -15.864}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041B\u0435\u0432\u043E\u0435 \u043F\u043B\u0435\u0447\u043E"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 113.757996, y: 70.781, z: 50.994003}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 116.713, y: 81.898, z: 60.958}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 113.757996, y: 70.781, z: 50.994003}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u043F\u0440\u0430\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E/\u041B\u043E\u0434\u044B\u0436\u043A\u0430/\u0421\u0442\u043E\u043F\u0430"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 25.928, y: 29.976, z: 100.18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: 20.481, y: 28.935, z: 94.399}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: 25.928, y: 29.976, z: 100.18}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001"
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -5.097, y: -0.035, z: 0.794}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.28333333
+        value: {x: -9.527, y: 0.393, z: -5.506}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.0833333
+        value: {x: -5.097, y: -0.035, z: 0.794}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001/\u0421\u0440\u0435\u0434\u043D\u0438\u0439
+      \u043F\u0430\u043B\u0435\u0446.001"
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/Bullet"
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 1618644092
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 828903656
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3156157728
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3943029762
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 905114808
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 2168971218
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 2224090445
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3594385390
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 4210907109
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 276198197
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1022087279
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1885525086
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1844086
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 778916306
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 4024694639
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 271936820
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3537582531
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1962449217
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1368839988
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 2590446479
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 2751912084
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3071785523
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 2841799794
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 2.0833333
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 89.098
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 83.227
+        inSlope: -21.02914
+        outSlope: -21.02914
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 76.831
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 89.098
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -84.394
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -87.919
+        inSlope: -12.627438
+        outSlope: -12.627438
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -91.76
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -84.394
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -109.574
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -87.431
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -87.609
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -87.608
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8
+        value: -87.608
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -87.609
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 62.113
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 62.113
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8
+        value: 62.113
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 62.113
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -64.248
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -72.082
+        inSlope: -15.114994
+        outSlope: -15.114994
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8
+        value: -76.34
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -64.248
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 81.755
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 65.865
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 72.777
+        inSlope: 8.827778
+        outSlope: 8.827778
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 81.755
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -77.418
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -89.334
+        inSlope: -4.100569
+        outSlope: -4.100569
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -89.932
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -77.418
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -77.136
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -109.335
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -78.964
+        inSlope: 4.0622125
+        outSlope: 4.0622125
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -77.136
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 33.151
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 6.387
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 28.032
+        inSlope: 11.375561
+        outSlope: 11.375561
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 33.151
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.278
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -5.53
+        inSlope: -26.694859
+        outSlope: -26.694859
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -14.294
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 1.278
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 16.529
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -1.345
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 18.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 16.529
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 33.994
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -4.703
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 28.857
+        inSlope: 11.41555
+        outSlope: 11.41555
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 33.994
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 7.322
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 16.377
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 3.88
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 7.322
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 16.34
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -20.699
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 28.875
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 16.34
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -8.387
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -21.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -18.661
+        inSlope: 18.415138
+        outSlope: 18.415138
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: -3.343
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -8.387
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.126
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 2.824
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -1.911
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 1.873
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.126
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 8.444
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -23.729
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 14.039
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 13.31
+        inSlope: -1.9439977
+        outSlope: -1.9439977
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 8.444
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 27.103
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 27.103
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 27.103
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 27.103
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 27.103
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u043F\u0435\u0440\u0435\u0434 1 \u043F\u0430\u043B\u044C\u0446\u0435\u043C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 18.585
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 18.585
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 18.585
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 18.585
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 18.585
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u043F\u0435\u0440\u0435\u0434 1 \u043F\u0430\u043B\u044C\u0446\u0435\u043C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 68.341
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 68.841
+        inSlope: 3.4285712
+        outSlope: 3.4285712
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 84.181
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 53.706
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 68.341
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u043F\u0435\u0440\u0435\u0434 1 \u043F\u0430\u043B\u044C\u0446\u0435\u043C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -16.496
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -45.242
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: -24.217
+        inSlope: 19.164
+        outSlope: 19.164
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -16.496
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.78
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -2.999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: -1.258
+        inSlope: 1.2746669
+        outSlope: 1.2746669
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -0.78
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 3.244
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 4.419
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 3.41
+        inSlope: -0.44266704
+        outSlope: -0.44266704
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 3.244
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -1.929
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -24.283
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 0.815
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -1.929
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043F\u0440\u0430\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 4.091
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 15.089
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 2.84
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 4.091
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043F\u0440\u0430\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -24.538
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -27.087
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: -24.526
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -24.538
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043F\u0440\u0430\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 15.71
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 2.376
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 15.71
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446/\u041A\u043E\u0441\u0442\u044C.042"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -9.611
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -3.322
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -9.611
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446/\u041A\u043E\u0441\u0442\u044C.042"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -25.542
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -24.546
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -25.542
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446/\u041A\u043E\u0441\u0442\u044C.042"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/Bullet"
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.118
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 2.622
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.118
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 7.958
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 7.514
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 15.036
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 7.514
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.151
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -1.757
+        inSlope: -5.7514286
+        outSlope: -5.7514286
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -3.506
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -0.151
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 0.286
+        inSlope: 0.97885716
+        outSlope: 0.97885716
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0.584
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.013
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -9.652
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -18.33
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 4.899
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -9.652
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.129
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 0.472
+        inSlope: 2.153143
+        outSlope: 2.153143
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 1.127
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -0.129
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006/\u041A\u043E\u0441\u0442\u044C.007"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -10.334
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -51.646
+        inSlope: -147.98058
+        outSlope: -147.98058
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -96.656
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -10.334
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006/\u041A\u043E\u0441\u0442\u044C.007"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 60.969
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 34.772
+        inSlope: -152.83202
+        outSlope: -152.83202
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -28.183
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 60.969
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006/\u041A\u043E\u0441\u0442\u044C.007"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.191
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -44.193
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 34.722
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.191
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -48.162
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -66.031
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 21.49
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -48.162
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 47.849
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 50.081
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 21.086
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 47.849
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -10.131
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -49.439
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 55.791
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -10.131
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.401
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -46.99
+        inSlope: -106.764
+        outSlope: -106.764
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -62.68
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -0.401
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 2.356
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 4.091
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -19.176
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 2.356
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.138
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -5.473
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -2.19
+        inSlope: 3.1172223
+        outSlope: 3.1172223
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.138
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -22.849
+        inSlope: -11.903985
+        outSlope: -11.903985
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: -24.585
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 8.807
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -21.727
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 22.35
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 8.807
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 49.036
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: 47.407
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 49.036
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -24.781
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: -24.165
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -24.781
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -14.392
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9
+        value: -13.931
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -14.392
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 0.011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0.011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.698
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -5.423
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5833333
+        value: 7.344
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.698
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -36.755
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8
+        value: -35.602
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -36.755
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041B\u0435\u0432\u043E\u0435 \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 11.163
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8
+        value: 15.767
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 11.163
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041B\u0435\u0432\u043E\u0435 \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -15.864
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8
+        value: -27.283
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -15.864
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041B\u0435\u0432\u043E\u0435 \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 113.757996
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 116.713
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 113.757996
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u043F\u0440\u0430\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E/\u041B\u043E\u0434\u044B\u0436\u043A\u0430/\u0421\u0442\u043E\u043F\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 70.781
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 81.898
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 70.781
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u043F\u0440\u0430\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E/\u041B\u043E\u0434\u044B\u0436\u043A\u0430/\u0421\u0442\u043E\u043F\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 50.994003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 60.958
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 50.994003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u043F\u0440\u0430\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E/\u041B\u043E\u0434\u044B\u0436\u043A\u0430/\u0421\u0442\u043E\u043F\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 25.928
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 20.481
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 25.928
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 29.976
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 28.935
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 29.976
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 100.18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 94.399
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 100.18
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -5.097
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -9.527
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -5.097
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001/\u0421\u0440\u0435\u0434\u043D\u0438\u0439
+      \u043F\u0430\u043B\u0435\u0446.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.035
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: 0.393
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: -0.035
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001/\u0421\u0440\u0435\u0434\u043D\u0438\u0439
+      \u043F\u0430\u043B\u0435\u0446.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.794
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28333333
+        value: -5.506
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0833333
+        value: 0.794
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001/\u0421\u0440\u0435\u0434\u043D\u0438\u0439
+      \u043F\u0430\u043B\u0435\u0446.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  m_EulerEditorCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043F\u0440\u0430\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043F\u0440\u0430\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043F\u0440\u0430\u0432\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041B\u0435\u0432\u043E\u0435 \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041B\u0435\u0432\u043E\u0435 \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041B\u0435\u0432\u043E\u0435 \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u043F\u0435\u0440\u0435\u0434 1 \u043F\u0430\u043B\u044C\u0446\u0435\u043C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u043F\u0435\u0440\u0435\u0434 1 \u043F\u0430\u043B\u044C\u0446\u0435\u043C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u043F\u0435\u0440\u0435\u0434 1 \u043F\u0430\u043B\u044C\u0446\u0435\u043C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446/\u041A\u043E\u0441\u0442\u044C.042"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446/\u041A\u043E\u0441\u0442\u044C.042"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041F\u0440\u0430\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u043F\u043B\u0435\u0447\u043E/\u041F\u0440\u0430\u0432\u044B\u0439 \u041B\u043E\u043A\u043E\u0442\u044C/\u0412\u0442\u043E\u0440\u043E\u0439
+      \u043B\u043E\u043A\u043E\u0442\u044C/\u041B\u0430\u0434\u043E\u0448\u043A\u0430
+      \u0441\u043B\u0435\u0432\u0430/2 \u043F\u0430\u043B\u0435\u0446/\u041A\u043E\u0441\u0442\u044C.042"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001/\u0421\u0440\u0435\u0434\u043D\u0438\u0439
+      \u043F\u0430\u043B\u0435\u0446.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001/\u0421\u0440\u0435\u0434\u043D\u0438\u0439
+      \u043F\u0430\u043B\u0435\u0446.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041B\u0435\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041B\u0435\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E.001/\u041B\u043E\u0434\u044B\u0436\u043A\u0430.001/\u0421\u0442\u043E\u043F\u0430.001/\u0421\u0440\u0435\u0434\u043D\u0438\u0439
+      \u043F\u0430\u043B\u0435\u0446.001"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u041B\u0435\u0432\u0430\u044F
+      \u043B\u043E\u043F\u0430\u0442\u043A\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006/\u041A\u043E\u0441\u0442\u044C.007"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006/\u041A\u043E\u0441\u0442\u044C.007"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006/\u041A\u043E\u0441\u0442\u044C.007"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u041F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u0438\u043A/\u0428\u0435\u044F/\u0427\u0435\u0440\u0435\u043F/\u041C\u0430\u043A\u0443\u0448\u043A\u0430/\u0412\u0435\u0440\u0448\u043E\u043A/\u041A\u043E\u0441\u0442\u044C.005/\u041A\u043E\u0441\u0442\u044C.006"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u043F\u0440\u0430\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E/\u041B\u043E\u0434\u044B\u0436\u043A\u0430/\u0421\u0442\u043E\u043F\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u043F\u0440\u0430\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E/\u041B\u043E\u0434\u044B\u0436\u043A\u0430/\u0421\u0442\u043E\u043F\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: "PeaShooter/\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/\u043F\u0440\u0430\u0432\u0430\u044F
+      \u0442\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u0441\u0442\u044C/\u041F\u0440\u0430\u0432\u043E\u0435
+      \u0411\u0435\u0434\u0440\u043E/\u041A\u043E\u043B\u0435\u043D\u043E/\u041B\u043E\u0434\u044B\u0436\u043A\u0430/\u0421\u0442\u043E\u043F\u0430"
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []

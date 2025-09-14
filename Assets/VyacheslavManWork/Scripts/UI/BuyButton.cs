@@ -7,7 +7,7 @@ public class BuyButton : MonoBehaviour
     [SerializeField] private int _priceMaterials;
 
     [SerializeField] private GameObject _seedPrefab;
-    [SerializeField] Transform _transform;
+    [SerializeField] Transform _spawnSeedsTransform;
 
     private ListikiPodschet _listikiPodschet;
 
@@ -23,7 +23,7 @@ public class BuyButton : MonoBehaviour
     {
         if (_listikiPodschet.KolichestvoListikov >= _priceListiki && _listikiPodschet.KolichestvoMaterialov >= _priceMaterials)
         {
-            Instantiate(_seedPrefab, _transform.position, Quaternion.identity);
+            Instantiate(_seedPrefab, _spawnSeedsTransform.position, Quaternion.identity);
 
             _listikiPodschet.KolichestvoListikov -= _priceListiki;
             _listikiPodschet.KolichestvoMaterialov -= _priceMaterials;

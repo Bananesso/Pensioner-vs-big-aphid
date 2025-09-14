@@ -6,7 +6,7 @@ public class AnimationLogic : MonoBehaviour
 
     [SerializeField] private bool _playOnAwake = true;
 
-    [Header("Обязательно должны быть назначены обе анимации!")]
+    [Header("Анимации")]
     [SerializeField] private AnimationClip _idleAnimation;
     [SerializeField] private AnimationClip _attackAnimation;
 
@@ -23,7 +23,8 @@ public class AnimationLogic : MonoBehaviour
 
     public void PlayIdleAnimation()
     {
-        _animationComponent.Play(_idleAnimation.name);
+        if (_idleAnimation != null)
+            _animationComponent.Play(_idleAnimation.name);
     }
 
     public void PlayAttackAnimation()

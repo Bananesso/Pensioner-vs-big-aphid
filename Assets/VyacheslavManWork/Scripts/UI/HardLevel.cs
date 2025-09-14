@@ -6,7 +6,7 @@ public class HardLevel : MonoBehaviour
     [SerializeField] private float _multiplierAtkSpeed = 1;
     [SerializeField] private float _multiplierMooveSpeed = 1;
 
-    void ChangeHardLevel()
+    public void ChangeHardLevel()
     {
         PlayerPrefs.SetFloat("MultiplierAtkDamage", _multiplierAtkDamage);
         PlayerPrefs.SetFloat("MultiplierAtkSpeed", _multiplierAtkSpeed);

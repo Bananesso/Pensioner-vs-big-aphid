@@ -11,11 +11,11 @@ public class Loose : MonoBehaviour
         if (other.tag == "Enemy")
         {
             Time.timeScale = 0;
-            _fpCamera.SetActive(false);
 
-            _player = GameObject.Find("Playerw");
+            _fpCamera.SetActive(false);
             _player.SetActive(false);
             _looseMenu.SetActive(true);
+
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
