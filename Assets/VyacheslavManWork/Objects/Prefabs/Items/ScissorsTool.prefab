@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6483724015398658471}
   - component: {fileID: 2281326559882123994}
   - component: {fileID: 7586355867240153656}
+  - component: {fileID: 5544558678238488781}
+  - component: {fileID: 7742214450952205555}
   m_Layer: 0
   m_Name: ScissorsTool
   m_TagString: Untagged
@@ -99,6 +101,38 @@ MonoBehaviour:
   ImageSprite: {fileID: 21300000, guid: ace9c9144fe6f0c44852119696fa1156, type: 3}
   _isPicked: 0
   Scissors: 1
+--- !u!114 &5544558678238488781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467512179754645257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68a2aa7b5665f84093483666bde3ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _outline: {fileID: 7742214450952205555}
+--- !u!114 &7742214450952205555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467512179754645257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableOnEnable: 0
+  outlineMode: 0
+  outlineColor: {r: 0.8584906, g: 0.75466144, b: 0.5790762, a: 1}
+  outlineWidth: 3
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &8817010548906109738
 PrefabInstance:
   m_ObjectHideFlags: 0
