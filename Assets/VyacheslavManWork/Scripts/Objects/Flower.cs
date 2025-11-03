@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,13 +12,15 @@ public class Flower : MonoBehaviour
     [SerializeField] private float _bulletSpeed;
     [SerializeField] private GameObject _bullet;
     [SerializeField] private Transform _firePoint;
-    [SerializeField] private float _timeElectrolyzed;
+    [SerializeField] private int _timeElectrolyzed;
+    private int _timeElectrLast;
 
     [Header("Техническое")]
     [SerializeField] private bool _electrolyzed;
 
     private Coroutine _shootingCoroutine;
     private Animator _animator;
+    public event Action OnTimeElectrChange;
 
     private void Start()
     {
@@ -37,7 +40,12 @@ public class Flower : MonoBehaviour
 
     private IEnumerator LooseEnergy() //спад электризации
     {
-        yield return new WaitForSeconds(_timeElectrolyzed);
+        _timeElectrLast = _timeElectrolyzed;
+        while (_timeElectrLast > 0)
+        {
+            OnTimeElectrChange?.Invoke();
+            yield return new WaitForSeconds(1);
+        }
         _electrolyzed = false;
     }
 
@@ -55,5 +63,10 @@ public class Flower : MonoBehaviour
             }
             yield return new WaitForSeconds(_timeAfterShot);
         }
+    }
+
+    public float GetTimeElInParts()
+    {
+        return _timeElectrLast / _timeElectrolyzed;
     }
 }

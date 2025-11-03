@@ -8,6 +8,7 @@ public class SpawnerManager : MonoBehaviour
     [SerializeField] private int _enableSpawnerTime = 15;
     [SerializeField] private TextMeshPro _timerVisual;
     private int _timer;
+
     private void Start()
     {
         StartCoroutine(EnableSpawner());
@@ -16,22 +17,16 @@ public class SpawnerManager : MonoBehaviour
     {
         foreach (GameObject spawner in _spawners)
         {
-            StartCoroutine(Timer());
             this.transform.position = spawner.transform.position;
             spawner.gameObject.SetActive(true);
-            yield return new WaitForSeconds(_enableSpawnerTime);
+            _timer = _enableSpawnerTime;
+            while (_timer > 0)
+            {
+                _timerVisual.text = _timer.ToString();
+                _timer--;
+                yield return new WaitForSeconds(1);
+            }
         }
         Destroy(_timerVisual);
-    }
-
-    private IEnumerator Timer()
-    {
-        _timer = _enableSpawnerTime;
-        while (_timer > 0)
-        {
-            _timerVisual.text = _timer.ToString();
-            _timer--;
-            yield return new WaitForSeconds(1);
-        }
     }
 }
