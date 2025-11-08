@@ -43,7 +43,8 @@ public class Flower : MonoBehaviour
         _timeElectrLast = _timeElectrolyzed;
         while (_timeElectrLast > 0)
         {
-            OnTimeElectrChange?.Invoke();
+            _timeElectrLast--;
+			OnTimeElectrChange?.Invoke();
             yield return new WaitForSeconds(1);
         }
         _electrolyzed = false;

@@ -27,6 +27,6 @@ public class CrouchController
         }
 
         float targetHeight = _isCrouching ? _crouchHeight : _standingHeight;
-        _characterController.height = Mathf.Lerp(_characterController.height, targetHeight, Time.deltaTime * _crouchTransitionSpeed);
+        _characterController.height = Mathf.MoveTowards(_characterController.height, targetHeight, Time.deltaTime * _crouchTransitionSpeed);
     }
 }
