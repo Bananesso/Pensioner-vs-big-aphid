@@ -197,6 +197,7 @@ MonoBehaviour:
   - {fileID: 1960484982}
   - {fileID: 2069995811}
   _enableSpawnerTime: 20
+  _timerVisual: {fileID: 0}
 --- !u!1 &28442865
 GameObject:
   m_ObjectHideFlags: 3
@@ -658,6 +659,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sintezator
       objectReference: {fileID: 0}
+    - target: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+        type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 812553227}
+    - target: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+        type: 3}
+      propertyPath: _virtualCamera
+      value: 
+      objectReference: {fileID: 1470633226}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1890056512957958807, guid: fe64c644d94526f42a6d3386b343a814, type: 3}
@@ -1747,7 +1758,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1372752428}
     - target: {fileID: 8977167367059211383, guid: 270cfc790f7c536419fdf0fede2b37c9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -4035,6 +4046,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1017268657}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1031219219 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+    type: 3}
+  m_PrefabInstance: {fileID: 1385732936}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bea299db67b30c49af3225637f275fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1046776520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5570,6 +5593,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 619698304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1372752428 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+    type: 3}
+  m_PrefabInstance: {fileID: 34940504}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bea299db67b30c49af3225637f275fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1381905194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6901,7 +6936,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1031219219}
     - target: {fileID: 8596597541717153461, guid: a069844be8f01204e8f5047d160dc1f5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName

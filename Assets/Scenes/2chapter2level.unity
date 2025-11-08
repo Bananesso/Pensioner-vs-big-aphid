@@ -2300,6 +2300,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Workbench (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+        type: 3}
+      propertyPath: _magaz
+      value: 
+      objectReference: {fileID: 1258391506}
+    - target: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+        type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 498722462}
+    - target: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+        type: 3}
+      propertyPath: _virtualCamera
+      value: 
+      objectReference: {fileID: 2094287180}
     - target: {fileID: 5073274778828380858, guid: a6d7d110c421de745aa9de4ce7a12481,
         type: 3}
       propertyPath: _priceMaterials
@@ -2345,7 +2360,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a6d7d110c421de745aa9de4ce7a12481, type: 3}
 --- !u!114 &382883230 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7002621503955992870, guid: a6d7d110c421de745aa9de4ce7a12481,
+  m_CorrespondingSourceObject: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
     type: 3}
   m_PrefabInstance: {fileID: 382883229}
   m_PrefabAsset: {fileID: 0}
@@ -6978,6 +6993,7 @@ MonoBehaviour:
   - {fileID: 970998986}
   - {fileID: 487204173}
   _enableSpawnerTime: 15
+  _timerVisual: {fileID: 0}
 --- !u!1 &1073490162
 GameObject:
   m_ObjectHideFlags: 0

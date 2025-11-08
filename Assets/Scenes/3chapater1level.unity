@@ -584,6 +584,11 @@ PrefabInstance:
       propertyPath: _fpCamera
       value: 
       objectReference: {fileID: 1387566227}
+    - target: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+        type: 3}
+      propertyPath: _virtualCamera
+      value: 
+      objectReference: {fileID: 1387566228}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1890056512957958807, guid: fe64c644d94526f42a6d3386b343a814, type: 3}
@@ -4193,6 +4198,7 @@ MonoBehaviour:
   - {fileID: 474808433}
   - {fileID: 1718580457}
   _enableSpawnerTime: 15
+  _timerVisual: {fileID: 0}
 --- !u!1 &1279180176
 GameObject:
   m_ObjectHideFlags: 0
@@ -6685,6 +6691,11 @@ PrefabInstance:
       propertyPath: _fpCamera
       value: 
       objectReference: {fileID: 1387566227}
+    - target: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+        type: 3}
+      propertyPath: _virtualCamera
+      value: 
+      objectReference: {fileID: 1387566228}
     - target: {fileID: 3046499874601042941, guid: a6d7d110c421de745aa9de4ce7a12481,
         type: 3}
       propertyPath: _priceMaterials

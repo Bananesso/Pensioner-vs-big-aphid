@@ -1395,6 +1395,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1911486466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &290660150 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+    type: 3}
+  m_PrefabInstance: {fileID: 832440867}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bea299db67b30c49af3225637f275fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &318939010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4707,6 +4719,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sintezator
       objectReference: {fileID: 0}
+    - target: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+        type: 3}
+      propertyPath: _magaz
+      value: 
+      objectReference: {fileID: 1274418430}
+    - target: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+        type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 396018156}
+    - target: {fileID: 8518890822907375072, guid: fe64c644d94526f42a6d3386b343a814,
+        type: 3}
+      propertyPath: _virtualCamera
+      value: 
+      objectReference: {fileID: 703927213}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4800,18 +4827,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c6c6573e69417e4fb71f15200fb6978, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &832440876 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6810586434629806719, guid: fe64c644d94526f42a6d3386b343a814,
-    type: 3}
-  m_PrefabInstance: {fileID: 832440867}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bea299db67b30c49af3225637f275fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &859860082
@@ -6095,6 +6110,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Workbench
       objectReference: {fileID: 0}
+    - target: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+        type: 3}
+      propertyPath: _magaz
+      value: 
+      objectReference: {fileID: 914640188}
+    - target: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+        type: 3}
+      propertyPath: _player
+      value: 
+      objectReference: {fileID: 396018156}
+    - target: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
+        type: 3}
+      propertyPath: _virtualCamera
+      value: 
+      objectReference: {fileID: 703927213}
     - target: {fileID: 3046499874601042941, guid: a6d7d110c421de745aa9de4ce7a12481,
         type: 3}
       propertyPath: _priceMaterialsShow
@@ -6137,7 +6167,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a6d7d110c421de745aa9de4ce7a12481, type: 3}
 --- !u!114 &1062057655 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7002621503955992870, guid: a6d7d110c421de745aa9de4ce7a12481,
+  m_CorrespondingSourceObject: {fileID: 2271153799454859599, guid: a6d7d110c421de745aa9de4ce7a12481,
     type: 3}
   m_PrefabInstance: {fileID: 1062057654}
   m_PrefabAsset: {fileID: 0}
@@ -7192,7 +7222,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 832440876}
+      objectReference: {fileID: 290660150}
     - target: {fileID: 8977167367059211383, guid: 270cfc790f7c536419fdf0fede2b37c9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -7781,6 +7811,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1355873640}
+    - targetCorrespondingSourceObject: {fileID: 1286786452770635764, guid: 8d525c319e39fb14e88d0d2e7fb52635,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8d525c319e39fb14e88d0d2e7fb52635, type: 3}
 --- !u!4 &1355873638 stripped
 Transform:
