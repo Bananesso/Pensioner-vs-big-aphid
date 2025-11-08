@@ -20,6 +20,8 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField] private bool _playOnAwake = true;
 
+    [SerializeField] private TextMeshProUGUI _showRep;
+    private Animation _repAnim;
 
     private byte _nextNode;
 
@@ -27,6 +29,7 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        _repAnim = _showRep.transform.parent.GetComponent<Animation>();
         if (_playOnAwake)
             ShowNode(_dialogueTree.startNode);
     }
@@ -89,6 +92,22 @@ public class DialogueManager : MonoBehaviour
 
             _nextNode = (byte)(answerIndex % byte.MaxValue);
         }
+
+        if (_currentNode.Reputation.Count > answerIndex &&
+            _currentNode.ReputationColors.Count > answerIndex &&
+            _currentNode.Reputation[answerIndex] != null &&
+            _currentNode.ReputationColors[answerIndex] != null)
+        {
+            _showRep.text = _currentNode.Reputation[answerIndex];
+            _showRep.color = _currentNode.ReputationColors[answerIndex];
+        }
+        else
+        {
+            _showRep.text = "~";
+            _showRep.color = Color.grey;
+        }
+        _repAnim.Play();
+
         _cutscene.Resume();
     }
 }

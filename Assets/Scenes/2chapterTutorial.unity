@@ -9501,6 +9501,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1129371945}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1405054334 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4308494256450431074, guid: 08e26facd79415647b1d4423497c7a3c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1129371945}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1421407751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10958,6 +10970,7 @@ MonoBehaviour:
   _cutscene: {fileID: 1454209942}
   _characterSprite: {fileID: 1129371950}
   _playOnAwake: 1
+  _showRep: {fileID: 1405054334}
 --- !u!4 &1740920238
 Transform:
   m_ObjectHideFlags: 0

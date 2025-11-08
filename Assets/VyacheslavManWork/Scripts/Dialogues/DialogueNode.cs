@@ -12,6 +12,8 @@ public class DialogueNode : ScriptableObject
     [Header("Для репутации")]
     public List<string> playerPrefsKeys;
     public List<int> playerPrefsValues;
+    public List<string> Reputation;
+    public List<Color> ReputationColors;
 
     [Header("Изображение говорящего")]
     public Sprite SpeakerImage;
