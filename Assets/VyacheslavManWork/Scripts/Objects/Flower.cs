@@ -68,6 +68,6 @@ public class Flower : MonoBehaviour
 
     public float GetTimeElInParts()
     {
-        return _timeElectrLast / _timeElectrolyzed;
+		return (float) _timeElectrLast / _timeElectrolyzed;
     }
 }
