@@ -32,11 +32,14 @@ public class Health : MonoBehaviour
     public event Action OnHit;
     public event Action OnDie;
 
-    private void Start()
+	private Animator _animator;
+
+	private void Start()
     {
         _listikiPodschet = FindObjectOfType<ListikiPodschet>();
         _currentHealth = _maxHealth;
-    }
+		_animator = GetComponent<Animator>();
+	}
 
     public void TakeDamage(float amount)
     {
@@ -48,7 +51,8 @@ public class Health : MonoBehaviour
         {
             Die();
         }
-    }
+		_animator.SetTrigger("TakeDamage");
+	}
 
     private void Die()
     {

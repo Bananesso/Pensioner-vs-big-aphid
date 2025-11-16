@@ -59,7 +59,7 @@ public class EnemyAI : MonoBehaviour
                     if (coroutine == null)
                     {
                         _tempSpeed = 0;
-                        _animator.SetBool("IsAttacking", true);
+                        _animator.SetBool("Move", false);
                         coroutine = StartCoroutine(Atack());
                     }
                 }
@@ -69,12 +69,12 @@ public class EnemyAI : MonoBehaviour
                 if (coroutine != null)
                 {
                     StopCoroutine(coroutine);
-                    _animator.SetBool("IsAttacking", false);
                 }
                 coroutine = null;
                 flower = null;
                 _tempSpeed = _moveSpeed;
-            }
+				_animator.SetBool("Move", true);
+			}
             yield return new WaitForSeconds(0.5f);
         }
     }
@@ -83,7 +83,9 @@ public class EnemyAI : MonoBehaviour
     {
         while (flower != null)
         {
-            flower.GetComponent<Health>().TakeDamage(_damage + PlayerPrefs.GetFloat("MultiplierAtkDamage", 1));
+            _animator.SetTrigger("Attack");
+
+			flower.GetComponent<Health>().TakeDamage(_damage + PlayerPrefs.GetFloat("MultiplierAtkDamage", 1));
             yield return new WaitForSeconds(_fireRate + PlayerPrefs.GetFloat("MultiplierAtkSpeed", 1));
         }
     }

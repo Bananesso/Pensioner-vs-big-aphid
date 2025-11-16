@@ -15,10 +15,15 @@ public class SpawnerManager : MonoBehaviour
     }
     private IEnumerator EnableSpawner()
     {
-        foreach (GameObject spawner in _spawners)
+		float newX;
+        float newZ;
+
+		foreach (GameObject spawner in _spawners)
         {
-            this.transform.position = spawner.transform.position;
-            spawner.gameObject.SetActive(true);
+			newX = spawner.transform.position.x;
+			newZ = spawner.transform.position.z;
+			transform.position = new Vector3(newX, transform.position.y, newZ);
+
             _timer = _enableSpawnerTime;
             while (_timer > 0)
             {
@@ -26,7 +31,8 @@ public class SpawnerManager : MonoBehaviour
                 _timer--;
                 yield return new WaitForSeconds(1);
             }
-        }
+			spawner.gameObject.SetActive(true);
+		}
         Destroy(_timerVisual);
     }
 }
