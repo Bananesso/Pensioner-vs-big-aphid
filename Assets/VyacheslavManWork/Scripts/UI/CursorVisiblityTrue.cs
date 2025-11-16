@@ -3,20 +3,21 @@ using UnityEngine;
 public class CursorVisiblityTrue : MonoBehaviour
 {
     [SerializeField] private bool _playOnAwake = true;
+    [SerializeField] private bool _activate = true;
 
     void Start()
     {
         if (_playOnAwake)
-            ShowCursor(true);
+            ShowCursor(_activate);
     }
 
-    public void ShowCursor(bool _activate)
+    public void ShowCursor(bool activate)
     {
-        if (_activate)
+        if (activate)
             Cursor.lockState = CursorLockMode.None;
         else
             Cursor.lockState = CursorLockMode.Locked;
 
-        Cursor.visible = _activate;
+        Cursor.visible = activate;
     }
 }

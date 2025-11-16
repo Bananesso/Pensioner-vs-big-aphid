@@ -99,13 +99,13 @@ public class EnemyAI : MonoBehaviour
 
     private IEnumerator StunCoroutine()
     {
-        _moveSpeed -= _freezeSpeedDebuff;
+        _moveSpeed -= _stunSpeedDebuff;
         while (_stunTimeLast > 0)
         {
             yield return new WaitForSeconds(1);
             _stunTimeLast--;
         }
-        _moveSpeed += _freezeSpeedDebuff;
+        _moveSpeed += _stunSpeedDebuff;
         stunCoroutine = null;
     }
 
@@ -118,13 +118,13 @@ public class EnemyAI : MonoBehaviour
 
     private IEnumerator FreezeCoroutine()
     {
-        _moveSpeed -= _stunSpeedDebuff;
+        _moveSpeed -= _freezeSpeedDebuff;
         while (_freezeTimeLast > 0)
         {
             yield return new WaitForSeconds(1);
             _freezeTimeLast--;
         }
-        _moveSpeed += _stunSpeedDebuff;
+        _moveSpeed += _freezeSpeedDebuff;
         freezeCoroutine = null;
     }
 

@@ -22,7 +22,8 @@ public class SpawnerManager : MonoBehaviour
         {
 			newX = spawner.transform.position.x;
 			newZ = spawner.transform.position.z;
-			transform.position = new Vector3(newX, transform.position.y, newZ);
+
+            transform.position = new Vector3(newX, transform.position.y, newZ);
 
             _timer = _enableSpawnerTime;
             while (_timer > 0)
