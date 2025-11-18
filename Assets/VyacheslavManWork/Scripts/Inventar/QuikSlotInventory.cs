@@ -82,6 +82,7 @@ public class QuickSlotInventory : MonoBehaviour, IInventory
                 if (_items[i] == null)
                 {
                     _items[i] = item;
+                    item.GetComponentInChildren<MeshRenderer>().enabled = false;
                     OnInventoryUpdated?.Invoke();
                     return true;
                 }

@@ -490,6 +490,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 3221543104714092516, guid: b6c100439bba8ce4880b7207f0fccecd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6943336900541928312, guid: b6c100439bba8ce4880b7207f0fccecd,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -3456,8 +3461,8 @@ MonoBehaviour:
     _standingHeight: 2
     _crouchTransitionSpeed: 5
   _esc:
-    _fpCamera: {fileID: 0}
-    Menu: {fileID: 0}
+    _fpCamera: {fileID: 1470633225}
+    Menu: {fileID: 1199995376}
   _checkInteractable:
     _raycastDistance: 5
 --- !u!143 &812553228
@@ -4403,14 +4408,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f3d40ef71275396419792fd5d3d6cf37, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4457,8 +4462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 2
+  m_HorizontalFit: 1
+  m_VerticalFit: 1
 --- !u!114 &1090085667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4830,6 +4835,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7710477834463107994, guid: 247ecdb64b750fc4db027d4183e43322,
     type: 3}
   m_PrefabInstance: {fileID: 1140032853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1199995376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3221543104714092516, guid: b6c100439bba8ce4880b7207f0fccecd,
+    type: 3}
+  m_PrefabInstance: {fileID: 32367534}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1200212767
 GameObject:
