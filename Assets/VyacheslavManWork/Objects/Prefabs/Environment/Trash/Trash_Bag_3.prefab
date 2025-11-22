@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3450480147698378240}
   - component: {fileID: 3925845201407891134}
   - component: {fileID: 7539213048448195023}
+  - component: {fileID: -2784498541945265327}
+  - component: {fileID: 613285582079128766}
   m_Layer: 0
   m_Name: Trash_Bag_3
   m_TagString: Untagged
@@ -113,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _materialsLoot: 2
   _listikiLoot: 4
+  _listikiPodschet: {fileID: 0}
 --- !u!64 &7539213048448195023
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -135,3 +138,35 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6866817042223820631, guid: f7676a8e0876d6c4bac8b9926967abde, type: 3}
+--- !u!114 &-2784498541945265327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843938808396872110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableOnEnable: 0
+  outlineMode: 0
+  outlineColor: {r: 0.24372911, g: 1, b: 0, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &613285582079128766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843938808396872110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68a2aa7b5665f84093483666bde3ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _outline: {fileID: -2784498541945265327}
