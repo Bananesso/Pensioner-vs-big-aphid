@@ -51,7 +51,7 @@ public class Health : MonoBehaviour
         {
             Die();
         }
-		_animator.SetTrigger("TakeDamage");
+		_animator?.SetTrigger("TakeDamage");
 	}
 
     private void Die()
