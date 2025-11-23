@@ -97,8 +97,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 405438e5e5eebe643a4da9a533455fa9,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 6ca9ef047de10154aa2cc0bd9c3095f8,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2575,6 +2577,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Insects&beetles-pack8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: deb3a719a7526d845b0277261ad214b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1734515705254381088, guid: deb3a719a7526d845b0277261ad214b5,
         type: 3}
@@ -10102,10 +10109,10 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -13386,6 +13393,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3646434507357797828, guid: 19e72a4355a4dc141ae5c6168c070ef7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245093775915704530, guid: 19e72a4355a4dc141ae5c6168c070ef7,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
